@@ -1,0 +1,18 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_default_pants/char_male_outfit_default_pants.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" : [
+			{
+				"textureList":	[
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_default_pants/outfit_default_pants_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_default_pants/outfit_default_pants_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_default_pants/outfit_default_pants_nor.tga"
+			    ],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

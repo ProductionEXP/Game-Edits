@@ -1,0 +1,23 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae",
+		"animationList" : [
+
+		{ "name" : "Idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae", "looping" : true  },
+
+		{ "name" : "Pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae" },
+		{ "name" : "Putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae" },
+
+		{ "name" : "Eat", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae" },
+		{ "name" : "Drink", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae" },
+
+		{ "name" : "Sprint_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae", "looping" : true },
+		{ "name" : "Sprint_into", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae" },
+		{ "name" : "Sprint_exit", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae" },
+
+		{ "name" : "Jump", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae" },
+		{ "name" : "Jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/Animations/ani_char_eattool_fp_position.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

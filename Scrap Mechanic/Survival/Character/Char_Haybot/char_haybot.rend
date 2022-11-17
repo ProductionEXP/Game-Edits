@@ -1,0 +1,135 @@
+{
+	"color": "e75b0f",
+	"lodList":
+	[
+		{
+			"mesh": "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot01.dae",
+			"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+			"subMeshMap":{
+	            "haybot": {  
+	                "material": "DifAsgNor",
+	                "textureList": [
+						"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+	                ]
+	      	  	},
+	            "hay": {
+	                "material": "DifAsgNorAlpha",
+	                "textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+	                ]
+	            }
+			},
+			"animationList" :
+			[
+				{
+					"name" : "alerted",
+					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_toalert.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Haybot - Alerted", 
+							"bone": "head_jnt", 
+							"attached": true 
+						} 
+					]
+				},
+				{ "name" : "roaming", 					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_toroaming.dae" },
+				{ "name" : "haybot_aimbend_uppdown",   "file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_updown_bend.dae"  },
+				{ 
+					"name" : "idlespecial01", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_idlespecial01.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Haybot - IdleSpecial01", 
+							"bone": "root_jnt", 
+							"attached": true 
+						} 
+					]
+				},
+				{ 
+					"name" : "idlespecial02", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_idlespecial02.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Haybot - IdleSpecial02", 
+							"bone": "root_jnt", 
+							"attached": true 
+						} 
+					]
+				},
+				{ "name" : "stagger", 				"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_stagger.dae" },
+				{ "name" : "stagger_alert", 		"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_stagger_alert.dae" },
+				{ "name" : "impact", 				"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_impact.dae" },
+				{
+					"name" : "attack01", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_attack01.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Haybot - Attack01", 
+							"bone": "root_jnt", 
+							"attached": true 
+						} 
+					] 
+				},
+				{
+					"name" : "attack02", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_attack02.dae", 
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Haybot - Attack02", 
+							"bone": "root_jnt", 
+							"attached": true 
+						} 
+					] 
+				},
+				{
+					"name" : "attack03", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_attack03.dae", 
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Haybot - Attack03", 
+							"bone": "root_jnt", 
+							"attached": true 
+						} 
+					] 
+				},
+				{
+					"name" : "sprintattack01", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_sprintattack01.dae", 
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Haybot - SprintAttack", 
+							"bone": "root_jnt", 
+							"attached": true 
+						} 
+					] 
+				}
+			],
+			"maxViewDistance": 1000.0
+		}
+	]
+} 

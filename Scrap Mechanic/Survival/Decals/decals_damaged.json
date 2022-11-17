@@ -1,0 +1,359 @@
+{
+	"difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_damaged_dif.tga",
+	"norSheet": "$SURVIVAL_DATA/Decals/Textures/decals_damaged_nor.tga",
+	"agsSheet": "",
+	"decalList":{
+		"scratch01":
+		{
+			"uuid": "85395feb-7f63-41b4-ac61-564ecce63be7",
+			"region": [0,0,0,1],
+			"material": "DifNor"
+		},		
+		"scratch02":
+		{
+			"uuid": "dff3cdb7-385e-451b-819b-0cd7206dc000",
+			"region": [0,0,2,6],
+			"material": "DifNor"
+		},
+		"scratch03":
+		{
+			"uuid": "dd80e6db-e1e7-4857-930d-1575f78e6f6c",
+			"region": [1,2,0,1],
+			"material": "DifNor"
+		},
+		"scratch04":
+		{
+			"uuid": "dd80e6db-e1e7-4857-930d-1575f78e6f6c",
+			"region": [1,4,5,6],
+			"material": "DifNor"
+		},
+		"scratch05":
+		{
+			"uuid": "dd80e6db-e1e7-4857-930d-1575f78e6f6c",
+			"region": [5,5,5,6],
+			"material": "DifNor"
+		},
+		"scratch06":
+		{
+			"uuid": "322887d1-089f-4afe-baa5-20d4881b01bb",
+			"region": [7,7,0,2],
+			"material": "DifNor"
+		},
+		"hole01":
+		{
+			"uuid": "f7e2eea7-600f-49cb-953d-afacf26ed8f5",
+			"region": [3,4,0,1],
+			"material": "DifNor"
+		},
+		"hole02":
+		{
+			"uuid": "0f4a665e-2ae4-4376-9e07-c41bfcdcf940",
+			"region": [5,6,0,1],
+			"material": "DifNor"
+		},
+		"wallpapertear01":
+		{
+			"uuid": "b4e19478-770f-4c84-82be-256b86211459",
+			"region": [1,2,2,4],
+			"material": "DifNor"
+		},
+		"wallpapertear02":
+		{
+			"uuid": "75c95590-78e3-4800-8c87-f79a192144d7",
+			"region": [3,4,2,4],
+			"material": "DifNor"
+		},
+		"wallpapertear03":
+		{
+			"uuid": "57e6a141-7948-476e-ac0b-d01b55886e41",
+			"region": [5,6,2,3],
+			"material": "DifNor"
+		},
+		"wallpapertear04":
+		{
+			"uuid": "4177552f-5727-4b3b-8cdd-4dc5be1ab658",
+			"region": [6,6,4,6],
+			"material": "DifNor"
+		},
+		"walltear01":
+		{
+			"uuid": "d05879c2-dab8-4b28-91db-5b65900d1bc6",
+			"region": [0,2,7,9],
+			"material": "DifNor"
+		},
+		"walltear02":
+		{
+			"uuid": "b468da4a-902c-41b0-a04a-a6ddaa7c8fb1",
+			"region": [3,5,7,9],
+			"material": "DifNor"
+		},
+		"walltear03":
+		{
+			"uuid": "d6f4a69e-48fa-49a4-81a8-d4f5cf7eca7a",
+			"region": [0,1,10,11],
+			"material": "DifNor"
+		},
+		"cracks_chipped01":
+		{
+			"uuid": "e372d9f7-7af2-442c-98d5-46675aa780f3",
+			"region": [6,8,7,9],
+			"material": "DifNor"
+		},
+		"cracks_chipped02":
+		{
+			"uuid": "912b375b-8ecd-4013-97bb-87d4808245d7",
+			"region": [9,11,7,9],
+			"material": "DifNor"
+		},
+		"cracks_chipped03":
+		{
+			"uuid": "0d8e6239-3cd6-4d5c-98f9-645a6b665417",
+			"region": [12,14,7,9],
+			"material": "DifNor"
+		},
+		"cracks_subtle01":
+		{
+			"uuid": "36572627-59b8-408a-84bf-ff113c04933b",
+			"region": [2,3,10,12],
+			"material": "DifNor"
+		},
+		"cracks_subtle02":
+		{
+			"uuid": "c626d728-d024-47de-b447-d1ead08c5575",
+			"region": [4,5,10,12],
+			"material": "DifNor"
+		},
+		"cracks01":
+		{
+			"uuid": "151b2447-40f2-4ce7-a970-8ce2ea8f1357",
+			"region": [6,8,10,12],
+			"material": "DifNor"
+		},
+		"cracks02":
+		{
+			"uuid": "194b8f38-4d1d-4002-a85a-56180af1e9c2",
+			"region": [9,11,10,12],
+			"material": "DifNor"
+		},
+		"cracks03":
+		{
+			"uuid": "12861550-437e-4e0b-a493-b99ffb2268b1",
+			"region": [12,14,10,12],
+			"material": "DifNor"
+		},
+		"cracks_small01":
+		{
+			"uuid": "eb63ec21-3fc3-472f-9750-5c294ac04731",
+			"region": [7,8,3,4],
+			"material": "DifNor"
+		},
+		"cracks_small02":
+		{
+			"uuid": "aa578daf-f7a6-42c8-9827-ef939beb7f24",
+			"region": [9,10,3,4],
+			"material": "DifNor"
+		},
+		"cracks_small03":
+		{
+			"uuid": "583e9eb4-8710-4945-b1f1-7d4b387d25ae",
+			"region": [7,8,5,6],
+			"material": "DifNor"
+		},
+		"cracks_small04":
+		{
+			"uuid": "781c259b-1f5a-4eb8-bb45-a4a640591afb",
+			"region": [9,10,5,6],
+			"material": "DifNor"
+		},
+		"chipped_small01":
+		{
+			"uuid": "44bb8529-d698-4e1a-85e6-2353b6dbcaae",
+			"region": [11,12,3,4],
+			"material": "DifNor"
+		},
+		"chipped_small02":
+		{
+			"uuid": "3322b299-97e0-4a40-9d5f-f12107e5284e",
+			"region": [13,14,3,4],
+			"material": "DifNor"
+		},
+		"chipped_small03":
+		{
+			"uuid": "9ea5cbf9-664f-4955-ad49-cc48a7be3278",
+			"region": [11,12,5,6],
+			"material": "DifNor"
+		},
+		"chipped_small04":
+		{
+			"uuid": "06675dea-9cdb-4ce6-a95d-f2f9dd359d18",
+			"region": [13,14,5,6],
+			"material": "DifNor"
+		},
+		"cracks_chipped_glow01":
+		{
+			"uuid": "2b395fb7-4105-4922-a421-dd7b8ab28c92",
+			"region": [6,8,7,9],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_chipped_glow02":
+		{
+			"uuid": "e230681a-9153-45e6-a0ad-f16922b8e43f",
+			"region": [9,11,7,9],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_chipped_glow03":
+		{
+			"uuid": "0c9bbef5-7036-4097-b54f-b8a81ebede9c",
+			"region": [12,14,7,9],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_glow01":
+		{
+			"uuid": "647ecc3b-cce3-4e59-8137-5ebf8814fcfa",
+			"region": [6,8,10,12],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_glow02":
+		{
+			"uuid": "974a410a-e14a-48b1-9e71-193be936c63c",
+			"region": [9,11,10,12],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_glow03":
+		{
+			"uuid": "1b6c6ce4-1951-4555-80e0-4d5b9ff20294",
+			"region": [12,14,10,12],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_subtle_glow01":
+		{
+			"uuid": "56b19971-c702-4d40-8e42-e619f2a5383d",
+			"region": [2,3,10,12],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_subtle_glow02":
+		{
+			"uuid": "e4720c2b-4efb-4e74-9c75-d3c7dfcefe7b",
+			"region": [4,5,10,12],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_small_glow01":
+		{
+			"uuid": "a6a63b85-c563-4cb6-8c96-a7eca7507291",
+			"region": [7,8,3,4],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_small_glow02":
+		{
+			"uuid": "ddf97e41-c49c-44fa-be4c-913f0361a61e",
+			"region": [9,10,3,4],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_small_glow03":
+		{
+			"uuid": "fa8c3b18-259c-4751-b021-b717e01c6646",
+			"region": [7,8,5,6],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"cracks_small_glow04":
+		{
+			"uuid": "15fa552a-fc1a-4b7c-8f40-4bad9a18d866",
+			"region": [9,10,5,6],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"chipped_small_glow01":
+		{
+			"uuid": "9df2d247-072a-49fb-b6b7-6ba9d54e40d9",
+			"region": [11,12,3,4],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"chipped_small_glow02":
+		{
+			"uuid": "344fd6d7-b6dc-431e-804d-c5a19dcc82cc",
+			"region": [13,14,3,4],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"chipped_small_glow03":
+		{
+			"uuid": "e0eb4a30-c894-4bdf-8288-7b3640db6d53",
+			"region": [11,12,5,6],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"chipped_small_glow04":
+		{
+			"uuid": "73996dfc-f2be-4864-86b4-30ef98e0f92d",
+			"region": [13,14,5,6],
+			"material": "DifNor",
+			"glow": 1.0
+		},
+		"patch01":
+		{
+			"uuid": "84823279-7950-45d7-9ef4-aeaeeb82e3aa",
+			"region": [0,1,13,15],
+			"material": "DifNor"
+		},
+		"patch02":
+		{
+			"uuid": "f16679ea-d6b5-4209-a563-7548c3d5b56e",
+			"region": [2,4,13,15],
+			"material": "DifNor"
+		},
+		"patch03":
+		{
+			"uuid": "d4aa7e7b-8a91-44f4-96f1-c367dff8f8d4",
+			"region": [5,6,13,14],
+			"material": "DifNor"
+		},
+		"patch04":
+		{
+			"uuid": "f07ec3c9-b5b2-4fa4-9895-271e54adbb69",
+			"region": [7,8,13,14],
+			"material": "DifNor"
+		},
+		"patch05":
+		{
+			"uuid": "4ab2d6a0-ac20-4578-973a-be2bb62021a8",
+			"region": [5,6,15,15],
+			"material": "DifNor"
+		},
+		"patch06":
+		{
+			"uuid": "91cd2cf0-279d-4646-845b-bbaf12aa5d03",
+			"region": [7,8,15,15],
+			"material": "DifNor"
+		},
+		"patch_repair01":
+		{
+			"uuid": "c9c64a4b-9a8f-49cd-900e-422f07592656",
+			"region": [9,10,13,15],
+			"material": "DifNor"
+		},
+		"patch_repair02":
+		{
+			"uuid": "3a62d956-9ef6-44e5-819c-daddc8804635",
+			"region": [11,12,13,14],
+			"material": "DifNor"
+		},
+		"patch_repair03":
+		{
+			"uuid": "ec85dddf-cbec-4e6e-9dcd-c5e3cab41789",
+			"region": [11,12,15,15],
+			"material": "DifNor"
+		}
+	}
+}

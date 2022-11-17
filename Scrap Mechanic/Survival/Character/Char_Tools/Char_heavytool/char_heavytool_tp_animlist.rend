@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"animationList" : [
+		
+			{ "name" : "heavytool_idle", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true },		
+			{ "name" : "heavytool_run", 						"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true },
+			{ "name" : "heavytool_runbwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true },
+			{ "name" : "heavytool_sprint_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true },
+			{ "name" : "heavytool_crouch_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true },		
+			{ "name" : "heavytool_crouch_run", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true },
+			{ "name" : "heavytool_crouch_runbwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true },
+			{ "name" : "heavytool_jump", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae" },
+			{ "name" : "heavytool_jump_up", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true  },
+			{ "name" : "heavytool_jump_down", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae", "looping" : true  },
+			{ "name" : "heavytool_jump_land", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae" },
+			{ "name" : "heavytool_jump_land_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae" },
+			{ "name" : "heavytool_jump_land_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae" },
+			{ "name" : "heavytool_pickup", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae" },
+			{ "name" : "heavytool_putdown", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool.dae" }
+
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

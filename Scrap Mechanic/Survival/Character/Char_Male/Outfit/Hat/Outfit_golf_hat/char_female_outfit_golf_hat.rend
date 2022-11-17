@@ -1,0 +1,28 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"Hat_mat": {
+				    "material": "DifAsgNor",
+				    "color": "ffffff",
+				    "textureList":	[
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_golf_hat/outfit_golf_hat_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_golf_hat/outfit_golf_hat_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_golf_hat/outfit_golf_hat_nor.tga"
+			    	]
+				},
+				"Hathair_mat": {
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_04/char_female_hair_04_gra.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_01/char_female_hair_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_04/char_female_hair_04_nor.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_04/char_female_hair_04_dir.tga"
+					],
+					"custom" : { "aniso" : [1.0, 0.1] },
+					"material": "Hair"
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_golf_hat/char_female_outfit_golf_hat.dae"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_logbook/Char_logbook.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" : [
+			{
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_logbook/Char_logbook_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_logbook/Char_logbook_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_logbook/Char_logbook_nor.tga"
+				],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

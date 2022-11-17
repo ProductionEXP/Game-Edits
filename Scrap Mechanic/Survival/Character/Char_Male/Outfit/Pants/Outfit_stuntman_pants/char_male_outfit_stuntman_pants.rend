@@ -1,0 +1,36 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_stuntman_pants/char_male_outfit_stuntman_pants.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+            "outfit_stuntman_pants": {
+                "material": "DifAsgNorMcapMasked",
+                "textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_stuntman_pants/outfit_stuntman_pants_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_stuntman_pants/outfit_stuntman_pants_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_stuntman_pants/outfit_stuntman_pants_nor.tga",
+                    "",
+                    "$GAME_DATA/Textures/Shadertextures/Matcap/t_bluesatin_mcap.tga"
+                ]
+            },
+            "default_body_male": {
+                "material": "Skin",
+                "textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_nor.tga",
+                    "$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_tkn.tga"
+                ]
+            },
+            "default_body_male_cloth": {
+                "material": "DifAsgNor",
+                "textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_nor.tga"
+                ]
+            }
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

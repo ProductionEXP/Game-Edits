@@ -1,0 +1,21 @@
+{
+	"lodList": [{
+		"animationList" : [
+	
+			// Fertilizer
+			
+			{ "name" : "fertilizer_idle", 					"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Painttool/ani_char_male_fp_painttool_idle.dae" },
+
+			{ "name" : "fertilizer_pickup", 				"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Painttool/ani_char_male_fp_painttool_pickup.dae" },
+			{ "name" : "fertilizer_putdown", 				"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Painttool/ani_char_male_fp_painttool_putdown.dae" },
+
+			{ "name" : "fertilizer_sprint_into", 			"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Painttool/ani_char_male_fp_painttool_sprint_into.dae" },
+			{ "name" : "fertilizer_sprint_exit", 			"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Painttool/ani_char_male_fp_painttool_sprint_exit.dae" },
+			{ "name" : "fertilizer_sprint_idle", 			"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Painttool/ani_char_male_fp_painttool_sprint_idle.dae" },
+
+			{ "name" : "fertilizer_paint", 					"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Painttool/ani_char_male_fp_painttool_use_paint.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

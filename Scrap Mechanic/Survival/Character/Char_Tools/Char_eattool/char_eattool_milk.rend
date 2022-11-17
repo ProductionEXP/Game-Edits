@@ -1,0 +1,27 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_milk.dae",
+            "subMeshMap": {
+                "obj_consumable_milk_mat": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_nor.tga"
+                    ]
+                },
+                "glass_mat": {
+                    "material": "Glass",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_nor.tga"
+                    ]
+                }
+            }
+        }
+	]
+}
+

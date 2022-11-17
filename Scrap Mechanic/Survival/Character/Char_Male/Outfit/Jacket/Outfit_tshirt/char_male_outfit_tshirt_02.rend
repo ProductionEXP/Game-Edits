@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_tshirt/char_male_outfit_tshirt.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+                    "outfit_tshirt": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_tshirt/char_outfit_tshirt_02_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_tshirt/char_outfit_tshirt_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_tshirt/char_outfit_tshirt_nor.tga"
+					    ]
+              	  	},
+                    "default_body_male": {
+                        "material": "Skin",
+                        "textureList": [				
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_nor.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_tkn.tga"
+                        ]
+                    }
+        }
+	}]
+}

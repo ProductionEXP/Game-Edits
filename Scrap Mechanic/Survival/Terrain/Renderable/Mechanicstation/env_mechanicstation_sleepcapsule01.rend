@@ -1,0 +1,367 @@
+{
+	"lodList": [
+        {
+            //LOD0
+            "minViewSize": 750,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Mecanicstation/env_mechanicstation_sleepcapsule01_lod0.fbx",
+            "subMeshMap": {
+                "wallpaper": {
+                    "custom": {
+                        "color": "wallpaper",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_asg.tga",
+                        "$GAME_DATA/Textures/Materialtextures/normal_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+                    ]
+                },
+                "redwallpaper": {
+                    "custom": {
+                        "color": "redwallpaper",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_asg.tga",
+                        "$GAME_DATA/Textures/Materialtextures/normal_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+                    ]
+                },
+                "darkmetal": {
+                    "custom": {
+                        "color": "darkmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+                    ]
+                },
+                "redmetal": {
+                    "custom": {
+                        "color": "redmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+                    ]
+                },
+                "mechanicstationatlas": {
+                    "custom": {
+                        "color": "mechanicstationatlas",
+                        "textureTiling" : [1,1,1,1]
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechanicstation_trim_nor.tga"
+                    ]
+                },
+                "yellowmetal": {
+                    "custom": {
+                        "color": "yellowmetal"
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+                    ]
+                },
+                "lightmetal": {
+                    "custom": {
+                        "color": "lightmetal"
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            //LOD1
+            "minViewSize": 400,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Mecanicstation/env_mechanicstation_sleepcapsule01_lod1.fbx",
+            "subMeshMap": {
+                "wallpaper": {
+                    "custom": {
+                        "color": "wallpaper",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_asg.tga",
+                        "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+                    ]
+                },
+                "redwallpaper": {
+                    "custom": {
+                        "color": "redwallpaper",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_asg.tga",
+                        "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+                    ]
+                },
+                "darkmetal": {
+                    "custom": {
+                        "color": "darkmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga"
+                    ]
+                },
+                "redmetal": {
+                    "custom": {
+                        "color": "redmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga"
+                    ]
+                },
+                "mechanicstationatlas": {
+                    "custom": {
+                        "color": "mechanicstationatlas",
+                        "textureTiling" : [1,1,1,1]
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_nor.tga"
+                    ]
+                },
+                "yellowmetal": {
+                    "custom": {
+                        "color": "yellowmetal"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga"
+                    ]
+                },
+                "lightmetal": {
+                    "custom": {
+                        "color": "lightmetal"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            //LOD2
+            "minViewSize": 80,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Mecanicstation/env_mechanicstation_sleepcapsule01_lod2.fbx",
+            "subMeshMap": {
+                "wallpaper": {
+                    "custom": {
+                        "color": "wallpaper",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_asg.tga",
+                        ""
+                    ]
+                },
+                "redwallpaper": {
+                    "custom": {
+                        "color": "redwallpaper",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_asg.tga",
+                        ""
+                    ]
+                },
+                "darkmetal": {
+                    "custom": {
+                        "color": "darkmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "redmetal": {
+                    "custom": {
+                        "color": "redmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "mechanicstationatlas": {
+                    "custom": {
+                        "color": "mechanicstationatlas",
+                        "textureTiling" : [1,1,1,1]
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+                        ""
+                    ]
+                },
+                "yellowmetal": {
+                    "custom": {
+                        "color": "yellowmetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "lightmetal": {
+                    "custom": {
+                        "color": "lightmetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            //LOD3
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Mecanicstation/env_mechanicstation_sleepcapsule01_lod3.fbx",
+            "subMeshMap": {
+                "wallpaper": {
+                    "custom": {
+                        "color": "wallpaper",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_asg.tga",
+                        ""
+                    ]
+                },
+                "redwallpaper": {
+                    "custom": {
+                        "color": "redwallpaper",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechstation_wallpaper_asg.tga",
+                        ""
+                    ]
+                },
+                "darkmetal": {
+                    "custom": {
+                        "color": "darkmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "redmetal": {
+                    "custom": {
+                        "color": "redmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "mechanicstationatlas": {
+                    "custom": {
+                        "color": "mechanicstationatlas",
+                        "textureTiling" : [1,1,1,1]
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+                        ""
+                    ]
+                },
+                "yellowmetal": {
+                    "custom": {
+                        "color": "yellowmetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "lightmetal": {
+                    "custom": {
+                        "color": "lightmetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        }
+    ]
+}
+

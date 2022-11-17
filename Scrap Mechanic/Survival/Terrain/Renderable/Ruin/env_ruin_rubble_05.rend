@@ -1,0 +1,60 @@
+{
+"lodList": [
+	{
+		"minViewSize": 700,
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_rubble_05_lod0.fbx",
+		"subMeshMap": {
+            "concrete_mat": {
+                "custom": {
+                    "color": "concrete",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_dif.tga",
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_asg.tga",
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout02_nor.tga"
+                ]
+            }
+        }
+    },
+    {
+        "minViewSize": 200,
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_rubble_05_lod1.fbx",
+        "subMeshMap": {
+            "concrete_mat": {
+                "custom": {
+                    "color": "concrete",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_dif.tga",
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_asg.tga",
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout02_nor.tga"
+                ]
+            }
+        }
+    },
+    {
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_rubble_05_lod2.fbx",
+        "subMeshMap": {
+            "concrete_mat": {
+                "custom": {
+                    "color": "concrete",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_dif.tga",
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_asg.tga",
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout02_nor.tga"
+                ]
+            }
+        }
+    }
+]
+}

@@ -1,0 +1,30 @@
+{
+	"lodList": [{
+		"animationList" : [
+			// eattool
+			{ "name" : "Idle", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_idle.dae", "looping" : true  },
+			{ "name" : "Sprint_fwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_sprint.dae", "looping" : true },
+
+			{ "name" : "Pickup", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_pickup.dae" },
+			{ "name" : "Putdown", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_putdown.dae" },
+
+			{ "name" : "Eat", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_eat.dae" },
+			{ "name" : "Drink", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_drink.dae" },
+
+			{ "name" : "Jump", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_jump_start.dae" },
+			{ "name" : "Jump_up", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_jump_up.dae", "looping" : true },
+			{ "name" : "Jump_down", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_jump_down.dae", "looping" : true },
+			{ "name" : "Jump_land", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_jump_land.dae" },
+			{ "name" : "Jump_land_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_jump_land.dae" },
+			{ "name" : "Jump_land_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_jump_land.dae" },
+
+			{ "name" : "Run_fwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_run_fwd.dae", "looping" : true },
+			{ "name" : "Run_bwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_run_bwd.dae", "looping" : true },
+
+			{ "name" : "Crouch_idle",			 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_crouch_idle.dae", "looping" : true },
+			{ "name" : "Crouch_fwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_crouch_fwd.dae", "looping" : true },
+			{ "name" : "Crouch_bwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Eattool/ani_char_male_tp_eattool_crouch_bwd.dae", "looping" : true }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

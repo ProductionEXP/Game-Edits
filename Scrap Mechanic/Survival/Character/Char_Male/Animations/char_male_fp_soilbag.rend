@@ -1,0 +1,18 @@
+{
+	"lodList": [{
+		"animationList" : [
+
+			// Soilbag
+
+			{ "name" : "soilbag_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Soilbag/ani_char_male_fp_soilbag_idle.dae", "looping" : true },
+
+			{ "name" : "soilbag_pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Soilbag/ani_char_male_fp_soilbag_pickup.dae" },
+			{ "name" : "soilbag_putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Soilbag/ani_char_male_fp_soilbag_putdown.dae" },
+
+			{ "name" : "soilbag_use", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Soilbag/ani_char_male_fp_soilbag_use.dae" }
+
+			
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_stuntman_gloves/char_female_outfit_stuntman_gloves.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+                    "outfit_stuntman_gloves": {  
+                        "material": "DifAsgNorMcapMasked",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_stuntman_gloves/outfit_stuntman_gloves_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_stuntman_gloves/outfit_stuntman_gloves_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_stuntman_gloves/outfit_stuntman_gloves_nor.tga",
+							"",
+							"$GAME_DATA/Textures/Shadertextures/Matcap/t_bluesatin_mcap.tga"
+					    ]
+              	  	},
+                    "default_body_female": {
+                        "material": "Skin",
+                        "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_tkn.tga"
+                        ]
+                    }
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

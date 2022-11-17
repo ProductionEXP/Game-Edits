@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2019-11-06T14:45:07Z</created><keywords></keywords><modified>2019-11-06T14:45:07Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_animations>
+    <animation id="root_item-anim" name="root_item"><animation><source id="root_item-Matrix-animation-input"><float_array id="root_item-Matrix-animation-input-array" count="19">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000</float_array><technique_common><accessor source="#root_item-Matrix-animation-input-array" count="19"><param name="TIME" type="float"/></accessor></technique_common></source><source id="root_item-Matrix-animation-output-transform"><float_array id="root_item-Matrix-animation-output-transform-array" count="304">
+
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000
+0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#root_item-Matrix-animation-output-transform-array" count="19" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="root_item-Interpolations"><Name_array id="root_item-Interpolations-array" count="19">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#root_item-Interpolations-array" count="19"><param type="name"/></accessor></technique_common></source><sampler id="root_item-Matrix-animation-transform"><input semantic="INPUT" source="#root_item-Matrix-animation-input"/><input semantic="OUTPUT" source="#root_item-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#root_item-Interpolations"/></sampler><channel source="#root_item-Matrix-animation-transform" target="root_item/matrix"/></animation></animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="ani_char_item_run_resource." name="ani_char_item_run_resource.">
+      <node name="jnt_right_weapon" id="jnt_right_weapon" sid="jnt_right_weapon" type="JOINT"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra><node name="root_item" id="root_item" sid="root_item" type="JOINT"><matrix sid="matrix">0.999749 0.017601 0.013874 0.368095 0.010390 0.184496 -0.982778 0.242573 -0.019858 0.982676 0.184267 -0.040152 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>11.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#ani_char_item_run_resource."></instance_visual_scene>
+  </scene>
+</COLLADA>

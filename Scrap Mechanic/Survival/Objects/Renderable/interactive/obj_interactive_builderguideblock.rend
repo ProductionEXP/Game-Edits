@@ -1,0 +1,18 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$SURVIVAL_DATA/Objects/Mesh/interactive/obj_interactive_builderguideblock01.fbx",
+         "subMeshList" : [
+            {
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_builderguideblock_dif.tga",
+                  "$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_builderguideblock_asg.tga",
+                  "$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_builderguideblock_nor.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}
+

@@ -1,0 +1,20 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Dispenserbot/char_dispenserbot_spawner.dae",
+		"subMeshMap": {
+			"dispenserbot_spawner": {
+				"material": "SkelAnimDifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Dispenserbot/char_dispenserbot_spawner_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Dispenserbot/char_dispenserbot_spawner_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Dispenserbot/char_dispenserbot_spawner_nor.tga"
+				]
+			}
+		},
+		"animationList": [
+			
+			{ "name": "spawn",				"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_spawner_active.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	"lodList": [{
+		"mesh": "$GAME_DATA/Character/Char_Tools/Char_handbook/Animations/ani_char_handbook_position.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"animationList" : [
+			
+			{ "name" : "logbook_use_idle", 	"file" : "$GAME_DATA/Character/Char_Tools/Char_handbook/Animations/ani_char_handbook_use_idle.dae" },
+			{ "name" : "logbook_use_into", 	"file" : "$GAME_DATA/Character/Char_Tools/Char_handbook/Animations/ani_char_handbook_use_into.dae" },
+			{ "name" : "logbook_use_exit", 	"file" : "$GAME_DATA/Character/Char_Tools/Char_handbook/Animations/ani_char_handbook_use_exit.dae" }
+			
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

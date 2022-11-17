@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"animationList" : [
+
+			// Longsandwich
+
+			{ "name" : "longsandwich_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae", "looping" : true },
+
+			{ "name" : "longsandwich_pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae" },
+			{ "name" : "longsandwich_putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae" },
+
+			{ "name" : "longsandwich_sprint_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae", "looping" : true },
+			{ "name" : "longsandwich_sprint_into", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae" },
+			{ "name" : "longsandwich_sprint_exit", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae" },
+
+			{ "name" : "longsandwich_run_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae", "looping" : true },
+			{ "name" : "longsandwich_run_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae", "looping" : true },
+
+			{ "name" : "longsandwich_jump", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae" },
+			{ "name" : "longsandwich_jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_longsandwich/Animations/ani_char_longsandwich_fp_idle.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

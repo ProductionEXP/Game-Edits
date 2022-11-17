@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"minViewSize": 200,
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruinlamp_dif.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruinlamp_asg.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruinlamp_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_lamp_01_lod0.fbx"
+		},
+		{
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruinlamp_dif.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruinlamp_asg.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruinlamp_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_lamp_01_lod1.fbx"
+		}
+	]
+}

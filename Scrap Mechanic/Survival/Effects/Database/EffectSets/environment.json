@@ -1,0 +1,43 @@
+{
+	"WarehouseAmbiance":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/amb/2D/amb_2d_warehouse",
+				"delay": 0.0
+			}
+		]
+	},
+	"UnderwaterAmbiance":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/amb/2D/underwater",
+				"delay": 0.0
+			}
+		]
+	},	
+	"SurvivalMusic":
+	{
+		"parameterList":
+		{
+			"music": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/music/environment",
+				"parameters":
+				[
+					"music"
+				],
+				"delay": 0.0
+			}
+		]
+	}
+}

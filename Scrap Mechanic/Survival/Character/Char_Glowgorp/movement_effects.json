@@ -1,0 +1,62 @@
+{
+	"run":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "Glowgorp - Jump",
+				"frames":
+				[
+					{
+						"frame": 15,
+						"joint": "root_jnt"
+					}
+				]
+			}
+		]
+	},
+	"sprint":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "Glowgorp - Walk",
+				"frames":
+				[
+					{
+						"frame": 2,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 6,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 10,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 14,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 4,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 8,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 12,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 16,
+						"joint": "root_jnt"
+					}
+				]
+			}
+		]
+	}
+}

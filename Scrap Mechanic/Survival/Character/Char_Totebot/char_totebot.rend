@@ -1,0 +1,47 @@
+{
+	"color": "49642d",
+	"lodList":
+	[
+		{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Totebot/char_totebot.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" :
+		[
+			{
+				"textureList":
+				[
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_nor.tga",
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_ao.tga"
+			    ],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"animationList" :
+		[
+
+			{
+				"name" : "alerted",
+				"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebot_lom_idle.dae",
+				"events": 
+				[ 
+					{ 
+						"time": 0.0,
+						"weight": 0.0,
+						"effect": "ToteBot - Alerted", 
+						"bone": "jnt_head", 
+						"attached": true 
+					} 
+				]
+			},
+			{ "name" : "roaming", 					"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebot_lom_idle.dae" },
+			{ "name" : "totebot_aimbend_uppdown",   	"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebot_lom_idle.dae" },
+
+			{ "name" : "attack_melee", 		"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebot_attack_melee.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}
+	]
+} 

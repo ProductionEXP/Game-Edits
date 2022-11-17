@@ -1,0 +1,12 @@
+{
+	"lodList": [{
+		"animationList" : [
+		
+			{ "name" : "fertilizer_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_fertilizer/Animations/ani_char_fertilizer_fp_position.dae"}
+
+
+		],
+
+		"maxViewDistance": 1000.0
+	}]
+}

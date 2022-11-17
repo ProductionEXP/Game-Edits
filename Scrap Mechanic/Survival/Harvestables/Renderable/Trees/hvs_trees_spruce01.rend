@@ -1,0 +1,81 @@
+{
+	"impostorThreshold": 230,
+	"lodList": [
+		{
+			"minViewSize": 1500,
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Trees/hvs_trees_spruce01_lod0.fbx",
+			"subMeshMap": {
+				"leaves": {
+					"custom": {
+						"color": "leaves"
+					},
+					"material": "Leaves",
+					"textureList": [
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_asg.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_nor.tga"
+					]
+				},
+				"treetrunk": {
+					"material": "Trunk",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"minViewSize": 380,
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Trees/hvs_trees_spruce01_lod1.fbx",
+			"subMeshMap": {
+				"leaves": {
+					"custom": {
+						"color": "leaves"
+					},
+					"material": "Leaves",
+					"textureList": [
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_asg.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_nor.tga"
+					]
+				},
+				"treetrunk": {
+					"material": "Trunk",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"minViewSize": 230,
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Trees/hvs_trees_spruce01_lod2.fbx",
+			"subMeshMap": {
+				"leaves": {
+					"custom": {
+						"color": "leaves"
+					},
+					"material": "Leaves",
+					"textureList": [
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_asg.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_spruce_nor.tga"
+					]
+				},
+				"treetrunk": {
+					"material": "Trunk",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_asg.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_brownbark_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}
+

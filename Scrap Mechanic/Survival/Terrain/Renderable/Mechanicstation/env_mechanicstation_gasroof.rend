@@ -1,0 +1,250 @@
+{
+	"lodList": [
+        {
+            //LOD0
+            "minViewSize": 650,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Mecanicstation/env_mechanicstation_gasroof_lod0.fbx",
+            "subMeshMap": {
+                "redmetal": {
+                    "custom": {
+                        "color": "redmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechanicstation_trim_nor.tga"
+                    ]
+                },
+                "lightcone": {
+                    "custom": {
+                        "color": "lightcone",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "LightCone",
+                    "textureList": [
+                        "$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+                        "",
+                        ""
+                    ]
+                },
+                "darkmetal": {
+                    "custom": {
+                        "color": "darkmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_shiny_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechanicstation_trim_nor.tga"
+                    ]
+                },
+                "galvanizedmetal": {
+                    "custom": {
+                        "color": "galvanizedmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_stripedmetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_stripedmetal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_stripedmetal_nor.tga"
+                    ]
+                }, 
+                "mechanicstationatlas": {
+                    "custom": {
+                        "color": "mechanicstationatlas",
+                        "textureTiling" : [1,1,1,1]
+                    },
+                    "material": "DifAsgNorNorD_UV1",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_nor.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechanicstation_trim_nor.tga"
+                    ]
+                },
+                "billboard": {
+                    "custom": {
+                        "color": "billboard"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/obj_mechanicstation_gasroof_billboard_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/obj_mechanicstation_gasroof_billboard_asg.tga",
+                        "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+                    ]
+                },
+				"concrete": {
+                    "custom": {
+                        "color": "concrete"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            //LOD1
+            "minViewSize": 175,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Mecanicstation/env_mechanicstation_gasroof_lod1.fbx",
+            "subMeshMap": {
+                "redmetal": {
+                    "custom": {
+                        "color": "redmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "lightcone": {
+                    "custom": {
+                        "color": "lightcone",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "LightCone",
+                    "textureList": [
+                        "$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+                        "",
+                        ""
+                    ]
+                },
+                "darkmetal": {
+                    "custom": {
+                        "color": "darkmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "galvanizedmetal": {
+                    "custom": {
+                        "color": "galvanizedmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_stripedmetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_stripedmetal_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_stripedmetal_nor.tga"
+                    ]
+                },
+                "mechanicstationatlas": {
+                    "custom": {
+                        "color": "mechanicstationatlas",
+                        "textureTiling" : [1,1,1,1]
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_nor.tga"
+                    ]
+                },
+                "billboard": {
+                    "custom": {
+                        "color": "billboard"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/obj_mechanicstation_gasroof_billboard_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/obj_mechanicstation_gasroof_billboard_asg.tga",
+                         "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+                    ]
+                },
+                "concrete": {
+                    "custom": {
+                        "color": "concrete"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            //LOD2
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Mecanicstation/env_mechanicstation_gasroof_lod2.fbx",
+            "subMeshMap": {
+                "redmetal": {
+                    "custom": {
+                        "color": "redmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "darkmetal": {
+                    "custom": {
+                        "color": "darkmetal",
+                        "textureTiling" : [1,1,1,1] 
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_asg.tga",
+                        ""
+                    ]
+                },
+                "mechanicstationatlas": {
+                    "custom": {
+                        "color": "mechanicstationatlas",
+                        "textureTiling" : [1,1,1,1]
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+                        ""
+                    ]
+                },
+                "billboard": {
+                    "custom": {
+                        "color": "billboard"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/obj_mechanicstation_gasroof_billboard_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/obj_mechanicstation_gasroof_billboard_asg.tga",
+                        ""
+                    ]
+                },
+                "concrete": {
+                    "custom": {
+                        "color": "concrete"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        }
+    ]
+}
+

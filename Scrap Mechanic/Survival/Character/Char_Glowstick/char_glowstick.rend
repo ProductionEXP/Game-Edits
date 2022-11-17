@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap" : {
+			"Glowstick_mat": {
+				"textureList": [	
+					"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_nor.tga"
+				],
+				"material" : "DifAsgNor"
+			},
+			"Glass_mat": {
+				"textureList": [
+					"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+					"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+					"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+				],
+				"material" : "Glass"
+			}
+		},
+		"maxViewDistance": 1000.0
+	}]
+}

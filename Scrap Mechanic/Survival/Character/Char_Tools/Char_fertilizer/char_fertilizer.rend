@@ -1,0 +1,19 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_fertilizer/char_fertilizer.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+
+		"subMeshMap" : {
+			"fertilizer" : {
+				    "textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_fertilizer/char_fertilizer_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_fertilizer/char_fertilizer_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_fertilizer/char_fertilizer_nor.tga"
+				    ],
+				"material": "DifAsgNor"
+			}
+		},
+
+		"maxViewDistance": 1000.0
+	}]
+}

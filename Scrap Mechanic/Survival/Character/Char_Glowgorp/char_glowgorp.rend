@@ -1,0 +1,29 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" : [
+			{
+				"textureList":	[
+					"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_nor.tga"
+			    ],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"animationList" : [
+
+			
+			{ "name" : "run", 				"file" : "$SURVIVAL_DATA/Character/Char_Glowgorp/Animations/ani_char_glowgorp_runfwd.dae", "looping" : true },
+			{ "name" : "sprint", 			"file" : "$SURVIVAL_DATA/Character/Char_Glowgorp/Animations/ani_char_glowgorp_sprintfwd.dae", "looping" : true },
+
+			{ "name" : "idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Glowgorp/Animations/ani_char_glowgorp_idle.dae", "looping" : true },
+			{ "name" : "crouch_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Glowgorp/Animations/ani_char_glowgorp_idle.dae", "looping" : true },
+			{ "name" : "cow_eat_grass", 	"file" : "$SURVIVAL_DATA/Character/Char_Glowgorp/Animations/ani_char_glowgorp_idlespecial1.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+} 

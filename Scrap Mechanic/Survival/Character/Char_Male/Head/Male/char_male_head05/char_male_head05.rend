@@ -1,0 +1,185 @@
+{
+	"lodList": [{	
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head05/char_male_head05.dae",
+		"relative_ref": "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Animationrefs/aniref_char_male_face_tpose.dae",
+		"animationList" : [
+
+			//LOCOMOTION
+			{ "name" : "idle", 								"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "crouch_idle", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "weldtool_idle", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "painttool_idle", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "handbook_idle", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "run", 								"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "run_left", 							"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "run_right", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "run_bwd", 							"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "run_bwd_left", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "run_bwd_right", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "sprint", 							"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_sprint_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "sprint_left_45", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_sprint_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "sprint_right_45", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_sprint_fwd.dae", "looping" : true, "relative" : true },
+			
+			{ "name" : "jump", 								"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_start.dae", "relative" : true },
+			{ "name" : "jump_up", 							"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_up.dae", "looping" : true, "relative" : true },
+			{ "name" : "jump_down", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_down.dae", "looping" : true, "relative" : true },
+			{ "name" : "jump_land", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+			{ "name" : "jump_land_fwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+			{ "name" : "jump_land_bwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+
+			//SPUDGUN
+
+			{ "name" : "spudgun_idle", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_idle.dae", "looping" : true, "relative" : true },
+			{ "name" : "spudgun_relax", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_idle_relaxed.dae", "looping" : true, "relative" : true },
+			{ "name": "spudgun_sprint", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_sprint_fwd.dae", "looping" : true, "relative" : true },
+			{ "name": "spudgun_run_fwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name": "spudgun_run_bwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_run_fwd.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "spudgun_shoot", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_shoot.dae", "looping" : true, "relative" : true },
+			{ "name" : "spudgun_aim", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_aim_idle.dae", "looping" : true, "relative" : true },
+			{ "name" : "spudgun_shoot", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_aim_idle.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "spudgun_crouch_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_idle.dae", "looping" : true, "relative" : true },
+			{ "name" : "spudgun_crouch_fwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_idle.dae", "looping" : true, "relative" : true },
+			{ "name" : "spudgun_crouch_bwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_idle.dae", "looping" : true, "relative" : true },
+			{ "name" : "spudgun_crouch_shoot", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_shoot.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "spudgun_crouch_aim", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_aim_idle.dae", "looping" : true, "relative" : true },
+			{ "name" : "spudgun_crouch_aim_shoot", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_spudgun_aim_idle.dae", "looping" : true, "relative" : true },
+
+			// { "name": "spudgun_jump", 					"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_jump.dae" },
+			// { "name": "spudgun_jump_up", 				"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_jump_up.dae", "looping" : true },
+			// { "name": "spudgun_jump_down", 				"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_jump_down.dae", "looping" : true },
+			// { "name": "spudgun_jump_land", 				"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_jump_land.dae" },
+			// { "name": "spudgun_jump_land_fwd", 			"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_jump_land.dae" },
+			// { "name": "spudgun_jump_land_bwd", 			"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_jump_land.dae" },
+
+			
+			// { "name": "spudgun_pickup", 				"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_pickup.dae" },
+			// { "name": "spudgun_putdown", 				"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_putdown.dae" },
+
+			//Sledgehammer
+
+			{ "name" : "sledgehammer_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_idle.dae", "looping" : true, "relative" : true },
+			{ "name" : "sledgehammer_idle_relaxed", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_idle_relaxed.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "sledgehammer_attack1", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_attack01.dae", "relative" : true },
+			{ "name" : "sledgehammer_exit1", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_attack01_exit.dae", "relative" : true },
+			{ "name" : "sledgehammer_attack2", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_attack02.dae", "relative" : true },
+			{ "name" : "sledgehammer_exit2", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_attack02_exit.dae", "relative" : true },
+
+			{ "name" : "sledgehammer_pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_pickup.dae",  "relative" : true },
+			{ "name" : "sledgehammer_putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_putdown.dae",  "relative" : true },
+
+			{ "name" : "sledgehammer_sprint", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_sprint_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "sledgehammer_run_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "sledgehammer_run_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_run_fwd.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "sledgehammer_crouch_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "sledgehammer_crouch_fwd", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "sledgehammer_crouch_bwd", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "sledgehammer_jump", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_start.dae", "relative" : true },
+			{ "name" : "sledgehammer_jump_up", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_jump_up.dae", "looping" : true, "relative" : true },
+			{ "name" : "sledgehammer_jump_down", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_jump_down.dae", "looping" : true, "relative" : true },
+			{ "name" : "sledgehammer_jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_jump_land.dae",  "relative" : true },
+			{ "name" : "sledgehammer_jump_land_fwd", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_jump_land.dae",  "relative" : true },
+			{ "name" : "sledgehammer_jump_land_bwd", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_jump_land.dae",  "relative" : true },
+
+			//Mainmenu
+			{ "name" : "sledgehammer_menu_idle", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_sledgehammer_menu_idle.dae", "looping" : true, "relative" : true },
+
+			//Connecttool
+			{ "name" : "connecttool_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "connecttool_idle_relaxed", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true 
+			},
+			{ "name" : "connecttool_use_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "connecttool_sprint", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_sprint_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "connecttool_run_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "connecttool_run_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "connecttool_crouch_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "connecttool_crouch_fwd", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "connecttool_crouch_bwd", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "connecttool_jump", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_start.dae", "relative" : true },
+			{ "name" : "connecttool_jump_up", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_up.dae", "looping" : true, "relative" : true },
+			{ "name" : "connecttool_jump_down", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_down.dae", "looping" : true, "relative" : true },
+			{ "name" : "connecttool_jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+			{ "name" : "connecttool_jump_land_fwd", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+			{ "name" : "connecttool_jump_land_bwd", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+
+			//Bucket
+			{ "name" : "bucket_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "bucket_idle_relaxed", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_01.dae", "looping" : true, "relative" : true 
+			},
+
+			{ "name" : "bucket_sprint_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_sprint_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "bucket_run", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+			{ "name" : "bucket_runbwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_run_fwd.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "bucket_crouch_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "bucket_crouch_run", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+			{ "name" : "bucket_crouch_runbwd", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_idle_crouch_01.dae", "looping" : true, "relative" : true },
+
+			{ "name" : "bucket_jump", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_start.dae", "relative" : true },
+			{ "name" : "bucket_jump_up", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_up.dae", "looping" : true, "relative" : true },
+			{ "name" : "bucket_jump_down", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_down.dae", "looping" : true, "relative" : true },
+			{ "name" : "bucket_jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+			{ "name" : "bucket_jump_land_fwd", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+			{ "name" : "bucket_jump_land_bwd", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Idle/ani_char_male_face_lom_jump_land.dae", "relative" : true },
+
+			//Eat
+			{ "name" : "Idle", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Tool/Eattool/ani_char_male_face_eattool_idle.dae", "looping" : true  },
+			{ "name" : "Sprint_fwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Tool/Eattool/ani_char_male_face_eattool_sprint.dae", "looping" : true },
+			{ "name" : "Eat", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Tool/Eattool/ani_char_male_face_eattool_eat.dae" },
+			{ "name" : "Drink", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Tool/Eattool/ani_char_male_face_eattool_drink.dae" },
+			{ "name" : "Run_fwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Tool/Eattool/ani_char_male_face_eattool_run.dae", "looping" : true },
+			{ "name" : "Run_bwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Tool/Eattool/ani_char_male_face_eattool_run.dae", "looping" : true },
+		
+			//Dramatics
+			{ "name" : "dramatics_victory_loop", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Face/Dramatics/ani_char_male_face_dramatics_victory_loop.dae", "looping" : true }
+
+		],
+		"subMeshMap": {
+            "skin": {  
+                "material": "Skin",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head05/char_male_head05_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head05/char_male_head05_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head05/char_male_head05_nor.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head01/char_male_head01_tkn.tga"
+				]
+      	  	},
+            "eyes": {
+                "material": "DifAsgNor",
+                "textureList": [
+				"$SURVIVAL_DATA/Character/Char_Male/Eyes/char_male_eyes01/char_male_eyes01_dif.tga",
+				"$SURVIVAL_DATA/Character/Char_Male/Eyes/char_male_eyes01/char_male_eyes01_asg.tga",
+				"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+                ]
+            },
+            "brow": {
+                "material": "Hair",
+                "textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head01/char_male_head01_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head01/char_male_head01_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head05/char_male_head05_nor.tga"
+                ]
+            },
+            "mouth": {
+                "material": "DifAsgNor",
+                "textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head01/char_male_head01_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head01/char_male_head01_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head01/char_male_head01_nor.tga"
+                ]
+            }
+        },
+
+		"maxViewDistance": 1000.0
+	}]
+}

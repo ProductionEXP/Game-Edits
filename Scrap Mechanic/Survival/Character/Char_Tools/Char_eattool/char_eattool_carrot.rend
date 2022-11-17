@@ -1,0 +1,27 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_carrot.dae",
+            "subMeshMap": {
+				"carrot": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_nor.tga"
+					]
+				},
+				"carrot_leaves": {
+					"material": "DifAsgNorAlpha",
+					"textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/Plantables/obj_plantables_carrot_nor.tga"
+					]
+				}
+			}
+        }
+	]
+}
+

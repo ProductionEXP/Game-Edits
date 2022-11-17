@@ -1,0 +1,60 @@
+{
+"lodList": [
+	{
+		"minViewSize": 200,
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_container_03_lod0.fbx",
+		"subMeshMap": {
+            "decorativesatlas": {
+                "custom": {
+                    "color": "decorativesatlas",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechanicstation_trim_nor.tga"
+                ]
+            }
+        }
+    },
+    {
+        "minViewSize": 100,
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_container_03_lod1.fbx",
+        "subMeshMap": {
+            "decorativesatlas": {
+                "custom": {
+                    "color": "decorativesatlas",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechanicstation_trim_nor.tga"
+                ]
+            }
+        }
+    },
+    {
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_container_03_lod2.fbx",
+        "subMeshMap": {
+            "decorativesatlas": {
+                "custom": {
+                    "color": "decorativesatlas",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/ruin/env_ruin_decoratives_atlas_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/mechanicstation_trim_nor.tga"
+                ]
+            }
+        }
+    }
+]
+}

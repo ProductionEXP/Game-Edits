@@ -1,0 +1,19 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Cookbot/cookbot_food_03.fbx",
+			"subMeshMap": {
+				"carrot_burger": {
+					"material": "DifAsgNorAlphaFlip",
+					"textureList": [
+                        "$SURVIVAL_DATA/Character/Char_Tools/Char_carrotburger/char_carrotburger_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_carrotburger/char_carrotburger_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_carrotburger/char_carrotburger_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}
+

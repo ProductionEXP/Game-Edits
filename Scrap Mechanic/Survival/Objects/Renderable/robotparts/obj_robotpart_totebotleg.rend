@@ -1,0 +1,17 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"totebot": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_nor.tga"
+					]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotpart_totebot_leg01.fbx"
+		}
+	]
+}

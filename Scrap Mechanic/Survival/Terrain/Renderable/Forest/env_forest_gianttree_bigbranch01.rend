@@ -1,0 +1,81 @@
+{
+	"impostorThreshold": 200,
+	"lodList": [
+		{
+                        "minViewSize": 1500,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Forest/env_forest_gianttree_bigbranch01_lod0.fbx",
+                        "subMeshMap": {
+                            "bark": {
+                                "material": "Trunk",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_dif.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_asg.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_nor.tga"
+                                ]
+                            },
+                            "leaves": {
+                                "material": "Leaves",
+                                "custom": {
+                                    "color": "leaves"
+                                },
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_dif.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_asg.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_nor.tga"
+                                ]
+                            }
+                        }
+		},
+		{
+                        "minViewSize": 380,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Forest/env_forest_gianttree_bigbranch01_lod1.fbx",
+                        "subMeshMap": {
+                            "bark": {
+                                "material": "Trunk",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_dif.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_asg.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_nor.tga"
+                                ]
+                            },
+                            "leaves": {
+                                "material": "Leaves",
+                                "custom": {
+                                    "color": "leaves"
+                                },
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_dif.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_asg.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_nor.tga"
+                                ]
+                            }
+                        }
+		},
+		{
+                        "minViewSize": 200,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Forest/env_forest_gianttree_bigbranch01_lod2.fbx",
+                        "subMeshMap": {
+                            "bark": {
+                                "material": "Trunk",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_dif.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_asg.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_bark_nor.tga"
+                                ]
+                            },
+                            "leaves": {
+                                "material": "Leaves",
+                                "custom": {
+                                    "color": "leaves"
+                                },
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_dif.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_asg.tga",
+						            "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_gianttree_leaves_nor.tga"
+                                ]
+                            }
+                    }
+		}
+	]
+}
+

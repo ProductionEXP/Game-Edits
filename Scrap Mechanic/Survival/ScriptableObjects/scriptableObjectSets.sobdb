@@ -1,0 +1,9 @@
+{
+	"scriptableObjectSetList": [ 
+	{
+		"scriptableObjectSet": "$SURVIVAL_DATA/ScriptableObjects/scriptableObjectSets/sob_quests.sobset"
+	},
+	{
+		"scriptableObjectSet": "$SURVIVAL_DATA/ScriptableObjects/scriptableObjectSets/sob_managers.sobset"
+	}
+]}

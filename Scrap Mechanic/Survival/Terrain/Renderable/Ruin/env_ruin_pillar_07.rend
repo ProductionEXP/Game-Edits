@@ -1,0 +1,57 @@
+{
+"lodList": [
+	{
+		"minViewSize": 450,
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_pillar_07_lod0.fbx",
+		"subMeshMap": {
+            "metalbar_mat": {
+                "custom": {
+                    "color": "coloredConcrete",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNor",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_nor.tga"
+                ]
+            }
+        }
+    },
+	{
+        "minViewSize": 150,
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_pillar_07_lod1.fbx",
+		"subMeshMap": {
+            "metalbar_mat": {
+                "custom": {
+                    "color": "coloredConcrete",
+                    "textureTiling" : [1,1,1,1]
+                },
+                "material": "DifAsgNor",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_nor.tga"
+                ]
+			}
+		}
+	},
+    {
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_pillar_07_lod2.fbx",
+        "subMeshMap": {
+            "metalbar_mat": {
+                "custom": {
+                    "color": "coloredConcrete",
+                    "textureTiling" : [1,1,1,1]
+                },
+                "material": "DifAsgNor",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_nor.tga"
+                ]
+            }
+        }
+    }
+]
+}

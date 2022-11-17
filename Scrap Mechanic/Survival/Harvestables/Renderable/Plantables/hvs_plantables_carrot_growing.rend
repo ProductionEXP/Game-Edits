@@ -1,0 +1,37 @@
+{
+	"lodList": [
+		{
+			"includes": [
+				"POSITION",
+				"NORMAL",
+				"UV0",
+				"VERTEX_COLOR",
+				"TANGENT"
+		],
+			"subMeshMap": {
+				"carrotplant": {
+				    "material": "Leaves_Pose2",
+				    "textureList": [
+				        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_carrot_dif.tga",
+                        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_carrot_asg.tga",
+                        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_carrot_nor.tga"
+				    ]
+				},
+				"Soil": {
+				    "material": "UVAnimDifAsgNor",
+				    "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_nor.tga"
+				    ],
+				    "custom":{
+				                  "uv0": { "u": 1, "v": 0.1 }
+				     }
+				}
+			},
+			"mesh":  "$SURVIVAL_DATA/Harvestables/Mesh/Plantables/hvs_plantables_carrot.fbx",
+			"pose0": "$SURVIVAL_DATA/Harvestables/Mesh/Plantables/hvs_plantables_carrot_pose0.fbx",
+			"pose1": "$SURVIVAL_DATA/Harvestables/Mesh/Plantables/hvs_plantables_carrot_pose1.fbx"
+		}
+	]
+}

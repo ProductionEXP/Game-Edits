@@ -1,0 +1,18 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_applicator_hat/char_shared_outfit_applicator_hat.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" : [
+			{
+				"textureList":	[
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_applicator_hat/outfit_applicator_hat_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_applicator_hat/outfit_applicator_hat_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_applicator_hat/outfit_applicator_hat_nor.tga"
+				],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

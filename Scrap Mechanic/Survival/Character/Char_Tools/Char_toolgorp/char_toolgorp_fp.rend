@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"animationList" : [
+
+			// Toolgorp
+
+			{ "name" : "toolgorp_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_idle.dae", "looping" : true },
+
+			{ "name" : "toolgorp_pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_pickup.dae" },
+			{ "name" : "toolgorp_putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_putdown.dae" },
+
+			{ "name" : "toolgorp_sprint_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_sprint_idle.dae", "looping" : true },
+			{ "name" : "toolgorp_sprint_into", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_sprint_into.dae" },
+			{ "name" : "toolgorp_sprint_exit", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_sprint_exit.dae" },
+
+			{ "name" : "toolgorp_run_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_run_fwd.dae", "looping" : true },
+			{ "name" : "toolgorp_run_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_run_bwd.dae", "looping" : true },
+
+			{ "name" : "toolgorp_jump", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_jump.dae" },
+			{ "name" : "toolgorp_jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/Animations/ani_char_toolgorp_fp_jump_land.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

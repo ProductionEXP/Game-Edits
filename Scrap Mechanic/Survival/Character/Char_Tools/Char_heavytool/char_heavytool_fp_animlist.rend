@@ -1,0 +1,16 @@
+{
+	"lodList": [{
+		"animationList" : [
+
+			{ "name" : "heavytool_idle", 							"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool_fp_idle.dae", "looping" : true },
+			{ "name" : "heavytool_sprint_into", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool_fp_idle.dae" },
+			{ "name" : "heavytool_sprint_exit", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool_fp_idle.dae" },
+			{ "name" : "heavytool_sprint_idle", 					"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool_fp_idle.dae", "looping" : true },
+			{ "name" : "heavytool_pickup", 							"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool_fp_pickup.dae"},
+			{ "name" : "heavytool_putdown", 						"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/Animations/ani_char_heavytool_fp_putdown.dae"}
+
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

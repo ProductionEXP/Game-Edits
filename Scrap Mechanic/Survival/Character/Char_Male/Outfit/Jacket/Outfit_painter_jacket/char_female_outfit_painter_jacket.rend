@@ -1,0 +1,42 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/char_female_outfit_painter_jacket.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+                    "outfit_painter_jacket": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_jacket_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_jacket_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_jacket_nor.tga"
+					    ]
+              	  	},
+                    "outfit_painter_paintcases": {
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_paintcases_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_paintcases_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_paintcases_nor.tga"
+					    ]
+              	  	},
+              	  	"default_body_female": {
+                        "material": "Skin",
+                        "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_tkn.tga"
+                        ]
+                    },
+                     "default_shirt": {
+                        "material": "DifAsgNor",
+                         "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_default_jacket/outfit_default_shirt_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_default_jacket/outfit_default_shirt_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_default_jacket/outfit_default_shirt_nor.tga"
+                        ]
+                    }
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

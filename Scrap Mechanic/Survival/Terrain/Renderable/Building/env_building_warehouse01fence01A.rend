@@ -1,0 +1,124 @@
+{
+	"lodList": [
+        {
+            //LOD0
+            "minViewSize": 200,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_warehouse01fence01A_lod0.fbx",
+            "subMeshMap": {
+                "plastic": {
+                    "custom": {
+                        "color": "plastic"
+                    },
+                    "material": "DifAsgNorAlphaFlip",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_nor.tga"
+                    ]
+                },
+                "shinymetal": {
+                    "custom": {
+                        "color": "shinymetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                },
+                "shinymetal2": {
+                    "custom": {
+                        "color": "shinymetal2"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            //LOD1
+            "minViewSize": 90,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_warehouse01fence01A_lod1.fbx",
+            "subMeshMap": {
+                "plastic": {
+                    "custom": {
+                        "color": "plastic"
+                    },
+                    "material": "DifAsgNorAlphaFlip",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_nor.tga"
+                    ]
+                },
+                "shinymetal": {
+                    "custom": {
+                        "color": "shinymetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                },
+                "shinymetal2": {
+                    "custom": {
+                        "color": "shinymetal2"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            //LOD2
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_warehouse01fence01A_lod2.fbx",
+            "subMeshMap": {
+                "plastic": {
+                    "custom": {
+                        "color": "plastic"
+                    },
+                    "material": "DifAsgNorAlphaFlip",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_warehouse01fence01_nor.tga"
+                    ]
+                },
+                "shinymetal": {
+                    "custom": {
+                        "color": "shinymetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                },
+                "shinymetal2": {
+                    "custom": {
+                        "color": "shinymetal2"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        }
+    ]
+}
+

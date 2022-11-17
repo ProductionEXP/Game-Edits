@@ -1,0 +1,19 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_blueberry.dae",
+            "subMeshList": [
+                {
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_blueberry_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_blueberry_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_blueberry_nor.tga"
+                    ]
+                }
+            ]
+        }
+	]
+}
+

@@ -1,0 +1,18 @@
+{
+    "lodList": [
+        {
+            "subMeshList": [
+                {
+                    "textureList": [
+                        "$SURVIVAL_DATA/Effects/Textures/Harvestables/Oilgeyser/hvs_oilgeyser_bubble_dif.tga",
+                        "$SURVIVAL_DATA/Effects/Textures/Harvestables/Oilgeyser/hvs_oilgeyser_bubble_asg.tga",
+                        "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+
+                    ],
+                    "material": "DifAsgNorWave"
+                }
+            ],
+            "mesh": "$SURVIVAL_DATA/Effects/Meshes/Harvestables/Oilgeyser/hvs_hvs_oilgeyser_bubble.fbx"
+        }
+    ]
+}

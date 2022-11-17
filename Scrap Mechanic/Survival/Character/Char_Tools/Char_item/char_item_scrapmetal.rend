@@ -1,0 +1,25 @@
+{
+	"lodList": [
+		{
+			"includes": [
+				"POSITION",
+				"NORMAL",
+				"UV0",
+				"TANGENT"
+			],
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_item/char_item_scrapmetal.dae",
+			"subMeshMap": {
+				"scrapmetal": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Character/Char_haybot/Char_haybot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_haybot/Char_haybot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_haybot/Char_haybot_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}
+

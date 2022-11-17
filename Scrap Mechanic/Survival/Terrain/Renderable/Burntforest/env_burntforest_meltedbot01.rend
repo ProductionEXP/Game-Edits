@@ -1,0 +1,33 @@
+{
+                "impostorThreshold": 110,
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Burntforest/env_burntforest_meltedbot01.fbx",
+                        "subMeshMap": {
+                            "robot": {
+                                "custom": {
+                                    "color": "bot"
+                                },
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_meltedbot_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_meltedbot_asg.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_meltedbot_nor.tga"
+                                ]
+                            },
+                            "Puddle": {
+                                "custom": {
+                                    "color": "puddle"
+                                },
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_meltedbotbase_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_meltedbotbase_asg.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_meltedbotbase_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }

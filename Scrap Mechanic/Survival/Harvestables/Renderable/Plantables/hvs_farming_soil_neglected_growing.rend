@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"weed": {
+					"material": "Leaves_Pose2",
+					"textureList": [
+						"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_weed_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_weed_asg.tga",
+						""
+					]
+				},
+				"Soil": {
+					"material": "UVAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_asg.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_nor.tga"
+					],
+					"custom":{
+						"uv0": { "u": 1, "v": 0.1 }
+					}
+				}
+			},
+			"mesh":  "$SURVIVAL_DATA/Harvestables/Mesh/Farming/hvs_farming_soil_neglected.fbx",
+			"pose0": "$SURVIVAL_DATA/Harvestables/Mesh/Farming/hvs_farming_soil_neglected_pose0.fbx",
+			"pose1": "$SURVIVAL_DATA/Harvestables/Mesh/Farming/hvs_farming_soil_neglected_pose1.fbx"
+		}
+	]
+}
+

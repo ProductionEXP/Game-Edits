@@ -1,0 +1,25 @@
+{
+	"lodList": [
+		{
+			"includes": [
+				"POSITION",
+				"NORMAL",
+				"UV0",
+				"TANGENT"
+			],
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_item/char_item_stone.dae",
+			"subMeshMap": {
+				"stone": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/harvests/resource/obj_harvest_resource_metal_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/resource/obj_harvest_resource_metal_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/resource/obj_harvest_resource_stone_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}
+

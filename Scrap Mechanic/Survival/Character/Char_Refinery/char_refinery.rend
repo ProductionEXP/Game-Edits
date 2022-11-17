@@ -1,0 +1,44 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"refinery": {
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_nor.tga"
+					],
+					"material": "SkelAnimDifAsgNor"
+				},
+				"connectionpoint": {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_dif.tga", 
+						"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_asg.tga", 
+						"$SURVIVAL_DATA/Objects/Textures/containers/obj_interactive_container_connectorpoint_nor.tga"
+					],
+					"material": "SkelAnimDifAsgNor"
+				}
+			},
+			"animationList": [
+				{
+					"name": "Refinery_unpack",
+					"file": "$SURVIVAL_DATA/Character/Char_Refinery/Animations/ani_char_refinery_unpack.dae"
+				},
+				{
+					"name": "Refinery_start",
+					"file": "$SURVIVAL_DATA/Character/Char_Refinery/Animations/ani_char_refinery_use_start.dae"
+				},
+				{
+					"name": "Refinery_use",
+					"file": "$SURVIVAL_DATA/Character/Char_Refinery/Animations/ani_char_refinery_use_01.dae"
+				},
+				{
+					"name": "Refinery_finish",
+					"file": "$SURVIVAL_DATA/Character/Char_Refinery/Animations/ani_char_refinery_use_finish.dae"
+				}
+			],
+			"mesh": "$SURVIVAL_DATA/Character/Char_Refinery/char_refinery.dae",
+			"maxViewDistance": 1000.0
+		}
+	]
+}

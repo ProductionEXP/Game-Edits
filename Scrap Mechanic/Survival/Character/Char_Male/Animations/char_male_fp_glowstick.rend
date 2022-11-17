@@ -1,0 +1,13 @@
+{
+	"lodList": [{
+		"animationList" : [
+		// Glowstick
+
+		{ "name" : "glowstick_idle", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Glowstick/ani_char_male_fp_glowstick_idle.dae", "looping" : true  },
+		{ "name" : "glowstick_pickup", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Glowstick/ani_char_male_fp_glowstick_pickup.dae" },
+		{ "name" : "glowstick_putdown", "file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Glowstick/ani_char_male_fp_glowstick_putdown.dae" },
+		{ "name" : "glowstick_use", 	"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Glowstick/ani_char_male_fp_glowstick_use.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

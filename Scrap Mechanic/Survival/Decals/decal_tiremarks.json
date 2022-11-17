@@ -1,0 +1,80 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_burnmarks_dif.tga",
+    "norSheet": "",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_burnmarks_ags.tga",
+    "decalList":{
+		"tiremark_bend01":
+	    {
+		    "uuid": "bb11af70-8be3-4f65-b626-39e254839ef6",
+		    "region": [0,3,10,10],
+		    "material": "Dif"
+		},
+		"tiremark_bend02":
+	    {
+		    "uuid": "3c615992-77ef-4d98-a65c-2072556c8143",
+		    "region": [5,8,11,11],
+		    "material": "Dif"
+		},
+		"tiremark_bend03":
+	    {
+		    "uuid": "c1d2af41-c167-43df-bd1c-7dbbfc157afe",
+		    "region": [9,11,11,11],
+		    "material": "Dif"
+		},
+		"tiremark_straight01":
+	    {
+		    "uuid": "52ec0b2a-add6-433f-ba7b-7d25be4a052d",
+		    "region": [4,7,10,10],
+		    "material": "Dif"
+		},
+		"tiremark_straight02":
+	    {
+		    "uuid": "f0c5ba4e-2343-4c17-a65d-e8f860b3a544",
+		    "region": [8,11,10,10],
+		    "material": "Dif"
+		},
+		"tiremark_curve01":
+	    {
+		    "uuid": "800be0c1-9098-4c95-ad47-3c13f8b420bd",
+		    "region": [0,1,11,11],
+		    "material": "Dif"
+		},
+		"tiremark_wiggle01":
+	    {
+		    "uuid": "a4a055ac-0f38-4168-935f-91ae3535131e",
+		    "region": [2,4,11,11],
+		    "material": "Dif"
+		},
+		"tiremark_wiggle02":
+	    {
+		    "uuid": "8d2f1733-6587-48ff-91fd-e5099cd08ea5",
+		    "region": [0,4,12,12],
+		    "material": "Dif"
+		},
+		"tiremark_big01":
+	    {
+		    "uuid": "278c7a8c-f650-4de7-a2f7-15ce8161dc8c",
+		    "region": [12,15,10,10],
+		    "material": "Dif"
+		},
+		"tiremark_big02":
+	    {
+		    "uuid": "ef652211-de07-4b9b-886c-e02350d4f133",
+		    "region": [12,15,11,11],
+		    "material": "Dif"
+		},
+		"tiremark_big03":
+	    {
+		    "uuid": "ef652211-de07-4b9b-886c-e02350d4f133",
+		    "region": [10,15,12,12],
+		    "material": "Dif"
+		},
+		"tiremark_big04":
+	    {
+		    "uuid": "ef652211-de07-4b9b-886c-e02350d4f133",
+		    "region": [11,12,13,13],
+		    "material": "Dif"
+		}
+		
+	}
+}

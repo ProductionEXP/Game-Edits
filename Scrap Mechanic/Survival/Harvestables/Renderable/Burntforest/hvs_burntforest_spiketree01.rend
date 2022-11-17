@@ -1,0 +1,20 @@
+{
+    "impostorThreshold": 110,
+    "lodList": [
+        {
+            "maxViewDistance": 2500,
+            "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Burntforest/hvs_burntforest_spiketree01.fbx",
+            "subMeshMap": {
+				"bark": {
+                    
+                    "material": "Trunk",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntforest_ember_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntforest_ember_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntforest_ember_nor.tga"
+                    ]
+                }
+            }
+        }
+    ]
+}

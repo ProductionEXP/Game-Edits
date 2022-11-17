@@ -1,0 +1,84 @@
+{
+	"run":
+	[
+		{
+			"effect": "Haybot - FotStep",
+			"frames":
+			[
+				{
+					"frame": 6,
+					"joint": "b_leg04_jnt"
+				},
+				{
+					"frame": 23,
+					"joint": "l_leg04_jnt"
+				}
+			]
+		},
+		{
+			"effect": "Haybot - Servo",
+			"frames":
+			[
+				{
+					"frame": 4,
+					"joint": "pelvis_jnt"
+				},
+				{
+					"frame": 15,
+					"joint": "pelvis_jnt"
+				}
+			]
+		},
+		{
+			"effect": "Haybot - ForkStep",
+			"frames":
+			[
+				{
+					"frame": 8,
+					"joint": "r_leg06_jnt"
+				}
+			]
+		}
+	],
+	"sprint":
+	[
+		{
+			"effect": "Haybot - FotStep",
+			"frames":
+			[
+				{
+					"frame": 7,
+					"joint": "l_leg04_jnt"
+				},
+				{
+					"frame": 12,
+					"joint": "b_leg04_jnt"
+				}
+			]
+		},
+		{
+			"effect": "Haybot - ForkStep",
+			"frames":
+			[
+				{
+					"frame": 0,
+					"joint": "r_leg06_jnt"
+				}
+			]
+		},
+		{
+			"effect": "Haybot - Servo",
+			"frames":
+			[
+				{
+					"frame": 8,
+					"joint": "pelvis_jnt"
+				},
+				{
+					"frame": 19,
+					"joint": "pelvis_jnt"
+				}
+			]
+		}
+	]
+}

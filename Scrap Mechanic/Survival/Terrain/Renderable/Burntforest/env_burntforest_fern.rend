@@ -1,0 +1,22 @@
+{
+                "impostorThreshold": 110,
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Burntforest/env_burntforest_fern.fbx",
+                        "subMeshList": [
+                            {
+                                "custom": {
+                                    "color": "plant"
+                                },
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_fern_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_fern_asg.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_fern_nor.tga"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }

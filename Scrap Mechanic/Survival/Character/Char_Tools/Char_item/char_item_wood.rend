@@ -1,0 +1,25 @@
+{
+	"lodList": [
+		{
+			"includes": [
+				"POSITION",
+				"NORMAL",
+				"UV0",
+				"TANGENT"
+			],
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_item/char_item_wood.dae",
+			"subMeshMap": {
+				"wood": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/harvests/resource/obj_harvest_resource_wood_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/resource/obj_harvest_resource_wood_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/resource/obj_harvest_resource_wood_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}
+

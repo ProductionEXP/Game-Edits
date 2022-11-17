@@ -1,0 +1,44 @@
+{
+	"lodList": [
+		{
+			"includes": [
+				"POSITION",
+				"NORMAL",
+				"UV0",
+				"VERTEX_COLOR",
+				"TANGENT"
+			], 
+			"subMeshMap": {
+				"trunk": {
+				    "material": "Trunk",
+					    "textureList": [
+					        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_pineapple_dif.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_pineapple_asg.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_pineapple_nor.tga"
+					    ]
+				},
+				"leaves": {
+				    "material": "Leaves",
+					    "textureList": [
+					        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_pineapple_dif.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_pineapple_asg.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_pineapple_nor.tga"
+					    ]
+				},
+				"Soil": {
+				    "material": "UVAnimDifAsgNor",
+				    "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_nor.tga"
+				    ],
+				    "custom":{
+				                  "uv0": { "u": 1, "v": 0.1 }
+				     }
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Plantables/hvs_plantables_pineapple_finished.fbx"
+		}
+	]
+}
+

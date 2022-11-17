@@ -1,0 +1,59 @@
+{
+"lodList": [
+    {
+        "minViewSize": 500,
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Camping/env_camping_raintent03_lod0.fbx",
+        "subMeshMap": {
+            "cloth": {
+                "custom": {
+                    "color":"cloth"
+                },
+                "material": "Leaves",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_covers_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_covers_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_covers_nor.tga"
+
+                ]
+            },
+            "steel": {
+                "custom": {
+                },
+                "material": "DifAsgNor",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_nor.tga"
+                ]
+            }
+        }
+    },
+    {
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Camping/env_camping_raintent03_lod1.fbx",
+        "subMeshMap": {
+            "cloth": {
+                "custom": {
+                    "color":"cloth"
+                },
+                "material": "Leaves",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_covers_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_covers_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_covers_nor.tga"
+
+                ]
+            },
+            "steel": {
+                "custom": {
+                },
+                "material": "DifAsgNor",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_raintent_nor.tga"
+                ]
+            }
+        }
+    }
+]
+}

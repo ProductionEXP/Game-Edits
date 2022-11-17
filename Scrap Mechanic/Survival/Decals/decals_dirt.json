@@ -1,0 +1,110 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_rust_dif.tga",
+    "norSheet": "$SURVIVAL_DATA/Decals/Textures/decals_rust_nor.tga",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_rust_ags.tga",
+    "decalList":{
+		
+		"dirt_small01":
+	    {
+		    "uuid": "7459a382-91e1-42f9-a249-054a5feb7be5",
+		    "region": [0,0,15,15],
+		    "material": "DifAgs"
+		},
+		"dirt_small02":
+	    {
+		    "uuid": "935974e1-ae16-4876-acf9-5c2f4ee6dbb5",
+		    "region": [1,1,15,15],
+		    "material": "DifAgs"
+		},
+		"dirt_small03":
+	    {
+		    "uuid": "d60fa730-a374-404b-9ece-0e08baedc9c4",
+		    "region": [2,2,15,15],
+		    "material": "DifAgs"
+		},
+		"dirt_small04":
+	    {
+		    "uuid": "ba1c2b70-d597-42cb-8276-77b92d0cad20",
+		    "region": [3,3,15,15],
+		    "material": "DifAgs"
+		},
+		"dirt_small05":
+	    {
+		    "uuid": "11accc17-40be-44da-a8c5-ad5d2e400bea",
+		    "region": [4,4,15,15],
+		    "material": "DifAgs"
+		},
+		"dirt_small06":
+	    {
+		    "uuid": "ba3191d2-ff03-498c-91f0-ee8d46cff46c",
+		    "region": [5,5,15,15],
+		    "material": "DifAgs"
+		},
+		"dirt01":
+	    {
+		    "uuid": "2d0ae876-a685-47dd-a816-99740e350fd8",
+		    "region": [0,1,13,14],
+		    "material": "DifAgs"
+		},
+		"dirt02":
+	    {
+		    "uuid": "0b5947eb-0d0f-471c-a5b2-2629d8105c88",
+		    "region": [2,3,13,14],
+		    "material": "DifAgs"
+		},
+		"dirt03":
+	    {
+		    "uuid": "0d081ee3-a4d0-4ebd-9a4a-5da382df4393",
+		    "region": [4,5,13,14],
+		    "material": "DifAgs"
+		},
+		"dirt_large01":
+	    {
+		    "uuid": "21baf0f0-0a54-4d1f-92bd-cdee2cd8f7a0",
+		    "region": [0,2,10,12],
+		    "material": "DifAgs"
+		},
+		"dirt_large02":
+	    {
+		    "uuid": "fac28546-1510-4e73-ba3c-076dc96bbd78",
+		    "region": [3,5,10,12],
+		    "material": "DifAgs"
+		},
+		"dirt_splatter_small01":
+	    {
+		    "uuid": "bea74562-63c8-4321-b2cc-a4cc122c7377",
+		    "region": [6,7,15,15],
+		    "material": "DifAgs"
+		},
+		"dirt_splatter_small02":
+	    {
+		    "uuid": "14034e9b-4156-49e8-8b40-1faa788063f4",
+		    "region": [8,9,15,15],
+		    "material": "DifAgs"
+		},
+		"dirt_splatter01":
+	    {
+		    "uuid": "13fa47a6-3b16-4fcb-b80d-225ada35dff9",
+		    "region": [6,7,13,14],
+		    "material": "DifAgs"
+		},
+		"dirt_splatter02":
+	    {
+		    "uuid": "c3b402f8-1ba8-4a58-b94a-590dce9f2549",
+		    "region": [8,9,13,14],
+		    "material": "DifAgs"
+		},
+		"dirt_splatter03":
+	    {
+		    "uuid": "7da5e461-55e1-400b-9dd7-553b9cd1d5df",
+		    "region": [10,11,13,14],
+		    "material": "DifAgs"
+		},
+		"dirt_splatter_large01":
+	    {
+		    "uuid": "4b97fff3-4e15-41aa-9f06-8214741d4a55",
+		    "region": [6,8,10,12],
+		    "material": "DifAgs"
+		}
+	}
+}

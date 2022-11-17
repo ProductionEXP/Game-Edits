@@ -1,0 +1,73 @@
+{
+"lodList": [
+	{
+		"minViewSize": 400,
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_floor_10_lod0.fbx",
+		"subMeshMap": {
+            "metalbar_mat": {
+                "custom": {
+                    "color": "metal",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout01_nor.tga"
+                ]
+            },
+            "concrete_mat": {
+                "custom": {
+                    "color": "concrete",
+                    "textureTiling" : [1,1,1,1] 
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_dif.tga",
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_asg.tga",
+                    "$GAME_DATA/Textures/Tiled/Concrete/t_tiled_ruin_concrete_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout02_nor.tga"
+                ]
+            }
+        }
+    },
+	{
+        "minViewSize": 100,
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_floor_10_lod1.fbx",
+		"subMeshMap": {
+            "metalbar_mat": {
+                "custom": {
+                    "color": "metal",
+                    "textureTiling" : [1,1,1,1]
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout01_nor.tga"
+                ]
+			}
+		}
+	},
+    {
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_floor_10_lod2.fbx",
+        "subMeshMap": {
+            "metalbar_mat": {
+                "custom": {
+                    "color": "metal",
+                    "textureTiling" : [1,1,1,1]
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout01_nor.tga"
+                ]
+            }
+        }
+    }
+]
+}

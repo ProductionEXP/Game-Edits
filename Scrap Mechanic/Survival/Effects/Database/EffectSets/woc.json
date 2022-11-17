@@ -1,0 +1,90 @@
+{
+	"Woc - Walk":
+	{
+		"parameterList":
+		{
+			"surface": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/woc/woc_ff_walk",
+				"parameters":
+				[
+					"surface"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"Woc - Run":
+	{
+		"parameterList":
+		{
+			"surface": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/woc/woc_ff_run",
+				"parameters":
+				[
+					"surface"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"Woc - Eating":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/woc/woc_chewing",
+				"delay": 0.0
+			}
+		]
+	},
+	"Woc - Panic":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/woc/woc_moo_panic",
+				"delay": 0.0
+			}
+		]
+	},
+	"Woc - Moo":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/woc/woc_moo_idle",
+				"delay": 0.0
+			}
+		]
+	},
+	"Woc - Destruct":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_woc_destroy_01",
+				"attached": false,
+				"delay": 0.05
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/woc/woc_confetti",
+				"delay": 0.0
+			}
+		]
+	}
+}

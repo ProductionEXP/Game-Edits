@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_farmer_pants/char_male_outfit_farmer_pants.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+            "outfit_farmer_pants": {
+                "material": "DifAsgNor",
+                "textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_farmer_pants/outfit_farmer_pants_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_farmer_pants/outfit_farmer_pants_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_farmer_pants/outfit_farmer_pants_nor.tga"
+                ]
+            },
+            "default_body_male": {
+                "material": "Skin",
+                "textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_nor.tga"
+                ]
+            }
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

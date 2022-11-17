@@ -1,0 +1,67 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_buildings_dif.tga",
+    "norSheet": "",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_buildings_ags.tga",
+    "decalList":{
+		"Box01_Dirt": {
+		    "uuid": "8adcd7e3-24f6-411c-ab56-a2bb9e29ad04",
+		    "region": [6,6,0,0],
+		    "material": "DifAgs"
+		},
+		"Box01_ShinyPlastic": {
+		    "uuid": "94360214-c6a0-4924-b6e6-4c4aa1a6f4b0",
+		    "region": [7,7,0,0],
+		    "material": "DifAgs"
+		},
+		"Box01_ShinyMetal": {
+		    "uuid": "ebb5cfe9-f844-4245-9984-a0213eec2dbc",
+		    "region": [6,6,1,1],
+		    "material": "DifAgs"
+		},
+		"Box01_NotGlossyMetal": {
+		    "uuid": "6a510647-019f-4854-aa08-f2a7eaa61b1e",
+		    "region": [7,7,1,1],
+		    "material": "DifAgs"
+		},
+		"circle_Dirt": {
+		    "uuid": "3250e357-f8de-4ca2-9d6d-86b9d02a3add",
+		    "region": [6,7,5,6],
+		    "material": "DifAgs"
+		},
+		"circle_ShinyPlastic": {
+		    "uuid": "f208bbd8-9217-4f33-a916-5cb146443524",
+		    "region": [8,9,5,6],
+		    "material": "DifAgs"
+		},
+		"circle_NotGlossyMetal": {
+		    "uuid": "b86e5c3b-3e46-46cb-8694-7856846a8c95",
+		    "region": [10,11,5,6],
+		    "material": "DifAgs"
+		},
+		"circle_ShinyMetal": {
+		    "uuid": "2754dc8a-e22f-453f-9043-f3cbb8102988",
+		    "region": [12,13,5,6],
+		    "material": "DifAgs"
+		},
+		"Box02_Dirt": {
+		    "uuid": "359aa0ed-05aa-4eef-b0e5-a9585c459fac",
+		    "region": [6,7,7,8],
+		    "material": "DifAgs"
+		},
+		"Box02_ShinyPlastic": {
+		    "uuid": "5f3f378c-41b9-42f0-9f67-dd198e807aaa",
+		    "region": [8,9,7,8],
+		    "material": "DifAgs"
+		},
+		"Box02_NotGlossyMetal": {
+		    "uuid": "5b9f08a9-8d87-47ee-a907-a6c36ab9921e",
+		    "region": [10,11,7,8],
+		    "material": "DifAgs"
+		},
+		"Box02_ShinyMetal": {
+		    "uuid": "482a9f7f-e8bf-4312-9ba5-639884a9cdb9",
+		    "region": [12,13,7,8],
+		    "material": "DifAgs"
+		}
+	}
+}

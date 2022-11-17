@@ -1,0 +1,142 @@
+{
+	"settings" : {
+		"smoothing" : 0.8,
+
+		"colliders" : {
+			"body_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.3, "mass" : 50.0,
+				"length" : 0.6,
+				"offset" : 2.2,
+				"selfCollision": true
+			},
+			"head_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.35, "mass" : 40.0,
+				"length" : 0.35,
+				"offset" : 0.0,
+				"box" : true,
+				"selfCollision": true
+			},
+			"leg01_collider" : {
+				"minStretch" : 1.0, "maxStretch" : 1.0,
+				"radius" : 0.15, "mass" : 20.0
+			},
+			"leg01_collider_active" : {
+				"minStretch" : 1.0, "maxStretch" : 1.0,
+				"radius" : 0.15, "mass" : 20.0,
+				"selfCollision": true
+			},
+			"leg02_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.15, "mass" : 30.0
+			},
+			"l_arm_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.25, "mass" : 70.0,
+				"length" : 0.8,
+				"offset" : 1.0,
+				"box" : true
+			},
+			"r_arm_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.2, "mass" : 70.0,
+				"length" : 1.0,
+				"offset" : 0.25,
+				"box" : true
+			}
+		},
+		"joints" : {
+			"head_joint" : {
+				"angularLowerLimit" : [-10, -5, -5],
+				"angularUpperLimit" : [10, 5, 5],
+
+				"linearLowerLimit" : [-0.25, -0.01, -0.01],
+				"linearUpperLimit" : [0.25, 0.01, 0.01]
+			},
+			"spine_joint" : {
+				"angularLowerLimit" : [-10, -30, -40],
+				"angularUpperLimit" : [10, 30, 10]
+			},
+			"leg01_joint" : {
+				"angularLowerLimit" : [-60, -30, -30],
+				"angularUpperLimit" : [60, 30, 30]
+			},
+			"leg02_joint" : {
+				"angularLowerLimit" : [-1, -1, -150],
+				"angularUpperLimit" : [1, 1, 20]
+			},
+			"sythe01_joint" : {
+				"angularLowerLimit" : [-90, -5, -90],
+				"angularUpperLimit" : [90, 5, 90]
+			},
+			"sythe02_joint" : {
+				"angularLowerLimit" : [-5, -10, -90],
+				"angularUpperLimit" : [5, 10, 90]
+			}
+		},
+		// Ragdoll collider attach to what segment
+		"root" : { "limb" : "body_limb", "colliderIndex" : 0 }
+	},
+	"limbs" : {
+		"body_limb" : {
+			"bones" : ["root_jnt", "jnt_spine2"],
+			"colliders" : ["body_collider"],
+			"joints" : []
+		 },
+		"head_limb" : {
+		 	"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["neck_jnt", "head_jnt"],
+			"colliders" : ["head_collider"],
+			"joints" : ["head_joint"]
+		 },
+		"leftarm_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["l_arm01_jnt", "l_arm02_jnt"],
+			"colliders" : ["l_arm_collider"],
+			"joints" : ["leg01_joint"]
+		},
+		"rightarm_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["r_arm01_jnt", "r_arm04_jnt", "r_arm05_jnt", "scythe01_jnt", "scythe03_jnt"],
+			"colliders" : ["leg01_collider", "leg01_collider", "r_arm_collider", "leg01_collider"],
+			"joints" : ["leg01_joint", "sythe01_joint", "sythe02_joint", "leg02_joint"]
+		},
+		"leg01_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg01_jnt", "leg01_jnt", "legend01_jnt"],
+			"colliders" : ["leg01_collider", "leg02_collider"],
+			"joints" : ["leg01_joint", "leg02_joint"]
+		},
+		"leg02_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg02_jnt", "leg02_jnt", "legend02_jnt"],
+			"colliders" : ["leg01_collider", "leg02_collider"],
+			"joints" : ["leg01_joint", "leg02_joint"]
+		},
+		"leg03_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg03_jnt", "leg03_jnt", "legend03_jnt"],
+			"colliders" : ["leg01_collider", "leg02_collider"],
+			"joints" : ["leg01_joint", "leg02_joint"]
+		},
+		"leg04_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg04_jnt", "leg04_jnt", "legend04_jnt"],
+			"colliders" : ["leg01_collider", "leg02_collider"],
+			"joints" : ["leg01_joint", "leg02_joint"]
+		},
+		"leg05_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg05_jnt", "leg05_jnt", "legend05_jnt"],
+			"colliders" : ["leg01_collider", "leg02_collider"],
+			"joints" : ["leg01_joint", "leg02_joint"]
+		},
+		"leg06_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg06_jnt", "leg06_jnt", "legend06_jnt"],
+			"colliders" : ["leg01_collider", "leg02_collider"],
+			"joints" : ["leg01_joint", "leg02_joint"]
+		}
+	}
+}

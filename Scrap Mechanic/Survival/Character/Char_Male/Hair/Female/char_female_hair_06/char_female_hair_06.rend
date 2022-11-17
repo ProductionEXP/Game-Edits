@@ -1,0 +1,19 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_06/char_female_hair_06.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		
+		"subMeshList" : [
+			{
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_06/char_female_hair_06_gra.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_01/char_female_hair_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_06/char_female_hair_06_nor.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_06/char_female_hair_06_dir.tga"
+				],
+				"custom" : { "aniso" : [1.0, 0.1] },
+				"material": "Hair"
+			}
+		]
+	}]
+}

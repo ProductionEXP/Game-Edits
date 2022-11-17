@@ -1,0 +1,31 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_splatter_dif.tga",
+    "norSheet": "$SURVIVAL_DATA/Decals/Textures/decals_splatter_nor.tga",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_splatter_ags.tga",
+    "decalList":{
+		"moss_large01_nor":
+		{
+		    "uuid": "67328ea8-471e-40d7-8b1d-cc4aafcd0deb",
+		    "region": [0,3,12,15],
+		    "material": "DifAgsNor"
+		},
+		"moss_large02_nor":
+	    {
+		    "uuid": "7b0cc1e0-8e47-4a78-ad36-930ddf55467b",
+		    "region": [4,8,12,15],
+		    "material": "DifAgsNor"
+		},
+		"moss01_nor":
+	    {
+		    "uuid": "dd63e320-3cf2-44db-adce-6dcc29ed280c",
+		    "region": [9,11,12,13],
+		    "material": "DifAgsNor"
+		},
+		"moss02_nor":
+	    {
+		    "uuid": "1e7f2713-4e21-4a32-89dc-7762aeb5972c",
+		    "region": [9,11,14,15],
+		    "material": "DifAgsNor"
+		}
+	}
+}

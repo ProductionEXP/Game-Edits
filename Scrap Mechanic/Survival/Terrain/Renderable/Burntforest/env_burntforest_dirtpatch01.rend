@@ -1,0 +1,44 @@
+{
+                "impostorThreshold": 110,
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Forest/env_forest_dirtpatch01.fbx",
+                           "subMeshMap": {
+                             "grass": {
+                                "custom": {
+                                    "color": "grass"
+                                },
+                                "material": "DifAsgNorAlpha",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_dirtpatchgrass_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_dirtpatchgrass_asg.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_dirtpatchgrass_nor.tga"
+                                ]
+                            },
+							"dirt": {
+                                "custom": {
+                                    "color": "dirt"
+                                },
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_dirtpatchdirt_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Forest/env_forest_dirtpatchdirt_asg.tga",
+                                    "$GAME_DATA/Terrain/Textures/Ground/gnd_3_nor.tga"
+                                ]
+                            },
+							"clutter": {
+                                "custom": {
+                                    "color": "grass"
+                                },
+                                "material": "DifAsgAlpha",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_dirtpatchclutter_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_dirtpatchclutter_asg.tga",
+									""
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }

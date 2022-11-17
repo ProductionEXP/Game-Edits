@@ -1,0 +1,137 @@
+{
+	"nodeList":
+	[
+		// The first tag in "tags" is considered the primary tag and should be unique
+		{
+			"name": "HideoutDropzone",
+			"tags": [ "HIDEOUT_DROPZONE" ],
+			"color": [1.0, 0.6, 0.0, 0.6],
+			"billboardColor": [1.0, 0.6, 0.0, 1.0]
+		},
+		{
+			"name": "LootCrate",
+			"tags": [ "LOOTCRATE" ],
+			"params": [ { "name": "guaranteed", "type": "bool", "default": false } ],
+			"optionalParams": [ { "name": "name", "type": "string" } ],
+			"renderable": "$GAME_DATA/Nodes/Renderable/node_lootcrate.rend",
+			"color": [0.0, 0.8, 0.0, 0.6],
+			"billboardColor": [1.0, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "EpicLootCrate",
+			"tags": [ "EPICLOOTCRATE" ],
+			"params": [ { "name": "guaranteed", "type": "bool", "default": false } ],
+			"optionalParams": [ { "name": "name", "type": "string" } ],
+			"renderable": "$GAME_DATA/Nodes/Renderable/node_lootcrate.rend",
+			"color": [0.9, 0.7, 0.0, 0.6],
+			"billboardColor": [1.0, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "PlayerSpawn",
+			"tags": [ "PLAYER_SPAWN" ],
+			"optionalParams": [ { "name": "name", "type": "string" } ],
+			"renderable": "$GAME_DATA/Nodes/Renderable/node_player.rend",
+			"color": [0.8, 0.4, 0.1, 0.6],
+			"billboardColor": [0.5, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "Woc",
+			"tags": [ "WOC" ],
+			"params": [ { "name": "guaranteed", "type": "bool", "default": false } ],
+			"optionalParams": [ { "name": "name", "type": "string" } ],
+			"renderable": "$SURVIVAL_DATA/Character/Char_Cow/char_cow.rend",
+			"color": [0.4, 0.5, 0.7, 0.6],
+			"billboardColor": [0.5, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "Glowgorp",
+			"tags": [ "GLOWGORP" ],
+			"params": [ { "name": "guaranteed", "type": "bool", "default": false } ],
+			"optionalParams": [ { "name": "name", "type": "string" } ],
+			"renderable": "$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp.rend",
+			"color": [0.7, 1.0, 0.0, 0.6],
+			"billboardColor": [0.5, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "TotebotGreen",
+			"tags": [ "TOTEBOT_GREEN" ],
+			"params": [ { "name": "guaranteed", "type": "bool", "default": false } ],
+			"optionalParams": [ { "name": "name", "type": "string" }, { "name": "groupTag", "type": "string" } ],
+			"renderable": "$SURVIVAL_DATA/Character/Char_Totebot/char_totebot.rend",
+			"color": [0.3, 0.4, 0.2, 0.6],
+			"billboardColor": [0.5, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "Haybot",
+			"tags": [ "HAYBOT" ],
+			"params": [ { "name": "guaranteed", "type": "bool", "default": false } ],
+			"optionalParams": [ { "name": "name", "type": "string" }, { "name": "groupTag", "type": "string" } ],
+			"renderable": "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot.rend",
+			"color": [1.0, 0.6, 0.0, 0.6],
+			"billboardColor": [0.5, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "Tapebot",
+			"tags": [ "TAPEBOT" ],
+			"params": [ { "name": "guaranteed", "type": "bool", "default": false }, { "name": "isPatrolling", "type": "bool", "default": false } ],
+			"optionalParams": [ { "name": "name", "type": "string" }, { "name": "groupTag", "type": "string" } ],
+			"renderable": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot.rend",
+			"color": [0.0, 0.4, 1.0, 0.6],
+			"billboardColor": [0.5, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "Farmbot",
+			"tags": [ "FARMBOT" ],
+			"params": [ { "name": "guaranteed", "type": "bool", "default": false } ],
+			"optionalParams": [ { "name": "name", "type": "string" }, { "name": "groupTag", "type": "string" } ],
+			"renderable": "$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot.rend",
+			"color": [0.6, 0.3, 0.2, 0.6],
+			"billboardColor": [0.5, 1.0, 0.0, 1.0]
+		},
+		{
+			"name": "Fire",
+			"tags": [ "FIRE" ],
+			"params": [ { "name": "effect", "type": "effect", "default": { "name": "Fire -medium01" } } ],
+			"optionalParams": [ { "name": "name", "type": "string" }, { "name": "connections", "type": "connections" } ],
+			"color": [1.0, 0.0, 0.0, 0.6],
+			"billboardColor": [1.0, 0.0, 0.0, 1.0],
+			"initYUp": false,
+			"initScale": 1.0
+		},
+		{
+			"name": "Vector",
+			"tags": [ "VECTOR" ],
+			"optionalTags": [ "ELEVATOR_EXIT_HINT" ],
+			"optionalParams": [ { "name": "name", "type": "string" } ],
+			"renderable": "$GAME_DATA/Nodes/Renderable/node_arrow.rend",
+			"color": [0.5, 0.0, 1.0, 0.6],
+			"billboardColor": [0.5, 0.0, 1.0, 1.0],
+			"scaleFlags": "ScaleY"
+		},
+		{
+			"name": "Flatten",
+			"tags": [ "FLATTEN" ],
+			"renderable": "$GAME_DATA/Nodes/Renderable/node_cylinder.rend",
+			"color": [0.5, 0.0, 1.0, 0.6],
+			"billboardColor": [0.5, 0.0, 1.0, 1.0],
+			"scaleFlags": "ScaleXZ"
+		},
+		{
+			"name": "AreaTrigger",
+			"tags": [ "AREATRIGGER" ],
+			"params": [ { "name": "name", "type": "string" } ],
+			"color": [1.0, 0.8, 0.75, 0.6],
+			"billboardColor": [1.0, 0.8, 0.75, 1.0]
+		},
+		{
+			"name": "Camera Location",
+			"tags": [ "CAMERA" ],
+			"renderable": "$GAME_DATA/Nodes/Renderable/node_camera.rend",
+			"color": [0.145, 1.0, 0.929, 0.6],
+			"billboardColor": [0.0, 0.9, 0.9, 1.0],
+			"scale": 1.0,
+			"initYUp": false,
+			"initScale": 1.0
+		}
+	]
+}

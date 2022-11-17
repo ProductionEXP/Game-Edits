@@ -1,0 +1,90 @@
+{
+	"settings" : {
+		"smoothing" : 0.8,
+
+		"colliders" : {
+			"body" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.2, "mass" : 30.0,
+				"selfCollision": true
+			},
+			"small_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0, 
+				"radius" : 0.08, "mass" : 20.0
+			},
+			"small_collider_active" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.08, "mass" : 20.0,
+				"selfCollision": true
+			},
+			"shooter_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.15, "mass" : 20.0,
+				"selfCollision": true
+			},
+			"head" : {
+				"offset" : 1.0,
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.2, "mass" : 30.0,
+				"selfCollision": true
+			}
+		},
+		"joints" : {
+			"shoulder" : {
+				"angularLowerLimit" : [-60, -60, -60],
+				"angularUpperLimit" : [60, 60, 60]
+			},
+			"neck_joint" : {
+				"angularLowerLimit" : [-30, -60, -17.5],
+				"angularUpperLimit" : [30, 60, 17.5]
+			},
+			"leg_joint" : {
+				"angularLowerLimit" : [-15, -20, -90],
+				"angularUpperLimit" : [15, 20, 90],
+
+				"angularEquilibrium" : [0, 0, -45],
+				"angularStiffness": [0, 0, 2]
+			},
+			"knee_joint" : {
+				"angularLowerLimit" : [-1, -1, -90],
+				"angularUpperLimit" : [1, 1, 90],
+
+				"angularSpring" : [false, false, true],
+				"angularEquilibrium" : [0, 0, 30],
+				"angularStiffness": [0, 0, 1]
+			}
+		},
+		"root" : { "limb" : "body_limb", "colliderIndex" : 0 }
+	},
+	"limbs" : {
+		"body_limb" : {
+			"bones" : ["hip_jnt", "neck_jnt", "head_jnt"],
+			"colliders" : ["body", "head" ],
+			"joints" : ["neck_joint"]
+		},
+		"right_leg" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["r_uppleg_jnt", "r_leg_jnt", "r_foot_jnt"],
+			"colliders" : [ "small_collider", "small_collider_active"],
+			"joints" : ["leg_joint","knee_joint"]
+		},
+		"left_leg" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["l_uppleg_jnt", "l_leg_jnt","l_foot_jnt"],
+			"colliders" : ["small_collider", "small_collider_active"],
+			"joints" : ["leg_joint","knee_joint"]
+		},
+		"right_arm" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 1 },
+			"bones" : ["r_upperarm_jnt", "r_arm_jnt", "r_hand_jnt"],
+			"colliders" : ["small_collider", "shooter_collider"],
+			"joints" : ["leg_joint", "knee_joint"]
+		},
+		"left_arm" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 1 },
+			"bones" : ["l_upperarm_jnt", "l_arm_jnt", "l_hand_jnt"],
+			"colliders" : ["small_collider", "small_collider_active"],
+			"joints" : ["leg_joint", "knee_joint"]
+		}
+	}
+}

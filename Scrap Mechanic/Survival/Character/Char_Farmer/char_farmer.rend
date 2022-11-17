@@ -1,0 +1,45 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer.fbx",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS"],
+		"subMeshMap" : {
+                            "skin": {
+                                "material" : "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_nor.tga"
+                                ]
+                                
+                            },
+                            "hair": {
+                                "material" : "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_nor.tga"
+                                ]
+                                
+                            },
+                            "clothes": {
+                                "material" : "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_clothes_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_clothes_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_clothes_nor.tga"
+                                ]
+                                
+                            },
+							"hatgloves": {
+                                "material" : "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_hatgloves_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_hatgloves_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_hatgloves_nor.tga"
+                                ]
+                                
+                            }
+                        },
+		"maxViewDistance": 1000.0
+	}]
+} 

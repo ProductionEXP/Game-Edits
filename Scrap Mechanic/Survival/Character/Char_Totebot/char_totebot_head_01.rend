@@ -1,0 +1,56 @@
+{
+	"color": "49642d",
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_head_green.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap" : {
+			"totebothead": {
+				"material" : "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_head_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_head_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_head_nor.tga"
+
+				]
+			},
+			"cable": {
+				"material" : "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_cable_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_cable_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_cable_nor.tga"
+				]
+				
+			}
+        },
+		"animationList" :
+		[
+			{ "name" : "alerted", 			"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_idle.dae" },
+			{ "name" : "roaming", 			"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_idle.dae" },
+			{ "name" : "idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_idle.dae", "looping" : true },
+			{ "name" : "crouch_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_idle.dae", "looping" : true },
+			{ "name" : "run", 				"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_run_fwd.dae", "looping" : true },
+			{ "name" : "run_left", 			"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_run_fwd.dae", "looping" : true },
+			{ "name" : "run_right", 		"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_run_fwd.dae", "looping" : true },
+			{ "name" : "run_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_run_bwd.dae", "looping" : true },
+			{ "name" : "run_bwd_left", 		"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_run_bwd.dae", "looping" : true },
+			{ "name" : "run_bwd_right", 	"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_run_bwd.dae", "looping" : true },
+				
+			{ "name" : "sprint", 			"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_sprint_fwd.dae", "looping" : true },
+			{ "name" : "sprint_right_45", 	"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_sprint_fwd.dae", "looping" : true },
+			{ "name" : "sprint_left_45", 	"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_sprint_fwd.dae", "looping" : true },
+				
+			{ "name" : "shuffle_left", 		"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_run_fwd.dae", "looping" : true },
+			{ "name" : "shuffle_right", 	"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_run_fwd.dae", "looping" : true },
+
+			{ "name" : "jump", 				"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_jump.dae" },
+			{ "name" : "jump_up", 			"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_jump_up.dae", "looping" : true },
+			{ "name" : "jump_down", 		"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_jump_down.dae", "looping" : true },
+			{ "name" : "jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_lom_jump_land.dae" },
+
+			{ "name" : "attack_melee", 		"file" : "$SURVIVAL_DATA/Character/Char_Totebot/Animations/ani_char_totebotgreen_attack_melee.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+} 

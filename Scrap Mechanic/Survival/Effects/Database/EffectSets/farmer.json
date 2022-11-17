@@ -1,0 +1,76 @@
+{
+	"FarmerBall - Rolling":
+	{
+		"parameterList":
+		{
+			"Velocity_max_50": 0.0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/human/farmer/farmer_male_old/rolling",
+				"parameters":
+				[
+					"Velocity_max_50"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"FarmerBall - Help":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/human/farmer/farmer_male_old/help",
+				"delay": 0.0
+			}
+		]
+	},
+	"FarmerBall - Struggle":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/human/farmer/farmer_male_old/cage_struggle",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmerhideout - Open":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/installations/farmerhideout/hideout_open",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmerhideout - Close":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/installations/farmerhideout/hideout_close",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmerhideout - Accept":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/human/farmer/farmer_male_old/thanks",
+				"delay": 0.0
+			}
+		]
+	}
+}

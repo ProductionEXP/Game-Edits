@@ -1,0 +1,31 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_stuntman_hat/char_male_outfit_stuntman_hat.dae",
+         "subMeshMap" : {
+            "Glass" : {
+               "color" : "ffffff",
+               "material" : "DifAsgNorLcapMasked",
+               "textureList" : [
+                  "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_stuntman_hat/outfit_stuntman_hat_dif.tga",
+                  "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_stuntman_hat/outfit_stuntman_hat_asg.tga",
+                  "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_stuntman_hat/outfit_stuntman_hat_nor.tga",
+                  "",
+                  "$GAME_DATA/Textures/Shadertextures/Lightcap/t_jetvisor_lcap.tga"
+               ]
+            },
+            "outfit_stuntman_hat" : {
+               "color" : "ffffff",
+               "material" : "DifAsgNorLcapMasked",
+               "textureList" : [
+                  "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_stuntman_hat/outfit_stuntman_hat_dif.tga",
+                  "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_stuntman_hat/outfit_stuntman_hat_asg.tga",
+                  "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_stuntman_hat/outfit_stuntman_hat_nor.tga",
+                  "",
+                  "$GAME_DATA/Textures/Shadertextures/Lightcap/t_starshimmer_lcap.tga"
+               ]
+            }
+         }
+      }
+   ]
+}

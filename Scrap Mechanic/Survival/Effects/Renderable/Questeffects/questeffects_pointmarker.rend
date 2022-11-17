@@ -1,0 +1,31 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$SURVIVAL_DATA/Effects/Meshes/Questeffects/questeffects_pointmarker.fbx",
+         "subMeshMap" : {
+            "questeffects" : {
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$SURVIVAL_DATA/Effects/Textures/Questeffects/questeffects_dif.tga",
+                  "$SURVIVAL_DATA/Effects/Textures/Questeffects/questeffects_asg.tga",
+                  ""
+               ]
+            }
+         }
+      },
+      {
+         "mesh" : "$SURVIVAL_DATA/Effects/Meshes/Questeffects/questeffects_arrowmarker.fbx",
+         "minViewSize" : 50,
+         "subMeshMap" : {
+            "questeffects" : {
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$SURVIVAL_DATA/Effects/Textures/Questeffects/questeffects_dif.tga",
+                  "$SURVIVAL_DATA/Effects/Textures/Questeffects/questeffects_asg.tga",
+                  ""
+               ]
+            }
+         }
+      }
+   ]
+}

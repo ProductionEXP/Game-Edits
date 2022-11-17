@@ -1,0 +1,15 @@
+{
+	"lodList": [{
+		"animationList" : [
+
+		{ "name" : "Idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Eattool/ani_char_male_fp_eattool_idle.dae", "looping" : true  },
+		{ "name" : "Pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Eattool/ani_char_male_fp_eattool_pickup.dae" },
+		{ "name" : "Putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Eattool/ani_char_male_fp_eattool_putdown.dae" },
+		{ "name" : "Eat", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Eattool/ani_char_male_fp_eattool_drink.dae" },
+		{ "name" : "Sprint_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Eattool/ani_char_male_fp_eattool_sprint_idle.dae", "looping" : true },
+		{ "name" : "Sprint_into", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Eattool/ani_char_male_fp_eattool_sprint_into.dae" },
+		{ "name" : "Sprint_exit", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Eattool/ani_char_male_fp_eattool_sprint_out.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

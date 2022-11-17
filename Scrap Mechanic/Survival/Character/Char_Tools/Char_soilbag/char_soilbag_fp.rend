@@ -1,0 +1,19 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_soilbag/Animations/ani_char_soilbag_fp_idle.dae",
+		"animationList" : [
+
+			// Soilbag
+
+			{ "name" : "soilbag_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_tools/Char_soilbag/Animations/ani_char_soilbag_fp_idle.dae", "looping" : true },
+
+			{ "name" : "soilbag_pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_tools/Char_soilbag/Animations/ani_char_soilbag_fp_pickup.dae" },
+			{ "name" : "soilbag_putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_tools/Char_soilbag/Animations/ani_char_soilbag_fp_putdown.dae" },
+
+			{ "name" : "soilbag_use", 				"file" : "$SURVIVAL_DATA/Character/Char_tools/Char_soilbag/Animations/ani_char_soilbag_fp_use.dae" }
+
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

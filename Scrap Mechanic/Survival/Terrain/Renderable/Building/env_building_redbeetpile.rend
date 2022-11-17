@@ -1,0 +1,54 @@
+{
+    "lodList": [
+        {
+            "minViewSize": 310,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_redbeetpile_lod0.fbx",
+            "subMeshMap": {
+                "redbeet_mat": {
+                    "custom": {
+                        "color": "redbeet"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            "minViewSize": 60,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_redbeetpile_lod1.fbx",
+            "subMeshMap": {
+                "redbeet_mat": {
+                    "custom": {
+                        "color": "redbeet"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_redbeetpile_lod2.fbx",
+            "subMeshMap": {
+                "redbeet_mat": {
+                    "custom": {
+                        "color": "redbeet"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_redbeetpile_nor.tga"
+                    ]
+                }
+            }
+        }
+    ]
+}

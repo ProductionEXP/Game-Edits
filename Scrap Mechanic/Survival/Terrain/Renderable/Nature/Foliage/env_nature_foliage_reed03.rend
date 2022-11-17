@@ -1,0 +1,22 @@
+{
+                "impostorThreshold": 50,
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Nature/Foliage/env_nature_foliage_reed03.fbx",
+                        "subMeshList": [
+                            {
+                                "custom": {
+                                    "color": "leaves"
+                                },
+                                "material": "Leaves",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Nature/Foliage/env_nature_foliage_reed_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Nature/Foliage/env_nature_foliage_reed_asg.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Nature/Foliage/env_nature_foliage_reed_nor.tga"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }

@@ -1,0 +1,197 @@
+{
+    "clutterList": [
+	{
+	    "uuid": "b8d3573c-6abe-4e51-af23-85987c7e1aa6",
+	    "name": "env_clutter_burntgrass",
+	    "texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_burntgrass_dif.tga",
+	    "impostor_texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_burntgrass_dif.tga",
+	    "mesh": "$GAME_DATA/Terrain/Mesh/Clutter/env_clutter_shortgrass.mesh",
+	    "material": "GroundVegetation",
+	    "height": 1.0,
+	    "wind": true,
+		"scaleVariance": 0.2,
+	    "groundNormal": true,
+	    "slope": "skew"
+	},
+	{
+	    "uuid": "5b3e4fbf-bc96-47ca-9e71-0e88170f7dce",
+	    "name": "env_clutter_burntthorn",
+	    "texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_burntthorn_dif.tga",
+	    "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_burntthorn.fbx",
+	    "height": 1.0,
+		"scaleVariance": 0.5,
+		"wind": true,
+	    "groundNormal": true,
+	    "slope": "rotate"
+	},
+	{
+	    "uuid": "6bf93c9e-c7cc-4b4b-97aa-9f3191ce22e6",
+	    "name": "env_clutter_burntbranches",
+	    "texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_burntbranches_dif.tga",
+	    "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_burntbranches.fbx",
+	    "height": 1.0,
+		"scaleVariance": 0.3,
+	    "groundNormal": true,
+	    "slope": "rotate"
+	},
+	{	
+		"uuid": "fa77ad36-fa15-4176-bc6c-d27f6a884283", 
+		"name": "env_clutter_brownrock",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_brownrock_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_brownrock.mesh",
+		"height": 1.0,
+		"scaleVariance": 0.5,
+		"material": "GroundClutter",
+		"slope": "rotate"
+	},
+	{
+		"uuid": "be97b6f4-0803-4420-8118-e04319d71fbb",
+		"name": "env_clutter_metalscrap01",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_metalscrap_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_metalscrap01.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.8,
+		"material": "GroundClutter",
+		"slope": "rotate"
+	},
+	{
+		"uuid": "ce8ae2e4-4e73-4967-a7be-dfe558de228b",
+		"name": "env_clutter_metalscrap02",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_metalscrap_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_metalscrap02.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.5,
+		"material": "GroundClutter",
+		"slope": "rotate"
+	},
+	{
+		"uuid": "1c0372e4-5cd2-4d96-8b4e-3a9a57de1e8c",
+		"name": "env_clutter_metalscrap03",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_metalscrap_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_metalscrap03.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.8,
+		"material": "GroundClutter",
+		"slope": "rotate"
+	},
+	{
+		"uuid": "118ceb92-ccf5-4a8b-b706-e74fd43339c0",
+		"name": "env_clutter_roots",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_brownrock_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_roots.mesh",
+		"height": 1.0,
+		"scaleVariance": 0.5,
+		"material": "GroundClutter",
+		"slope": "rotate"
+	},
+	{
+		"uuid": "207495e3-edcb-4149-8a1c-5a95fb214a31",
+		"name": "env_clutter_roadBroken01",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_road_atlas_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_roadBroken01.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.2,
+		"material": "GroundClutter",
+		"slope": "skew"
+	},
+	{
+		"uuid": "386b107d-944d-4a30-8f45-f3ff2368117a",
+		"name": "env_clutter_roadBroken02",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_road_atlas_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_roadBroken02.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.2,
+		"material": "GroundClutter",
+		"slope": "skew"
+	},
+	{
+		"uuid": "243b39f9-adea-463f-8db9-575f086fc8a9",
+		"name": "env_clutter_roadBroken03",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_road_atlas_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_roadBroken03.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.2,
+		"material": "GroundClutter",
+		"slope": "skew"
+	},
+	{
+		"uuid": "f38ddd12-e9da-4142-a518-cfc24977054e",
+		"name": "env_clutter_warehousescrap01",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_warehousescrap_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_warehousescrap01.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.0,
+		"material": "GroundClutter",
+		"slope": "skew"
+	},
+	{
+		"uuid": "b9c35573-f3a1-4d19-9096-0e05d1b11e21",
+		"name": "env_clutter_warehousescrap02",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_warehousescrap_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_warehousescrap02.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.0,
+		"material": "GroundClutter",
+		"slope": "skew"
+	},
+	{
+		"uuid": "4088ae3c-0591-494b-95b7-0ad6862f0dcf",
+		"name": "env_clutter_warehousescrap03",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_warehousescrap_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_warehousescrap03.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.0,
+		"material": "GroundClutter",
+		"slope": "skew"
+	},
+	{
+		"uuid": "ed9b825b-cada-47ae-9603-98214d35d841",
+		"name": "env_clutter_warehousescrap04",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_warehousescrap_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_warehousescrap04.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.0,
+		"material": "GroundClutter",
+		"slope": "skew"
+	},
+	{
+		"uuid": "aa1e379f-55c3-4a8a-b6f9-9de94301c72b",
+		"name": "env_clutter_seaweed01",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_seaweed01_dif.tga",
+		"impostor_texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_seaweed01_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_seaweed01.fbx",
+		"height": 1.5,
+		"scaleVariance": 0.5,
+		"material": "GroundClutter",
+		"wind": true,
+	    "groundNormal": true,
+		"slope": "skew"
+	},
+	{
+		"uuid": "e015c14d-bc26-4880-a5c2-4ab9c6b034d9",
+		"name": "env_clutter_seaweed02",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_seaweed02_dif.tga",
+		"impostor_texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_seaweed02_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_seaweed02.fbx",
+		"height": 1.0,
+		"scaleVariance": 0.5,
+		"material": "GroundClutter",
+		"wind": true,
+	    "groundNormal": true,
+		"slope": "skew"
+	},
+	{
+		"uuid": "a1e88a66-71c4-4fba-b7ca-e7584f4e577f",
+		"name": "env_clutter_seaweed03",
+		"texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_seaweed03_dif.tga",
+		"impostor_texture": "$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_seaweed03_dif.tga",
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Clutter/env_clutter_seaweed03.fbx",
+		"height": 1.5,
+		"scaleVariance": 0.5,
+		"material": "GroundClutter",
+		"wind": true,
+	    "groundNormal": true,
+		"slope": "skew"
+	}
+    ]
+}

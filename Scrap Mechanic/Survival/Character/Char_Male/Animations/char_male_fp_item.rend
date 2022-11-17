@@ -1,0 +1,15 @@
+{
+	"lodList": [{
+		"animationList" : [
+	
+			{ "name" : "item_idle", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Item/ani_char_male_fp_item_idle_resource.dae", "looping" : true },
+			{ "name" : "item_sprint_into", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Item/ani_char_male_fp_item_idle_resource.dae" },
+			{ "name" : "item_sprint_exit", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Item/ani_char_male_fp_item_idle_resource.dae" },
+			{ "name" : "item_sprint_idle", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Item/ani_char_male_fp_item_idle_resource.dae", "looping" : true },
+			{ "name" : "item_pickup", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Item/ani_char_male_fp_item_pickup_resource.dae" },
+			{ "name" : "item_putdown", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Item/ani_char_male_fp_item_putdown_resource.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_painter_backpack/char_shared_outfit_painter_backpack.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+                    "outfit_painter_backpack": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_painter_backpack/outfit_painter_backpack_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_painter_backpack/outfit_painter_backpack_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_painter_backpack/outfit_painter_backpack_nor.tga"
+					    ]
+              	  	},
+                    "outfit_painter_paintcases": {
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_paintcases_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_paintcases_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/outfit_painter_paintcases_nor.tga"
+					    ]
+              	  	}
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

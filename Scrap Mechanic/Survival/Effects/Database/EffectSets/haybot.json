@@ -1,0 +1,202 @@
+{
+	"Haybot - Hit":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_takedamage",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_haybot_hit01",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"Haybot - Destroyed":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_explode",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_haybot_destoryed01",
+				"attached": false,
+				"delay": 0.05
+			},
+			{
+				"type": "particle",
+				"name": "p_totebot_destroy",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"Haybot - Alerted":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_noticeplayer",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - Attack01":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_haybot_attack_trail01",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.05
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_attack_01",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - Attack02":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_haybot_attack_trail02",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.05
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_attack_02",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - Attack03":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_haybot_attack_trail03",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.05
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_attack_03",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - SprintAttack":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_haybot_attack_trail01",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.05
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_attack_sprint",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - FotStep":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_ff",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - ForkStep":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_foley_forkimpact",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - IdleSpecial01":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_idle_special_long",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - IdleSpecial02":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_idle_special_short",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - Servo":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_foley_servo",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - Metal":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_foley_metal",
+				"delay": 0.0
+			}
+		]
+	},
+	"Haybot - CaseplayerVoice":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/haybot/haybot_walk_chaseplayer",
+				"delay": 0.0
+			}
+		]
+	}	
+}

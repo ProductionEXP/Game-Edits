@@ -1,0 +1,81 @@
+{
+	"lodList":
+	[
+		{
+			"animationList" :
+			[
+				{
+					"name" : "idle",
+					"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_idle.dae",
+					"looping" : true,
+					"events": 
+					[ 
+						{ 
+							"time": 2.0,
+							"weight": 0.5,
+							"effect": "TapeBot - Scissor", 
+							"bone": "l_hand_jnt", 
+							"attached": true 
+						},
+						{ 
+							"time": 2.2,
+							"weight": 0.5,
+							"effect": "TapeBot - Scissor", 
+							"bone": "l_hand_jnt", 
+							"attached": true 
+						},
+						{ 
+							"time": 2.4,
+							"weight": 0.5,
+							"effect": "TapeBot - Scissor", 
+							"bone": "l_hand_jnt", 
+							"attached": true 
+						},
+						{ 
+							"time": 4.13,
+							"weight": 0.5,
+							"effect": "TapeBot - Servo", 
+							"bone": "head_jnt", 
+							"attached": true 
+						},
+						{ 
+							"time": 5.25,
+							"weight": 0.5,
+							"effect": "TapeBot - Servo", 
+							"bone": "head_jnt", 
+							"attached": true 
+						},
+						{ 
+							"time": 6.62,
+							"weight": 0.5,
+							"effect": "TapeBot - Servo", 
+							"bone": "head_jnt", 
+							"attached": true 
+						}
+					]
+				},
+				{ "name" : "crouch_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_idle.dae", "looping" : true },
+
+
+				{ "name" : "run", 					"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_run_fwd.dae", "looping" : true },
+				{ "name" : "run_left", 				"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_run_left_alert.dae", "looping" : true },
+				{ "name" : "run_right", 			"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_run_right_alert.dae", "looping" : true },
+				{ "name" : "run_bwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_run_fwd.dae", "looping" : true },
+				{ "name" : "run_bwd_left", 			"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_run_fwd.dae", "looping" : true },
+				{ "name" : "run_bwd_right", 		"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_run_fwd.dae", "looping" : true },
+
+				{ "name" : "shuffle_left", 			"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_run_left_alert.dae", "looping" : true },
+				{ "name" : "shuffle_right", 		"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_run_right_alert.dae", "looping" : true },
+
+				{ "name" : "sprint", 			"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_sprint_fwd_alert.dae", "looping" : true },
+				{ "name" : "sprint_left_45", 	"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_sprint_left_alert.dae", "looping" : true },
+				{ "name" : "sprint_right_45", 	"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_sprint_right_alert.dae", "looping" : true },
+
+				{ "name" : "jump", 				"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_jump.dae" },
+				{ "name" : "jump_up", 			"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_jump_up.dae", "looping" : true },
+				{ "name" : "jump_down", 		"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_jump_up.dae", "looping" : true },
+				{ "name" : "jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_lom_jump_land.dae" }
+			]
+		}
+	]
+} 

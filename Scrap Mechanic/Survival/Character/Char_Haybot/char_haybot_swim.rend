@@ -1,0 +1,27 @@
+{
+	"lodList":
+	[
+		{
+			"mesh": "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot01.dae",
+			"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+			"animationList" : [
+				// Movement
+				{ "name" : "swim_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_idle.dae", "looping" : true },
+				{ "name" : "swim_fwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_sprint", 				"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_left", 				"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_right", 				"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_bwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_bwd_left", 			"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_bwd_right", 			"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_up", 					"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_down", 				"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_bwd_up", 				"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_bwd_down", 			"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_shuffle_left", 		"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true },
+				{ "name" : "swim_shuffle_right", 		"file" : "$SURVIVAL_DATA/Character/Char_Haybot/Animations/ani_char_haybot_lom_swim_fwd.dae", "looping" : true }
+			],
+			"maxViewDistance": 1000.0
+		}
+	]
+} 

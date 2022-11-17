@@ -1,0 +1,31 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"Leaves": {
+				    "material": "Leaves_Pose2",
+					    "textureList": [
+					        "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_dif.tga",
+                            "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_asg.tga",
+                            "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_nor.tga"
+					    ]
+				},
+				"Soil": {
+				    "material": "UVAnimDifAsgNor",
+				    "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_nor.tga"
+				    ],
+				    "custom":{
+				                  "uv0": { "u": 1, "v": 0.1 }
+				     }
+				}
+			},
+			"mesh": 	"$SURVIVAL_DATA/Harvestables/Mesh/Plantables/hvs_plantables_cotton.fbx",
+			"pose0":	"$SURVIVAL_DATA/Harvestables/Mesh/Plantables/hvs_plantables_cotton_pose0.fbx",
+			"pose1":	"$SURVIVAL_DATA/Harvestables/Mesh/Plantables/hvs_plantables_cotton_pose1.fbx"
+		}
+	]
+}
+

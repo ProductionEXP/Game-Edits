@@ -1,0 +1,50 @@
+{
+	"lodList": [
+		{
+
+			"minViewSize": 250,
+            "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/stones/hvs_stone_small02_lod0.fbx",
+			"subMeshMap": {
+				"rock": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_nor.tga"
+					]
+				}
+			}
+		},
+		{
+
+			"minViewSize": 60,
+            "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/stones/hvs_stone_small02_lod1.fbx",
+			"subMeshMap": {
+				"rock": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_nor.tga"
+					]
+				}
+			}
+		},
+		{
+
+			"minViewSize": 10,
+            "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/stones/hvs_stone_small02_lod2.fbx",
+			"subMeshMap": {
+				"rock": {
+					"material": "DifAsg",
+					"textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Stone/env_nature_hvs_stone_asg.tga",
+						""
+					]
+				}
+			}
+		}
+	]
+}
+

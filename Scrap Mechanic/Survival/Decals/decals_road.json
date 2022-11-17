@@ -1,0 +1,303 @@
+{
+	"difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_road_dif.tga",
+	"norSheet": "",
+	"agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_road_ags.tga",
+	"decalList": {
+		"strip_Double": {
+			"uuid": "ac9952c2-d11b-40fe-a3e1-07c366c782ab",
+			"region": [1,14,0,0],
+			"material": "DifAgs"
+		},
+		"strip_double_loop01": {
+			"uuid": "36862b67-d220-4e0f-97a6-69207ce5ed50",
+			"region": [0,15,0,0],
+			"material": "DifAgs"
+		},
+		"strip_double_loop02": {
+			"uuid": "a20cb1e9-cc1f-4259-ad9b-a048f62829cd",
+			"region": [0,7,13,13],
+			"material": "DifAgs"
+		},
+		"strip_double_loop03": {
+			"uuid": "6cd7621a-6632-4353-95f0-507a718c3316",
+			"region": [0,7,14,15],
+			"material": "DifAgs"
+		},
+		"strip_single_long": {
+			"uuid": "fb3dc0f0-6c59-4ade-b667-7f43ab647437",
+			"region": [0,15,1,1],
+			"material": "DifAgs"
+		}, 
+		"strip_single_medium": {
+			"uuid": "03b82210-065c-4503-9f84-cd8c823eb423",
+			"region": [7,15,1,1],
+			"material": "DifAgs"
+		}, 
+		"strip_single_short": {
+			"uuid": "2c0ef13d-02bb-4949-a14c-2b14e53dc7eb",
+			"region": [0,5,1,1],
+			"material": "DifAgs"
+		},
+		"strip_torn01": {
+			"uuid": "ab79ce41-2d93-4b9a-b072-513f77b09640",
+			"region": [0,9,2,2],
+			"material": "DifAgs"
+		},
+		"strip_torn02": {
+			"uuid": "5290384a-4803-486e-a9ba-1d543a8f0812",
+			"region": [0,5,2,2],
+			"material": "DifAgs"
+		},
+		"strip_torn03": {
+			"uuid": "a2231508-a50e-47b6-83f7-f30e82bfbc40",
+			"region": [6,9,2,2],
+			"material": "DifAgs"
+		},
+		"strip_torn04": {
+			"uuid": "c8e64efa-146c-4cc8-a034-6840f840da59",
+			"region": [8,15,13,13],
+			"material": "DifAgs"
+		},
+		"parking_line": {
+			"uuid": "5c91e9ea-6db3-4757-a788-34b66fe26804",
+			"region": [0,5,3,4],
+			"material": "DifAgs"
+		},
+		"parking_strips01": {
+			"uuid": "92b24530-d572-4968-8f8c-a5aa9c89048b",
+			"region": [6,9,3,3],
+			"material": "DifAgs"
+		},
+		"parking_strips02": {
+			"uuid": "3bcffec0-126d-4783-8d08-e796c6d6c9e0",
+			"region": [6,7,3,3],
+			"material": "DifAgs"
+		},
+		"arrow_double": {
+			"uuid": "2f206be8-b962-4840-a33c-54f684080371",
+			"region": [6,9,4,5],
+			"material": "DifAgs"
+		},
+		"parking_edge_curve": {
+			"uuid": "7861822f-409f-4ec2-81bd-e6018efbeb5f",
+			"region": [10,13,5,6],
+			"material": "DifAgs"
+		},
+		"parking_round": {
+			"uuid": "ea6cc814-6ca1-431a-99c4-0b3948702fb1",
+			"region": [14,15,5,7],
+			"material": "DifAgs"
+		},
+		"arrow": {
+			"uuid": "e6684d2f-90c7-4704-9fa8-18ce0d67609f",
+			"region": [0,1,5,6],
+			"material": "DifAgs"
+		},
+		"arrow_end_turn": {
+			"uuid": "b4fbfeb5-2da0-409c-aaf3-80a7ffa2d7bf",
+			"region": [2,3,5,6],
+			"material": "DifAgs"
+		},
+		"arrow_split": {
+			"uuid": "5a149f04-19de-474f-94e7-55b5129da8f3",
+			"region": [0,2,11,12],
+			"material": "DifAgs"
+		},
+		"shape_circle_split": {
+			"uuid": "2b2a00c9-b267-424e-9586-7d212ef85c62",
+			"region": [4,5,5,6],
+			"material": "DifAgs"
+		},
+		"shape_round_box_fill": {
+			"uuid": "f2d77068-66c5-46b3-998a-3885aea4345a",
+			"region": [0,1,7,8],
+			"material": "DifAgs"
+		}, 
+		"Shape_round_box": {
+			"uuid": "4cce02fc-3b39-46ba-883b-c6d19a45c388",
+			"region": [2,3,7,8],
+			"material": "DifAgs"
+		}, 
+		"shape_circle": {
+			"uuid": "79e78bdb-d7e4-4346-855e-2521e7e0527a",
+			"region": [4,5,7,8],
+			"material": "DifAgs"
+		}, 
+		"shape_triangle": {
+			"uuid": "5265497b-630e-4193-8203-b4ee1cfa58ed",
+			"region": [6,7,7,8],
+			"material": "DifAgs"
+		},
+		"shape_triangle_fill": {
+			"uuid": "4f7d2646-57b9-4202-b550-56f3d0ee9764",
+			"region": [8,9,7,8],
+			"material": "DifAgs"
+		},
+		"shape_smooth_hard_box": {
+			"uuid": "795cb805-7015-437d-aece-20ef3ff1e03a",
+			"region": [9,9,6,6],
+			"material": "DifAgs"
+		},
+		"parking_curve_thick": {
+			"uuid": "002eea8e-00f1-40be-8457-4fff9c7ea564",
+			"region": [10,11,7,8],
+			"material": "DifAgs"
+		}, 
+		"parking_curve": {
+			"uuid": "10cf6d03-1025-4d96-9d55-920827ab525e",
+			"region": [12,13,7,8],
+			"material": "DifAgs"
+		}, 
+		"shape_square": {
+			"uuid": "59118a67-c31a-474d-a64c-d63d4c02342d",
+			"region": [14,15,8,9],
+			"material": "DifAgs"
+		},
+		"Shape_Romb": {
+			"uuid": "f0676ec8-e412-4023-a7be-8dc75496c60e",
+			"region": [0,1,9,10],
+			"material": "DifAgs"
+		},
+		"shape_arch": {
+			"uuid": "76f2ed68-60d1-430a-b0bb-23b696ab10e8",
+			"region": [10,12,2,4],
+			"material": "DifAgs"
+		},
+		"parking_corner": {
+			"uuid": "644e70dd-1714-4c8a-a7f7-1d852124cccf",
+			"region": [13,14,2,4],
+			"material": "DifAgs"
+		},
+		"parking_corner_fill": {
+			"uuid": "02307b93-9cae-4955-9216-e25f0de3b369",
+			"region": [15,15,2,3],
+			"material": "DifAgs"
+		},
+		"digit_0": {
+			"uuid": "cbc4fb4e-5ece-4dc0-9a8c-726636b15a81",
+			"region": [2,2,9,9],
+			"material": "DifAgs"
+		}, 
+		"digit_1": {
+			"uuid": "e272c013-36c4-4d73-85bc-3e78b697eb85",
+			"region": [3,3,9,9],
+			"material": "DifAgs"
+		}, 
+		"digit_2": {
+			"uuid": "e33b43fa-c6c2-4904-8552-2408c25a3bba",
+			"region": [4,4,9,9],
+			"material": "DifAgs"
+		}, 
+		"digit_3": {
+			"uuid": "222fd645-1c01-43d9-8f2e-309ad3943c15",
+			"region": [5,5,9,9],
+			"material": "DifAgs"
+		}, 
+		"digit_4": {
+			"uuid": "98bf89c1-2f96-4ce7-9712-0830aa0f351f",
+			"region": [6,6,9,9],
+			"material": "DifAgs"
+		}, 
+		"digit_5": {
+			"uuid": "7bf48a65-b6bd-4013-83f6-aed49fa376c5",
+			"region": [7,7,9,9],
+			"material": "DifAgs"
+		}, 
+		"digit_6": {
+			"uuid": "2325e912-46ee-4c28-83d7-5ef4e1675c9c",
+			"region": [8,8,9,9],
+			"material": "DifAgs"
+		}, 
+		"digit_7": {
+			"uuid": "b8fe020f-756a-42a2-b510-6e27dc6218b3",
+			"region": [9,9,9,9],
+			"material": "DifAgs"
+		},  
+		"digit_8": {
+			"uuid": "02a6fc63-8de1-44f5-96fa-a53ba4ed728e",
+			"region": [10,10,9,9],
+			"material": "DifAgs"
+		},  
+		"digit_9": {
+			"uuid": "4981673a-3d68-4ece-a4bb-daba5be4b316",
+			"region": [11,11,9,9],
+			"material": "DifAgs"
+		},  
+		"letter_A": {
+			"uuid": "a72689e4-4b5b-4776-b2d4-69c69f789baf",
+			"region": [2,2,10,10],
+			"material": "DifAgs"
+		},  
+		"letter_B": {
+			"uuid": "a2e782f7-c948-4fe2-b7a1-0d6a15ef4ed4",
+			"region": [3,3,10,10],
+			"material": "DifAgs"
+		},  
+		"letter_C": {
+			"uuid": "a9e46867-068c-4204-ad70-e9643db03699",
+			"region": [4,4,10,10],
+			"material": "DifAgs"
+		},  
+		"letter_D": {
+			"uuid": "d62c9d88-ca34-4190-bda2-6436222fdffc",
+			"region": [5,5,10,10],
+			"material": "DifAgs"
+		},
+		"letter_E": {
+			"uuid": "e7fd1a00-44d5-420f-a515-c073f69214c7",
+			"region": [6,6,10,10],
+			"material": "DifAgs"
+		},
+		"letter_F": {
+			"uuid": "19111567-6277-4f98-8334-108a124f911d",
+			"region": [7,7,10,10],
+			"material": "DifAgs"
+		},
+		"letter_X": {
+			"uuid": "c6e83602-7a8a-492d-a83c-0a10c04d1321",
+			"region": [8,8,10,10],
+			"material": "DifAgs"
+		},
+		"letter_?": {
+			"uuid": "c027e183-a7c0-42ee-9e38-5359c710439d",
+			"region": [9,9,10,10],
+			"material": "DifAgs"
+		},
+		"letter_!": {
+			"uuid": "aa7cc7b1-9d03-4c0f-a22f-9837153cebe7",
+			"region": [10,10,10,10],
+			"material": "DifAgs"
+		},
+		"letter_-": {
+			"uuid": "cf2d3704-b2da-45bc-afec-4d6602e8e416",
+			"region": [11,11,10,10],
+			"material": "DifAgs"
+		},
+		"row_triangles": {
+			"uuid": "a6ff7f2d-a80a-4148-a5c6-c5b39319a617",
+			"region": [3,6,11,11],
+			"material": "DifAgs"
+		},
+		"row_squares": {
+			"uuid": "b164fc23-2928-48e6-a570-34d26f6006ff",
+			"region": [7,10,11,11],
+			"material": "DifAgs"
+		},
+		"row_triwave": {
+			"uuid": "9a25eff9-ff94-4947-a1a3-3e2dcca24d70",
+			"region": [3,6,12,12],
+			"material": "DifAgs"
+		},
+		"row_arrows": {
+			"uuid": "e442ae75-7fbf-4835-bf58-f3fe4bd08281",
+			"region": [7,10,12,12],
+			"material": "DifAgs"
+		},
+		"row_checker": {
+			"uuid": "862ba344-0106-4f0d-b410-fdf37298cd26",
+			"region": [12,15,10,10],
+			"material": "DifAgs"
+		}
+		
+	}
+}

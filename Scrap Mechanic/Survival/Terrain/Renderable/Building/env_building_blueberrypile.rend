@@ -1,0 +1,54 @@
+{
+    "lodList": [
+        {
+            "minViewSize": 320,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_blueberrypile_lod0.fbx",
+            "subMeshMap": {
+                "blueberry_mat": {
+                    "custom": {
+                        "color": "blueberry"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            "minViewSize": 65,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_blueberrypile_lod1.fbx",
+            "subMeshMap": {
+                "blueberry_mat": {
+                    "custom": {
+                        "color": "blueberry"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_blueberrypile_lod2.fbx",
+            "subMeshMap": {
+                "blueberry_mat": {
+                    "custom": {
+                        "color": "blueberry"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_blueberrypile_nor.tga"
+                    ]
+                }
+            }
+        }
+    ]
+}

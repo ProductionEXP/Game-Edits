@@ -1,0 +1,26 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_demolition_jacket/char_female_outfit_demolition_jacket.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+                    "outfit_demolition_jacket": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_demolition_jacket/outfit_demolition_jacket_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_demolition_jacket/outfit_demolition_jacket_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_demolition_jacket/outfit_demolition_jacket_nor.tga"
+					    ]
+              	  	},
+                    "default_body_female": {
+                        "material": "Skin",
+                        "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_tkn.tga"
+                        ]
+                    }
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

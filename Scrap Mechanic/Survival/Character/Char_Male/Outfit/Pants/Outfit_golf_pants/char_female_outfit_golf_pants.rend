@@ -1,0 +1,26 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_golf_pants/char_female_outfit_golf_pants.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+                    "outfit_golf_pants": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_golf_pants/outfit_golf_pants_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_golf_pants/outfit_golf_pants_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_golf_pants/outfit_golf_pants_nor.tga"
+					    ]
+              	  	},
+                    "default_body_female": {
+                        "material": "Skin",
+                        "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_tkn.tga"
+                        ]
+                    }
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

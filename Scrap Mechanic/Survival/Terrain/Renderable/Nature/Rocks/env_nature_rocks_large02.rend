@@ -1,0 +1,62 @@
+{
+	"impostorThreshold": 120,
+	"lodList": [
+		{
+			"minViewSize": 500,
+			"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Nature/Rocks/env_nature_rocks_large02_lod0.fbx",
+			"subMeshList": [
+				{
+					"custom": {
+						"color": "rock",
+						"textureTiling" : [10,1,1,10] 
+					},
+					"material": "DifAsgNorNorD",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_asg.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Nature/Rocks/env_nature_rocks_large02_nor.tga",
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_nor.tga"
+					]
+				}
+			]
+		},
+		{
+			"minViewSize": 200,
+			"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Nature/Rocks/env_nature_rocks_large02_lod1.fbx",
+			"subMeshList": [
+				{
+					"custom": {
+						"color": "rock",
+						"textureTiling" : [10,1,1,10] 
+					},
+					"material": "DifAsgNorNorD",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_asg.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Nature/Rocks/env_nature_rocks_large02_lod_nor.tga",
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_nor.tga"
+					]
+				}
+			]
+		},
+		{
+			"minViewSize": 120,
+			"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Nature/Rocks/env_nature_rocks_large02_lod2.fbx",
+			"subMeshList": [
+				{
+					"custom": {
+						"color": "rock",
+						"textureTiling" : [10,1,1,10] 
+					},
+					"material": "DifAsgNorNorD",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_asg.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Nature/Rocks/env_nature_rocks_large02_lod_nor.tga",
+						"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_cracked_nor.tga"
+					]
+				}
+			]
+		}
+	]
+}

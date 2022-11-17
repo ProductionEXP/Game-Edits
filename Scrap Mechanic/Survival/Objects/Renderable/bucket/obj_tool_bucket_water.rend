@@ -1,0 +1,25 @@
+{
+  "lodList": [
+    {
+      "subMeshMap": {
+        "bucket_mat": {
+          "textureList": [
+            "$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_dif.tga",
+            "$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_asg.tga",
+            "$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_nor.tga"
+          ],
+          "material": "DifAsgNor"
+        },
+        "water_mat": {
+          "textureList": [
+            "$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+            "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+            "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+          ],
+          "material": "Glass"
+        }
+      },
+      "mesh": "$SURVIVAL_DATA/Objects/Mesh/tool_parts/obj_tool_parts_bucket_full.fbx"
+    }
+  ]
+}

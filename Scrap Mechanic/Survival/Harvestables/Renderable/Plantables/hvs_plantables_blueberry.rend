@@ -1,0 +1,36 @@
+{
+	"lodList": [
+		{
+			"includes": [
+				"POSITION",
+				"NORMAL",
+				"UV0",
+				"VERTEX_COLOR",
+				"TANGENT"
+			], 
+			"subMeshMap": {
+				"blueberry_mat": {
+				    "material": "Leaves",
+				    "textureList": [
+				        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_blueberry_dif.tga",
+                        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_blueberry_asg.tga",
+                        "$SURVIVAL_DATA/Harvestables/Textures/Plantables/hvs_plantables_blueberry_nor.tga"
+				    ]
+				},
+				"Soil": {
+				    "material": "UVAnimDifAsgNor",
+				    "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_nor.tga"
+				    ],
+				    "custom":{
+				                  "uv0": { "u": 1, "v": 0.1 }
+				     }
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Plantables/hvs_plantables_blueberry_finished.fbx"
+		}
+	]
+}
+

@@ -1,0 +1,18 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"lambert1": {
+				    "material": "DifAsgNor",
+					    "textureList": [
+					        "$SURVIVAL_DATA/Harvestables/Textures/logfiles/hvs_logfiles_picturelog_dif.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/logfiles/hvs_logfiles_picturelog_asg.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/logfiles/hvs_logfiles_picturelog_nor.tga"
+					    ]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/logfiles/hvs_logfiles_picturelog.fbx"
+		}
+	]
+}
+

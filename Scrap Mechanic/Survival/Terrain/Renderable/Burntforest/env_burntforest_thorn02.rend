@@ -1,0 +1,33 @@
+{
+                "impostorThreshold": 110,
+                "lodList": [
+                    {
+                        "maxViewDistance": 15,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Burntforest/env_burntforest_thorn02.fbx",
+						"subMeshMap": {
+							"vines": {
+                                "custom": {
+                                    "color": "thorn"
+                                },
+                                "material": "Trunk",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_thorn_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_thorn_asg.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_thorn_nor.tga"
+                                ]
+                            },
+							"leaves": {
+							 "custom": {
+                                    "color": "thorn"
+                                },
+                                "material": "DifAsgNorAlpha",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_thorn_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_thorn_asg.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_thorn_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }

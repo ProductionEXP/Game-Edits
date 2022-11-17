@@ -1,0 +1,17 @@
+{
+	"lodList": [{
+		"animationList" : [
+		// Carrotburger
+
+		{ "name" : "carrotburger_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Pizzaburger/ani_char_male_fp_pizzaburger_idle.dae", "looping" : true  },
+		{ "name" : "carrotburger_pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Pizzaburger/ani_char_male_fp_pizzaburger_pickup.dae" },
+		{ "name" : "carrotburger_putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Pizzaburger/ani_char_male_fp_pizzaburger_putdown.dae" },
+		{ "name" : "carrotburger_use", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Pizzaburger/ani_char_male_fp_pizzaburger_use.dae" },
+		{ "name" : "carrotburger_run", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Pizzaburger/ani_char_male_fp_pizzaburger_run.dae", "looping" : true  },
+		{ "name" : "carrotburger_sprint_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Pizzaburger/ani_char_male_fp_pizzaburger_sprint_idle.dae", "looping" : true },
+		{ "name" : "carrotburger_sprint_into", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Pizzaburger/ani_char_male_fp_pizzaburger_sprint_into.dae" },
+		{ "name" : "carrotburger_sprint_out", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Pizzaburger/ani_char_male_fp_pizzaburger_sprint_out.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

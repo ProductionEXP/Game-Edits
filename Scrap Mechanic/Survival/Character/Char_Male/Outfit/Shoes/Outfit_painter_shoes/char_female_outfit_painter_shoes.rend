@@ -1,0 +1,34 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_painter_shoes/char_female_outfit_painter_shoes.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+                    "outfit_painter_shoes": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_painter_shoes/outfit_painter_shoes_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_painter_shoes/outfit_painter_shoes_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_painter_shoes/outfit_painter_shoes_nor.tga"
+					    ]
+              	  	},
+              	  	"default_body_female": {
+                        "material": "Skin",
+                        "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_tkn.tga"
+                        ]
+                    },
+                    "default_body_female_cloth": {
+                        "material": "DifAsgNor",
+                        "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga"
+                        ]
+                    }
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

@@ -1,0 +1,143 @@
+{
+	"run":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "Farmbot - RunBody",
+				"frames":
+				[
+					{
+						"frame": 0,
+						"joint": "jnt_spine2"
+					}
+				]
+			},
+			{
+				"effect": "Farmbot - FotStepMedium",
+				"frames":
+				[
+					{
+						"frame": 9,
+						"joint": "legend01_jnt"
+					},
+					{
+						"frame": 18,
+						"joint": "legend01_jnt"
+					},
+					{
+						"frame": 2,
+						"joint": "legend02_jnt"
+					},
+					{
+						"frame": 13,
+						"joint": "legend02_jnt"
+					},
+					{
+						"frame": 6,
+						"joint": "legend03_jnt"
+					},
+					{
+						"frame": 17,
+						"joint": "legend03_jnt"
+					},
+					{
+						"frame": 11,
+						"joint": "legend04_jnt"
+					},
+					{
+						"frame": 22,
+						"joint": "legend04_jnt"
+					},
+					{
+						"frame": 3,
+						"joint": "legend05_jnt"
+					},
+					{
+						"frame": 14,
+						"joint": "legend05_jnt"
+					},
+					{
+						"frame": 8,
+						"joint": "legend06_jnt"
+					},
+					{
+						"frame": 19,
+						"joint": "legend06_jnt"
+					}
+				]
+			}
+		]
+	},
+	"sprint":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "Farmbot - RunBody",
+				"frames":
+				[
+					{
+						"frame": 0,
+						"joint": "jnt_spine2"
+					}
+				]
+			},
+			{
+				"effect": "Farmbot - FotStepHeavy",
+				"frames":
+				[
+					{
+						"frame": 9,
+						"joint": "legend01_jnt"
+					},
+					{
+						"frame": 18,
+						"joint": "legend01_jnt"
+					},
+					{
+						"frame": 2,
+						"joint": "legend02_jnt"
+					},
+					{
+						"frame": 13,
+						"joint": "legend02_jnt"
+					},
+					{
+						"frame": 6,
+						"joint": "legend03_jnt"
+					},
+					{
+						"frame": 17,
+						"joint": "legend03_jnt"
+					},
+					{
+						"frame": 11,
+						"joint": "legend04_jnt"
+					},
+					{
+						"frame": 22,
+						"joint": "legend04_jnt"
+					},
+					{
+						"frame": 3,
+						"joint": "legend05_jnt"
+					},
+					{
+						"frame": 14,
+						"joint": "legend05_jnt"
+					},
+					{
+						"frame": 8,
+						"joint": "legend06_jnt"
+					},
+					{
+						"frame": 19,
+						"joint": "legend06_jnt"
+					}
+				]
+			}
+
+		]
+	}
+}

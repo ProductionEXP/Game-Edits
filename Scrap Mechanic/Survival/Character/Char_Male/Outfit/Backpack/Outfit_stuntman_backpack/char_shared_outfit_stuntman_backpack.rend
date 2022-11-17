@@ -1,0 +1,27 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"outfit_stuntman_backpack": {
+				    "material": "DifAsgNor",
+				    "color": "ffffff",
+				    "textureList":	[
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_stuntman_backpack/outfit_stuntman_backpack_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_stuntman_backpack/outfit_stuntman_backpack_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_stuntman_backpack/outfit_stuntman_backpack_nor.tga"
+			    	]
+				},
+				"Glass": {
+				    "material": "Glass",
+				    "color": "ffffff",
+				    "textureList":	[
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_stuntman_backpack/outfit_stuntman_backpack_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_stuntman_backpack/outfit_stuntman_backpack_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_stuntman_backpack/outfit_stuntman_backpack_nor.tga"
+			    	]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/backpack/Outfit_stuntman_backpack/char_shared_outfit_stuntman_backpack.dae"
+		}
+	]
+}

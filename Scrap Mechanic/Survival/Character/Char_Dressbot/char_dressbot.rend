@@ -1,0 +1,39 @@
+{
+	"lodList": [
+	{
+		"mesh": "$SURVIVAL_DATA/Character/Char_dressbot/char_dressbot.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap" : {
+                            "char_dressbot_mat": {
+                                "material" : "DifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Dressbot/char_Dressbot_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Dressbot/char_Dressbot_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Dressbot/char_Dressbot_nor.tga"
+                                ]
+                                
+                            }
+                        },
+		"animationList" : [
+
+            { "name" : "unfold", 				"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_unfold.dae" },
+            { "name" : "idle", 					"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_idle.dae"},
+            // { "name" : "idlespecial01", 		"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_idlespecial01.dae"},
+
+            { "name" : "craft_start", 			"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_craft_start.dae" },
+            { "name" : "craft_loop01", 			"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_craft_loop01.dae"},
+            { "name" : "craft_loop02", 			"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_craft_loop02.dae"},
+            { "name" : "craft_finish", 			"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_craft_finish.dae"},
+
+            { "name" : "opendoors", 			"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_opendoors_idle_add.dae"},
+           //{ "name" : "opendoors", 			"file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_opendoors_add.dae"},
+
+
+            { "name" : "aimbend_updown",        "file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_bend_updown.dae" },
+            { "name" : "aimbend_leftright",     "file" : "$SURVIVAL_DATA/Character/Char_Dressbot/Animations/ani_char_dressbot_bend_leftright.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}
+	]
+} 

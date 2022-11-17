@@ -1,0 +1,42 @@
+{
+"lodList": [
+	{
+		"minViewSize": 700,
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_stairs_03_lod0.fbx",
+		"subMeshMap": {
+            "metalbar_mat": {
+                "custom": {
+                    "color": "metal",
+                    "textureTiling" : [1,1,1,1]
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout01_nor.tga"
+                ]
+			}
+		}
+	},
+	{
+		"minViewSize": 100,
+		"mesh": "$SURVIVAL_DATA/Terrain/Mesh/Ruin/env_ruin_stairs_03_lod1.fbx",
+		"subMeshMap": {
+            "metalbar_mat": {
+                "custom": {
+                    "color": "metal",
+                    "textureTiling" : [1,1,1,1]
+                },
+                "material": "DifAsgNorNorD_UV1",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/env_ruin_metal_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Ruin/trim_layout01_nor.tga"
+                ]
+			}
+		}
+	}
+]
+}

@@ -1,0 +1,33 @@
+{
+                "impostorThreshold": 110,
+                "lodList": [
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Burntforest/env_burntforest_log01.fbx",
+                        "subMeshMap": {
+							"bark": {
+                                "custom": {
+                                    "color": "bark"
+                                },
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntspruce_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntspruce_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntspruce_nor.tga"
+                                ]
+                            },
+							"leaves": {
+                                "custom": {
+                                    "color": "bark"
+                                },
+                                "material": "DifAsgNorAlpha",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_branches_dif.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_branches_asg.tga",
+                                    "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_branches_nor.tga"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }

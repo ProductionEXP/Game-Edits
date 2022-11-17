@@ -1,0 +1,17 @@
+{
+  "lodList": [
+    {
+      "subMeshList": [
+        {
+          "textureList": [
+            "$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_dif.tga",
+            "$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_asg.tga",
+            "$SURVIVAL_DATA/Objects/Textures/tool_parts/obj_tool_parts_bucket_full_nor.tga"
+          ],
+          "material": "DifAsgNor"
+        }
+      ],
+      "mesh": "$SURVIVAL_DATA/Objects/Mesh/tool_parts/obj_tool_parts_bucket_empty.fbx"
+    }
+  ]
+}

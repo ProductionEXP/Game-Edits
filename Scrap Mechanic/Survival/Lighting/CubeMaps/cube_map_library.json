@@ -1,0 +1,78 @@
+{
+	"legacy_environment" : {
+		"textures" : [
+			"$GAME_DATA/Textures/CubeMaps/cubemap_rt.jpg",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_lf.jpg",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_up.jpg",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_dn.jpg",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_fr.jpg",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_bk.jpg"
+		]
+	},
+	"legacy_flat" : {
+		"textures" : [
+			"$GAME_DATA/Textures/CubeMaps/cubemap_flat_rt.tga",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_flat_lf.tga",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_flat_up.tga",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_flat_dn.tga",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_flat_fr.tga",
+			"$GAME_DATA/Textures/CubeMaps/cubemap_flat_bk.tga"
+		]
+	},
+	"challenge_indoor" : {
+		"textures" : [
+			"$CHALLENGE_DATA/Textures/CubeMaps/Indoor/rt.tga",
+			"$CHALLENGE_DATA/Textures/CubeMaps/Indoor/lf.tga",
+			"$CHALLENGE_DATA/Textures/CubeMaps/Indoor/up.tga",
+			"$CHALLENGE_DATA/Textures/CubeMaps/Indoor/dn.tga",
+			"$CHALLENGE_DATA/Textures/CubeMaps/Indoor/fr.tga",
+			"$CHALLENGE_DATA/Textures/CubeMaps/Indoor/bk.tga"
+		]
+	},
+	"preview" : {
+		"compress" : false,
+		"textures" : [
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_preview/cubemap_preview_rt.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_preview/cubemap_preview_lf.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_preview/cubemap_preview_up.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_preview/cubemap_preview_dn.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_preview/cubemap_preview_fr.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_preview/cubemap_preview_bk.tga"
+		]
+	},
+	"sky" : {
+		"grayscale" : true,
+		"resources" : true,
+		"compress" : false,
+		"textures" : [
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_sky/cubemap_sky_rt.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_sky/cubemap_sky_lf.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_sky/cubemap_sky_up.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_sky/cubemap_sky_dn.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_sky/cubemap_sky_fr.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_sky/cubemap_sky_bk.tga"
+		]
+	},
+	"default" : {
+		"resources" : true,
+		"textures" : [
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_01/cubemap_01_rt.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_01/cubemap_01_lf.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_01/cubemap_01_up.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_01/cubemap_01_dn.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_01/cubemap_01_fr.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_01/cubemap_01_bk.tga"
+		]	
+	},
+	"outfits" : {
+		"compress" : false,
+		"textures" : [
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_outfits/cubemap_outfits_rt.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_outfits/cubemap_outfits_lf.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_outfits/cubemap_outfits_up.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_outfits/cubemap_outfits_dn.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_outfits/cubemap_outfits_fr.tga",
+			"$SURVIVAL_DATA/Lighting/CubeMaps/Cubemap_outfits/cubemap_outfits_bk.tga"
+		]
+	}
+}

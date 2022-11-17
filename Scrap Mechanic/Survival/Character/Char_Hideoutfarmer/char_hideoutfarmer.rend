@@ -1,0 +1,84 @@
+{
+                "lodList": [
+                    {
+                        "mesh": "$SURVIVAL_DATA/Character/Char_hideoutfarmer/char_hideoutfarmer.dae",
+                        "subMeshMap": {
+                            "skin": {
+                                "material": "SkelAnimDifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_nor.tga"
+                                ]
+                            },
+                            "hair": {
+                                "material": "SkelAnimDifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_nor.tga"
+                                ]
+                            },
+                            "clothes": {
+                                "material": "SkelAnimDifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_clothes_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_clothes_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_clothes_nor.tga"
+                                ]
+                            },
+                            "hatgloves": {
+                                "material": "SkelAnimDifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_hatgloves_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_hatgloves_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_Farmer/char_farmer_hatgloves_nor.tga"
+                                ]
+                            },
+                            "hideoutfarmer_texture": {
+                                "material": "SkelAnimDifAsgNor",
+                                "textureList": [
+                                    "$SURVIVAL_DATA/Character/Char_hideoutfarmer/char_hideoutfarmer_dif.tga",
+                                    "$SURVIVAL_DATA/Character/Char_hideoutfarmer/char_hideoutfarmer_asg.tga",
+                                    "$SURVIVAL_DATA/Character/Char_hideoutfarmer/char_hideoutfarmer_nor.tga"
+                                ]
+                            },
+                            "net": {
+                                "material": "SkelAnimDifAsgNorAlpha",
+                                "textureList": [
+                                    "$GAME_DATA/Textures/Tiled/Metalalpha/t_tiled_brokennet_dif.tga",
+                                    "$GAME_DATA/Textures/Tiled/Metalalpha/t_tiled_brokennet_asg.tga",
+                                    "$GAME_DATA/Textures/Tiled/Metalalpha/t_tiled_brokennet_nor.tga"
+                                ]
+                            }
+                        },
+                        "animationList": [
+                            {
+                                "name": "Idle",
+                                "file": "$SURVIVAL_DATA/Character/Char_hideoutfarmer/Animations/ani_char_hideoutfarmer_idle.dae",
+                                "looping": true
+                            },
+                            {
+                                "name": "Close",
+                                "file": "$SURVIVAL_DATA/Character/Char_hideoutfarmer/Animations/ani_char_hideoutfarmer_close.dae"
+                            },
+                            {
+                                "name": "Open",
+                                "file": "$SURVIVAL_DATA/Character/Char_hideoutfarmer/Animations/ani_char_hideoutfarmer_open.dae"
+                            },
+                            {
+                                "name": "Confirm01",
+                                "file": "$SURVIVAL_DATA/Character/Char_hideoutfarmer/Animations/ani_char_hideoutfarmer_confirm01.dae"
+                            },
+                            {
+                                "name": "Confirm02",
+                                "file": "$SURVIVAL_DATA/Character/Char_hideoutfarmer/Animations/ani_char_hideoutfarmer_confirm02.dae"
+                            },
+                            {
+                                "name": "Confirm03",
+                                "file": "$SURVIVAL_DATA/Character/Char_hideoutfarmer/Animations/ani_char_hideoutfarmer_confirm03.dae"
+                            }
+                        ]
+                    }
+                ]
+            }

@@ -1,0 +1,57 @@
+{
+	"color": "035cff",
+	"lodList":
+	[
+		{
+			"mesh": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot04.dae",
+			"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+			"subMeshMap":{
+				"tapebot_body": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+					]
+				},
+				"tapebot_head": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head01_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_nor.tga"
+					]
+				},
+				"tapebot_tape": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head01_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_nor.tga"
+					]
+				}
+			},
+			"animationList" :
+			[
+				{
+					"name" : "alerted",
+					"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_toalert.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "TapeBot - Alerted", 
+							"bone": "head_jnt", 
+							"attached": true 
+						} 
+					]
+				},
+				{ "name" : "roaming", 		"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_toroaming.dae" },
+				{ "name" : "shoot", 		"file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_shoot.dae" },
+				{ "name" : "tapebot_aimbend_uppdown",    "file" : "$SURVIVAL_DATA/Character/Char_Tapebot/Animations/ani_char_tapebot_updown_bend.dae"  }
+			],
+			"maxViewDistance": 1000.0
+		}
+	]
+} 

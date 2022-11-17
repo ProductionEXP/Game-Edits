@@ -1,0 +1,48 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Cow/char_cow.dae",
+		"subMeshList" : [
+			{
+				"textureList":	[
+					"$SURVIVAL_DATA/Character/Char_Cow/char_cow_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Cow/char_cow_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Cow/char_cow_nor.tga"
+			    ],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"animationList" : [
+
+			
+			{ "name" : "run", 				"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_run.dae", "looping" : true },
+			{ "name" : "run_left", 				"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_run.dae", "looping" : true },
+			{ "name" : "run_right", 			"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_run.dae", "looping" : true },
+
+			{ "name" : "run_bwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_run.dae", "looping" : true },
+			{ "name" : "run_bwd_left", 			"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_run.dae", "looping" : true },
+			{ "name" : "run_bwd_right", 		"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_run.dae", "looping" : true },
+
+			{ "name" : "sprint", 			"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_sprint.dae", "looping" : true },
+			{ "name" : "sprint_left_45", 				"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_sprint.dae", "looping" : true },
+			{ "name" : "sprint_right_45", 				"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_sprint.dae", "looping" : true },
+			{ "name" : "shuffle_left", 				"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_jump_start.dae", "looping" : true },
+			{ "name" : "shuffle_right", 				"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_jump_start.dae", "looping" : true },
+
+			{ "name" : "idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_chow_lom_idle.dae", "looping" : true },
+			{ "name" : "crouch_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_chow_lom_idle.dae", "looping" : true },
+			{ "name" : "idlepsecial", 		"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_chow_lom_idlespecial.dae", "looping" : true },
+			
+			{ "name" : "jump_start", 		"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_jump_start.dae" },
+			{ "name" : "jump_up", 			"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_jump_up.dae", "looping" : true },
+			{ "name" : "jump_down", 		"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_jump_down.dae", "looping" : true },
+			{ "name" : "jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_jump_land.dae"},
+			
+			{ "name" : "swim_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_swim_fwd.dae", "looping" : true },
+			{ "name" : "swim_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_cow_lom_swim_idle.dae", "looping" : true },
+			{ "name" : "cow_eat_grass", 	"file" : "$SURVIVAL_DATA/Character/Char_Cow/Animations/ani_char_chow_lom_eat.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+} 

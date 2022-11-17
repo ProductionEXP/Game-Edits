@@ -1,0 +1,27 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_redbeet.dae",
+			"subMeshMap": {
+				"redbeet": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_nor.tga"
+					]
+				},
+				"redbeet_leaves": {
+					"material": "DifAsgNorAlpha",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_redbeet_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}
+

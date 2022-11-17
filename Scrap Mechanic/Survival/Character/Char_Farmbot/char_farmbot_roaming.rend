@@ -1,0 +1,74 @@
+{
+	"lodList":
+	[
+		{
+			"animationList" :
+			[
+             {
+					"name" : "idle", 					
+					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_idle.dae",
+					"looping" : true,
+					"events": 
+					[ 
+						{ 
+							"time": 1.6,
+							"weight": 0.0,
+							"effect": "Farmbot - MoveHead", 
+							"bone": "neck_jnt", 
+							"attached": true 
+						},
+						{ 
+							"time": 3.1,
+							"weight": 0.0,
+							"effect": "Farmbot - MoveHead", 
+							"bone": "neck_jnt", 
+							"attached": true 
+						},
+						{ 
+							"time": 0.3,
+							"weight": 0.0,
+							"effect": "Farmbot - RattleSyth", 
+							"bone": "jnt_spine2", 
+							"attached": true 
+						},
+						{ 
+							"time": 1.0,
+							"weight": 0.0,
+							"effect": "Farmbot - RunBody", 
+							"bone": "jnt_spine2", 
+							"attached": true 
+						},
+						{ 
+							"time": 2.0,
+							"weight": 0.0,
+							"effect": "Farmbot - RunBody", 
+							"bone": "jnt_spine2", 
+							"attached": true
+						}
+					]
+				},
+				{ "name" : "crouch_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_idle.dae", "looping" : true },
+
+
+				{ "name" : "run", 					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_run_fwd.dae", "looping" : true },
+				{ "name" : "run_left", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_run_left.dae", "looping" : true },
+				{ "name" : "run_right", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_run_right.dae", "looping" : true },
+				{ "name" : "run_bwd", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_run_bwd.dae", "looping" : true },
+				{ "name" : "run_bwd_left", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_run_bwd_left.dae", "looping" : true },
+				{ "name" : "run_bwd_right", 		"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_run_bwd_right.dae", "looping" : true },
+
+				{ "name" : "shuffle_left", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_shuffle_left.dae", "looping" : true },
+				{ "name" : "shuffle_right", 		"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_shuffle_right.dae", "looping" : true },
+
+				{ "name" : "sprint", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_sprint_fwd.dae", "looping" : true },
+				{ "name" : "sprint_left_45", 		"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_sprint_left45.dae", "looping" : true },
+				{ "name" : "sprint_right_45", 		"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_sprint_right45.dae", "looping" : true },
+
+				{ "name" : "jump", 					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_jump.dae" },
+				{ "name" : "jump_up", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_jump_up.dae", "looping" : true },
+				{ "name" : "jump_down", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_jump_down.dae", "looping" : true },
+				{ "name" : "jump_land", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_jump_land.dae" }
+			]
+		}
+	]
+} 

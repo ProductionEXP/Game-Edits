@@ -1,0 +1,27 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger.dae",
+			"subMeshMap": {
+				"pizza_burger": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_nor.tga"
+					]
+				},
+				"pizza_burger_lettuce": {
+					"material": "DifAsgNorAlpha",
+					"textureList": [
+                        "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_lettuce_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_lettuce_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/char_pizzaburger_lettuce_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}
+

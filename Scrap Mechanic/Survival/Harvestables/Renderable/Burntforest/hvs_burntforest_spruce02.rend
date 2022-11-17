@@ -1,0 +1,42 @@
+{
+    "impostorThreshold": 110,
+    "lodList": [
+        {
+            "includes": [
+                "POSITION",
+                "NORMAL",
+                "UV0",
+                "VERTEX_COLOR",
+                "TANGENT"
+            ],
+            "maxViewDistance": 2500,
+            "mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Burntforest/hvs_burntforest_spruce02.fbx",
+            "subMeshMap": {
+                 "innerwood": {
+                    "material": "Trunk",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntforest_ember_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntforest_ember_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntforest_ember_nor.tga"
+                    ]
+                },
+				"bark": {
+                    "material": "Trunk",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntspruce_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntspruce_asg.tga",
+                        "$GAME_DATA/Textures/Tiled/Wood/t_tiled_burntspruce_nor.tga"
+                    ]
+                },
+				"leaves": {
+                    "material": "Leaves",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_branches_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_branches_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_branches_nor.tga"
+                    ]
+                }
+            }
+        }
+    ]
+}

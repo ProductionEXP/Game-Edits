@@ -1,0 +1,185 @@
+{
+	"color": "c52c18",
+	"lodList":
+	[
+		{
+			"mesh": "$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot.dae",
+			"subMeshMap":{
+	            "farmbot": {  
+	                "material": "DifAsgNor",
+	                "textureList": [
+						"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_nor.tga"
+	                ]
+	      	  	}
+			},
+			"animationList" :
+			[
+				{ "name" : "alerted", 						"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_toalert.dae" },
+				{ "name" : "roaming", 						"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_toroaming.dae" },
+				{ "name" : "farmbot_aimbend_uppdown",   	"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_updown_bend.dae"  },
+				{ "name" : "farmbot_aimbend_leftright",  	"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_updown_bend.dae"  },
+				
+				{ "name" : "windup", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge_windup.dae" },
+				{ "name" : "crouch_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge.dae", "looping" : true },
+				{ "name" : "crouch_fwd_left45", 	"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge.dae", "looping" : true },
+				{ "name" : "crouch_fwd_right45", 	"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge.dae", "looping" : true },
+				{ "name" : "crouch_left", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge.dae", "looping" : true },
+				{ "name" : "crouch_right", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge.dae", "looping" : true },
+				{ "name" : "crouch_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge.dae", "looping" : true },
+				{ "name" : "crouch_bwd_left45", 	"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge.dae", "looping" : true },
+				{ "name" : "crouch_bwd_right45", 	"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge.dae", "looping" : true },
+				{ "name" : "impact", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge_impact.dae" },
+				{ "name" : "break", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge_break.dae" },
+				{ "name" : "recover", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_charge_winded.dae" },
+				
+				{ "name" : "sleep_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_sleep_idle.dae", "looping" : true },
+				{ "name" : "sleep_awake", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_sleep_awake.dae" },
+				{ "name" : "sleep_tosleep", 		"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_sleep_tosleep.dae" },
+				
+				{ "name" : "idlespecial01", 		"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_idlespecial01.dae" },
+				{ "name" : "idlespecial02", 		"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_roaming_idlespecial02.dae" },
+				
+				{ 	"name" : "angry", 				
+					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_angry.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.5,
+							"weight": 0.0,
+							"effect": "Farmbot - Angry", 
+							"bone": "jnt_spine2", 
+							"attached": true 
+						} 
+				] },
+				{ "name" : "destroy", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_destroy.dae" },
+				{ "name" : "aim_in", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_aim_in.dae" },
+				{ "name" : "aim_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_aim_idle.dae", "looping" : true },
+				{ "name" : "chargeshoot", 			"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_aim_chargeshoot.dae" },
+				{ "name" : "shoot", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_aim_shoot.dae" },
+				{ "name" : "aim_out", 				"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_aim_out.dae" },
+				{
+					"name" : "attack01", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_attack01_add.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.3,
+							"weight": 0.0,
+							"effect": "Farmbot - Attack01", 
+							"bone": "jnt_spine2", 
+							"attached": true 
+						},
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Farmbot - RunBody", 
+							"bone": "jnt_spine2", 
+							"attached": true 
+						}
+					] 
+				},
+				{
+					"name" : "attack02", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_run_attack02.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Farmbot - Attack02",
+							"bone": "jnt_spine2", 
+							"attached": true 
+						},
+						{ 
+							"time": 0.5,
+							"weight": 0.0,
+							"effect": "Farmbot - RunBody", 
+							"bone": "jnt_spine2", 
+							"attached": true 
+						}
+					]
+				},
+				{
+					"name" : "attack03", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_attack03.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.3,
+							"weight": 0.0,
+							"effect": "Farmbot - Attack03",
+							"bone": "head_jnt", 
+							"attached": true 
+						}, 
+						{ 
+							"time": 0.7,
+							"weight": 0.0,
+							"effect": "Farmbot - FotStepMedium", 
+							"bone": "legend01_jnt", 
+							"attached": true 
+						},	
+						{ 
+							"time": 1.5,
+							"weight": 0.0,
+							"effect": "Farmbot - FotStepLight",
+							"bone": "legend06_jnt", 
+							"attached": true 
+						}
+					]
+				},
+				{
+					"name" : "attack04", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_attack04.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.3,
+							"weight": 0.0,
+							"effect": "Farmbot - Attack04",
+							"bone": "root_jnt", 
+							"attached": true 
+						}, 
+						{ 
+							"time": 0.1,
+							"weight": 0.0,
+							"effect": "Farmbot - MoveHead",
+							"bone": "neck_jnt", 
+							"attached": true 
+						}, 
+						{ 
+							"time": 1.0,
+							"weight": 0.0,
+							"effect": "Farmbot - RattleSyth", 
+							"bone": "jnt_spine2", 
+							"attached": true 
+						}
+					]
+				},
+				{
+					"name" : "attack05", 		
+					"file" : "$SURVIVAL_DATA/Character/Char_Farmbot/Animations/ani_char_farmbot_alert_sprint_attack05.dae",
+					"events": 
+					[ 
+						{ 
+							"time": 0.2,
+							"weight": 0.0,
+							"effect": "Farmbot - Attack03",
+							"bone": "jnt_spine2", 
+							"attached": true 
+						}, 
+						{ 
+							"time": 0.0,
+							"weight": 0.0,
+							"effect": "Farmbot - SprintBody",
+							"bone": "jnt_spine2", 
+							"attached": true 
+						} 
+					]
+				}
+			],
+			"maxViewDistance": 1000.0
+		}
+	]
+} 

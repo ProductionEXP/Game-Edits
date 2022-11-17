@@ -1,0 +1,130 @@
+{
+	"Elevator Button": 
+	{
+		"effectList": 
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/installations/elevator/elevator_button",
+				"delay": 0.0
+			}
+		]
+	},
+	"ElevatorWall": 
+	{
+		"effectList": 
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/installations/elevator/elevator_move_stereo",
+				"delay": 0.0
+			}
+		]
+	},
+	"ElevatorMusic": 
+	{
+		"effectList": 
+		[
+			{
+				"type": "audio",
+				"name": "event:/music/elevator",
+				"offset": {
+					"x": 1.75,
+					"y": 1.5,
+					"z": 1.75
+				},
+				"delay": 0.0
+			},
+			{
+				"type": "audio",
+				"name": "event:/music/elevator",
+				"offset": {
+					"x": 1.75,
+					"y": 1.5,
+					"z": -1.75
+				},
+				"delay": 0.0
+			}
+		]
+	},
+	"ElevatorAmbiance": 
+	{
+		"effectList": 
+		[
+			{
+				"type": "audio",
+				"name": "event:/amb/3D/amb_3D_elevator",
+				"delay": 0.0
+			}
+		]
+	},
+	"Elevator - Opendoor": 
+	{
+		"effectList": 
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/installations/elevator/elevatordoor_open",
+				"delay": 0.0,
+				"offset": {
+					"x": -2.25,
+					"y": 0.0,
+					"z": -1.0
+				}
+			},
+			{
+				"type": "audio",
+				"name": "event:/props/installations/elevator/elevator_ding",
+				"delay": 2.0,
+				"offset": {
+					"x": -2.25,
+					"y": 0.0,
+					"z": -1.0
+				}
+			}
+		]
+	},
+	"Elevator - Closedoor": 
+	{
+		"effectList": 
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/installations/elevator/elevatordoor_close",
+				"delay": 0.0,
+				"offset": {
+					"x": -2.0,
+					"y": 0.0,
+					"z": -1.0
+				}
+			}
+		]
+	},
+	"Elevator - MoveOutside": 
+	{
+		"effectList": 
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/installations/elevator/elevator_move_outside",
+				"delay": 0.0,
+				"offset": {
+					"x": -2.25,
+					"y": 0.0,
+					"z": -4.0
+				}
+			}
+		]
+	},
+	"Elevator - Keycarduse": 
+	{
+		"effectList": 
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/installations/elevator/elevator_keycard_use",
+				"delay": 0.0
+			}
+		]
+	}
+}

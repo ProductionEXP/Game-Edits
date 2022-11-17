@@ -1,0 +1,46 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decal_testdecal_dif.tga",
+    "norSheet": "$SURVIVAL_DATA/Decals/Textures/decal_testdecal_nor.tga",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decal_testdecal_ags.tga",
+    "decalList":
+    {
+	"Ags":
+	{
+	    "uuid": "a6ee23bc-b71a-497f-8391-2a150ce21f8c",
+	    "region": [0,4,0,4],
+	    "material": "NorAgs"
+	},
+	"NorAgs":
+	{
+	    "uuid": "d43c4120-6f64-4d11-ac6c-c5d81d73c160",
+	    "region": [5,10,0,1],
+	    "material": "NorAgs"
+	},
+	"Everything":
+	{
+	    "uuid": "b1716ce5-8be4-4a01-abcc-2c0a526c65d0",
+	    "region": [5,10,2,5],
+	    "material": "DifNorAgs"
+	},
+	"Dif":
+	{
+	    "uuid": "449d555a-aa82-4021-a26a-94775924178e",
+	    "region": [11,15,0,5],
+	    "material": "Dif",
+	    "glow": 1.0
+	},
+	
+	"Nor":
+	{
+	    "uuid": "f3739571-20d8-4d91-9634-034bf0f9e447",
+	    "region": [8,15,6,12],
+	    "material": "DifNorAgs"
+	},
+	"CrackNorAsg":
+	{
+	    "uuid": "f3739571-20d8-4d91-9634-034bf7f9e447",
+	    "region": [8,15,6,12],
+	    "material": "Ags"
+	}
+    }
+}

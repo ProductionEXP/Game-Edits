@@ -1,0 +1,19 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_gloves.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		
+		"subMeshList" : [
+			{
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_tkn.tga"
+				],
+				"material": "Skin"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

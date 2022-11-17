@@ -1,0 +1,34 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_automotive_shoes/char_female_outfit_automotive_shoes.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+                    "outfit_automotive_shoes": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_automotive_shoes/outfit_automotive_shoes_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_automotive_shoes/outfit_automotive_shoes_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_automotive_shoes/outfit_automotive_shoes_nor.tga"
+					    ]
+              	  	},
+                    "default_body_female": {
+                        "material": "Skin",
+                        "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_tkn.tga"
+                        ]
+                    },
+                    "default_body_female_cloth": {
+                        "material": "DifAsgNor",
+                        "textureList": [
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_dif.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_asg.tga",
+							"$SURVIVAL_DATA/Character/Char_Male/Body/Female/char_female_body_nor.tga"
+                        ]
+                    }
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_default_backpack/char_shared_outfit_default_backpack.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" : [
+			{
+				"textureList":	[
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_default_backpack/outfit_default_backpack_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_default_backpack/outfit_default_backpack_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_default_backpack/outfit_default_backpack_nor.tga"
+			    ],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

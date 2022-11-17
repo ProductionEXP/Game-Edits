@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"animationList" : [
+		
+			{ "name" : "item_idle", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_idle_resource.dae", "looping" : true },		
+			{ "name" : "item_run", 						"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_run_resource.dae", "looping" : true },
+			{ "name" : "item_runbwd", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_run_resource.dae", "looping" : true },
+			{ "name" : "item_sprint_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_run_resource.dae", "looping" : true },
+			{ "name" : "item_crouch_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_idle_resource.dae", "looping" : true },		
+			{ "name" : "item_crouch_run", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_crouch_resource.dae", "looping" : true },
+			{ "name" : "item_crouch_runbwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_crouch_resource.dae", "looping" : true },
+			{ "name" : "item_jump", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_idle_resource.dae" },
+			{ "name" : "item_jump_up", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_idle_resource.dae", "looping" : true  },
+			{ "name" : "item_jump_down", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_idle_resource.dae", "looping" : true  },
+			{ "name" : "item_jump_land", 				"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_idle_resource.dae" },
+			{ "name" : "item_jump_land_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_idle_resource.dae" },
+			{ "name" : "item_jump_land_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_idle_resource.dae" },
+			{ "name" : "item_pickup", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_pickup_resource.dae" },
+			{ "name" : "item_putdown", 					"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Thirdperson/Item/ani_char_male_item_putdown_resource.dae" }
+
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

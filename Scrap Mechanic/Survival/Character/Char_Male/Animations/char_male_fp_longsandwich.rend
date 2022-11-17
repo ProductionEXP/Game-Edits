@@ -1,0 +1,15 @@
+{
+	"lodList": [{
+		"animationList" : [
+		// Longsandwich
+
+		{ "name" : "longsandwich_idle", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Longsandwich/ani_char_male_fp_longsandwich_idle.dae", "looping" : true  },
+		{ "name" : "longsandwich_pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Longsandwich/ani_char_male_fp_longsandwich_pickup.dae" },
+		{ "name" : "longsandwich_putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Longsandwich/ani_char_male_fp_longsandwich_putdown.dae" },
+		{ "name" : "longsandwich_sprint_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Longsandwich/ani_char_male_fp_longsandwich_sprint_idle.dae", "looping" : true },
+		{ "name" : "longsandwich_sprint_into", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Longsandwich/ani_char_male_fp_longsandwich_sprint_into.dae" },
+		{ "name" : "longsandwich_sprint_out", 		"file" : "$SURVIVAL_DATA/Character/Char_Male/Animations/Firstperson/Longsandwich/ani_char_male_fp_longsandwich_sprint_out.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

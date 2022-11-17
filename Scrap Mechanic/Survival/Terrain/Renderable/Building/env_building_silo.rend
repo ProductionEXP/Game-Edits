@@ -1,0 +1,219 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_silo_lod0.fbx",
+         "minViewSize" : 850,
+         "subMeshMap" : {
+            "cautionmetal" : {
+               "custom" : {
+                  "color" : "cautionmetal"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_nor.tga"
+               ]
+            },
+            "dockingport" : {
+               "custom" : {
+                  "color" : "dockingport"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_dif.tga",
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_asg.tga",
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_nor.tga"
+               ]
+            },
+            "ribbedPlate" : {
+               "custom" : {
+                  "color" : "ribbedPlate"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_boltstripes_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_boltstripes_nor.tga"
+               ]
+            },
+            "rubber" : {
+               "custom" : {
+                  "color" : "rubber"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_nor.tga"
+               ]
+            },
+            "shinymetal" : {
+               "custom" : {
+                  "color" : "shinymetal"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_nor.tga"
+               ]
+            },
+            "shinytank" : {
+               "custom" : {
+                  "color" : "shinytank"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_nor.tga"
+               ]
+            }
+         }
+      },
+      {
+         "mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_silo_lod1.fbx",
+         "minViewSize" : 160,
+         "subMeshMap" : {
+            "cautionmetal" : {
+               "custom" : {
+                  "color" : "cautionmetal"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_nor.tga"
+               ]
+            },
+            "dockingport" : {
+               "custom" : {
+                  "color" : "dockingport"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_dif.tga",
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_asg.tga",
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_nor.tga"
+               ]
+            },
+            "ribbedPlate" : {
+               "custom" : {
+                  "color" : "ribbedPlate"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_boltstripes_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_boltstripes_nor.tga"
+               ]
+            },
+            "rubber" : {
+               "custom" : {
+                  "color" : "rubber"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_nor.tga"
+               ]
+            },
+            "shinymetal" : {
+               "custom" : {
+                  "color" : "shinymetal"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_nor.tga"
+               ]
+            },
+            "shinytank" : {
+               "custom" : {
+                  "color" : "shinytank"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_nor.tga"
+               ]
+            }
+         }
+      },
+      {
+         "mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_silo_lod2.fbx",
+         "subMeshMap" : {
+            "cautionmetal" : {
+               "custom" : {
+                  "color" : "cautionmetal"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_cautionmetal_nor.tga"
+               ]
+            },
+            "dockingport" : {
+               "custom" : {
+                  "color" : "dockingport"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_dif.tga",
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_asg.tga",
+                  "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_dockingport_nor.tga"
+               ]
+            },
+            "ribbedPlate" : {
+               "custom" : {
+                  "color" : "ribbedPlate"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_boltstripes_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_boltstripes_nor.tga"
+               ]
+            },
+            "rubber" : {
+               "custom" : {
+                  "color" : "rubber"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_galvanizedmetal_nor.tga"
+               ]
+            },
+            "shinymetal" : {
+               "custom" : {
+                  "color" : "shinymetal"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_mattmetal_nor.tga"
+               ]
+            },
+            "shinytank" : {
+               "custom" : {
+                  "color" : "shinytank"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_nor.tga"
+               ]
+            }
+         }
+      }
+   ]
+}

@@ -1,0 +1,17 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"farmbot": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_nor.tga"
+					]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_farmbotpart_drill.fbx"
+		}
+	]
+}

@@ -1,0 +1,390 @@
+{
+	"Tree - LeafRattle":
+	{
+		"parameterList":
+		{
+			"Velocity_max_50": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/tree_impact_leafrattle",
+				"parameters":
+				[
+					"Velocity_max_50"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"Tree - Ambient Birds":
+	{
+		"effectList":[{
+			"type": "audio",
+			"name": "event:/amb/birds",
+			"delay": 0
+		}]
+	},
+	"Tree - Falling":
+	{
+		"parameterList":
+		{
+			"velocity_tree": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/tree_fall",
+				"parameters":
+				[
+					"velocity_tree"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"Tree - Creak":
+	{
+		"parameterList":
+		{
+			"tree_creaking": 1
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/tree_creak",
+				"parameters":
+				[
+					"tree_creaking"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"Tree - LogAppear":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/logs_appear",
+				"delay": 0.0
+			}
+		]
+	},
+	"Tree - DefaultHit":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_sledgehammer_impact_hvs_trees",
+				"delay": 0.0
+			}
+		]
+	},
+	"Tree - BurnedHit":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_sledgehammer_impact_hvs_burntforest",
+				"delay": 0.0
+			}
+		]
+	},
+	"Tree - BirchHit":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_sledgehammer_impact_hvs_birch",
+				"delay": 0.0
+			}
+		]
+	},
+	"beehive - beeswarm":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/props/beehive",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_hvs_beehive_beeswarm",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	},
+	"beehive - destruct":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/coll/collapse/beehive",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_hvs_beehive_destruct",
+				"offset": { "x": 0.35, "y": 0.0, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_hvs_beehive_beeswarm_destruct",
+				"offset": { "x": 0.35, "y": 0.25, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	},
+	"Stone - Stress":
+	{
+		"parameterList":
+		{
+			"velocity_max_50": 0,
+			"size": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/coll/stress/stone",
+				"parameters":
+				[
+					"velocity_max_50",
+					"size"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"Cotton - Picked":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/coll/collapse/plant",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_hvs_cotton_destroy",
+				"offset": { "x": 0.0, "y": 0.0, "z": 1.028 },
+				"direction": { "x": 0.0, "y": 0.0, "z": 1.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	},
+	"Cotton - Fluff":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_hvs_cotton_fluff",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	},
+	"Harvestable - Marker":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_hvs_marker",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	},
+	"Harvestable - Burnttree":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/coll/collapse/tree_burnt",
+				"delay": 0.0
+			}
+		]
+	},
+	"Corn - Destruct":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/coll/collapse/corn",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_hvs_cornplant_destroy",
+				"offset": { "x": 0.0, "y": 1.0, "z": 0.0},
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	},
+	"Pigmentflower - Picked":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/coll/collapse/plant",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_hvs_pigmentflower",
+				"offset": { "x": 0.0, "y": 0.0, "z": 1.028 },
+				"direction": { "x": 0.0, "y": 0.0, "z": 1.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	},
+	"Oilgeyser - OilgeyserLoop":
+	{
+		"startDistance": 100.0,
+		"stopDistance": 150.0,
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_hvs_oilgeyser_loop",
+				"offset": { "x": 0.0, "y": 0.75, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			},
+			{
+				"type": "renderable",
+				"offset": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"name": "$SURVIVAL_DATA/Effects/Renderable/Harvestables/Oilgeyser/obj_oilgeyser_bubble.rend",
+				"delay": 2.5
+			}
+		]
+	},
+	"Oilgeyser - OilgeyserAmbience":
+	{
+		"startDistance": 16.0,
+		"stopDistance": 20.0,
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/amb/3D/oilgeyser_loop",
+				"delay": 0.0
+			}
+		]
+	},
+	"Oilgeyser - Picked":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/coll/collapse/oilgeyser",
+				"delay": 0.0
+			},			
+			{
+				"type": "particle",
+				"name": "p_hvs_oilgeyser_picked",
+				"offset": { "x": 0.0, "y": 0.0, "z": 1.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	},
+	"Oilgeyser - OilgeyserPickedLoop":
+	{
+		"startDistance": 100.0,
+		"stopDistance": 150.0,
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_hvs_oilgeyser_picked_loop",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 2.0
+			}
+		]
+	},
+	"SlimyClam - Bubbles":
+	{
+		"startDistance": 100.0,
+		"stopDistance": 150.0,
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_hvs_slimyclam_loop",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"delay": 0.0
+			}
+		]
+	},
+	"SlimyClam - BubblesAmbience":
+	{
+		"startDistance": 16.0,
+		"stopDistance": 20.0,
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/amb/3D/bubbles",
+				"delay": 0.0
+			}
+		]
+	},
+	"SlimyClam - Destruct":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/coll/collapse/clam",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_hvs_slimyclam_destroy",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			}
+		]
+	}
+}

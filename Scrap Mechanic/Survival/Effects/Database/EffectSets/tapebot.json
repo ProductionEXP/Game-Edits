@@ -1,0 +1,366 @@
+{
+	"TapeBot - Shoot":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_shoot",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_tapebot_shoot",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"TapeBot - Hit":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_takedamage",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_spudgun_impact_tapebot01",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"TapeBot - HeadShot":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_takedamage",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_spudgun_impact_headshot_tapebot01",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"TapeBot - Alerted":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_noticeplayer",
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - Destroyed":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_explode",
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_totebot_destroy",
+				"attached": false,
+				"delay": 0.05
+			},
+			{
+				"type": "particle",
+				"name": "p_tapebot_destroy_parts",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"TapeBot - Scissor":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_foley_scissor",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - AlertedScissor":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 1
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_foley_scissor",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - ChasingScissor":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_foley_scissor",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - AlertedGunRattle":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 1
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_foley_gunrattle",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - ChasingGunRattle":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_foley_gunrattle",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - Servo":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_foley_servo",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - AlertedServo":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 1
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_foley_servo",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - ChasingServo":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_foley_servo",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - FotStep":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 0
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_ff",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - AlertedFotStep":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 1
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_ff",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"TapeBot - ChasingFotStep":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/tapebot/tapebot_ff",
+				"parameters":
+				[
+					"tapebot_ff_intensity"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"RedTapeBot - ExplosivesHit":
+	{
+		"maxInstances": 64,
+		"parameterList":
+		{
+			"size": 0.0,
+			"color": "ffcc34",
+			"radius": 16.0,
+			"intensity": 2.0,
+			"shakeStrength": 0.25,
+			"shakeRadius": 5.0
+		},
+		"parameterCurves":
+		{
+			"radius":
+			{
+				"timeline":
+				[
+					{ "time":0.0, "value":0.0 },
+					{ "time":0.1, "value":15.0 },
+					{ "time":0.6, "value":0.0 }
+				]
+			}
+		},
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "Explosion_small_01",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.0
+			},
+			{
+				"type": "audio",
+				"name": "Gas Explosion",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"size"
+				],
+				"delay": 0.0
+			},
+			{
+				"type": "pointLight",
+				"name": "",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"duration": 1.0,
+				"delay": 0.0
+			},
+			{
+				"type": "cameraShake",
+				"name": "",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"shakeStrength",
+					"shakeRadius"
+				],
+				"duration": 0.4,
+				"delay": 0.0
+			}
+		]
+	}
+}

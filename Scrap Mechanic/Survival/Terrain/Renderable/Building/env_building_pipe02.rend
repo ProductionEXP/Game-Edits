@@ -1,0 +1,113 @@
+{
+	"lodList": [
+        {
+            //LOD0
+            "minViewSize": 600,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_pipe02_lod0.fbx",
+            "subMeshMap": {
+                "plastic": {
+                    "custom": {
+                        "color": "plastic"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_asg.tga",
+                        ""
+                    ]
+                },
+                "shinymetal2": {
+                    "custom": {
+                        "color": "shinymetal2"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                },
+                "shinymetal": {
+                    "custom": {
+                        "color": "shinymetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            //LOD1
+            "minViewSize": 150,
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_pipe02_lod1.fbx",
+            "subMeshMap": {
+                "plastic": {
+                    "custom": {
+                        "color": "plastic"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_asg.tga",
+                        ""
+                    ]
+                },
+                "shinymetal2": {
+                    "custom": {
+                        "color": "shinymetal2"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                },
+                "shinymetal": {
+                    "custom": {
+                        "color": "shinymetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            //LOD2
+            "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Building/env_building_pipe02_lod2.fbx",
+            "subMeshMap": {
+                "shinymetal": {
+                    "custom": {
+                        "color": "shinymetal"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Building/env_building_plastic_asg.tga",
+                        ""
+                    ]
+                },
+                "shinymetal2": {
+                    "custom": {
+                        "color": "shinymetal2"
+                    },
+                    "material": "DifAsg",
+                    "textureList": [
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_dif.tga",
+                        "$GAME_DATA/Textures/Tiled/Metal/t_tiled_building_shinymetal_asg.tga",
+                        ""
+                    ]
+                }
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,319 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_splatter_dif.tga",
+    "norSheet": "$SURVIVAL_DATA/Decals/Textures/decals_splatter_nor.tga",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_splatter_ags.tga",
+    "decalList":{
+		"splatter01_nor":
+		{
+		    "uuid": "f1f1174d-f1ae-4205-a2a0-f3ba791a7c25",
+		    "region": [0,2,0,3],
+		    "material": "DifAgsNor"
+		},
+		"splatter02_nor":
+	    {
+		    "uuid": "2a0c31ca-f371-4ff4-8a7f-ee12e5f5195d",
+		    "region": [3,6,0,2],
+		    "material": "DifAgsNor"
+		},
+		"splatter03_nor":
+	    {
+		    "uuid": "32985a66-6751-4d26-aed7-23d2245b5bb0",
+		    "region": [7,8,0,3],
+		    "material": "DifAgsNor"
+		},
+		"splatter04_nor":
+	    {
+		    "uuid": "6213a027-23de-4c8c-bf18-1dc631d263b7",
+		    "region": [9,11,0,3],
+		    "material": "DifAgsNor"
+		},
+		"splatter05_nor":
+	    {
+		    "uuid": "784f3981-1bb2-47c8-a08b-ea8c8f257ed6",
+		    "region": [12,15,0,1],
+		    "material": "DifAgsNor"
+		},
+		"splatter06_nor":
+	    {
+		    "uuid": "d3e5499f-9faa-47ad-b74d-192f758a1892",
+		    "region": [12,14,2,3],
+		    "material": "DifAgsNor"
+		},
+		"splatter07_nor":
+	    {
+		    "uuid": "58ecd2be-ca24-48f0-b7c3-7ef5683d1570",
+		    "region": [15,15,2,2],
+		    "material": "DifAgsNor"
+		},
+		"splatter08_nor":
+	    {
+		    "uuid": "f210d577-b67b-44a6-a535-253efbdd4659",
+		    "region": [15,15,3,3],
+		    "material": "DifAgsNor"
+		},
+		"splatter09_nor":
+	    {
+		    "uuid": "76a20275-71c9-477e-aef6-55774730fafb",
+		    "region": [0,2,4,6],
+		    "material": "DifAgsNor"
+		},
+		"splatter10_nor":
+	    {
+		    "uuid": "881552c6-ef1c-4314-8d66-0e0a76422b4f",
+		    "region": [3,5,3,4],
+		    "material": "DifAgsNor"
+		},
+		"splatter11_nor":
+	    {
+		    "uuid": "8c854332-396a-4450-8b13-135c922497c0",
+		    "region": [3,5,5,6],
+		    "material": "DifAgsNor"
+		},
+		"splatter12_nor":
+	    {
+		    "uuid": "04588fa3-9990-448f-b7c5-73a862983f68",
+		    "region": [6,8,4,6],
+		    "material": "DifAgsNor"
+		},
+		"splatter13_nor":
+	    {
+		    "uuid": "ffdf5111-d360-495f-ba6d-4fef9a7e6af2",
+		    "region": [9,11,4,6],
+		    "material": "DifAgsNor"
+		},
+		"splatter14_nor":
+	    {
+		    "uuid": "d14d7255-4e3f-4c01-853a-89f12d7238f9",
+		    "region": [12,14,4,6],
+		    "material": "DifAgsNor"
+		},
+		"splatter15_nor":
+	    {
+		    "uuid": "c2086a7d-437b-4945-aa77-37ab31240858",
+		    "region": [15,15,4,4],
+		    "material": "DifAgsNor"
+		},
+		"splatter16_nor":
+	    {
+		    "uuid": "145a02b4-2385-4194-afc2-0fbbab802319",
+		    "region": [15,15,5,5],
+		    "material": "DifAgsNor"
+		},
+		"splatter17_nor":
+	    {
+		    "uuid": "28c724e0-da91-4399-899e-cbfa49600837",
+		    "region": [15,15,6,6],
+		    "material": "DifAgsNor"
+		},
+		"splatter18_nor":
+	    {
+		    "uuid": "9e75c37f-f841-4dfa-98fa-01ef589c7bf6",
+		    "region": [0,1,7,8],
+		    "material": "DifAgsNor"
+		},
+		"splatter19_nor":
+	    {
+		    "uuid": "957c75ae-488b-4780-b307-71ff4797ae93",
+		    "region": [2,3,7,8],
+		    "material": "DifAgsNor"
+		},
+		"splatter20_nor":
+	    {
+		    "uuid": "c1070e87-8993-42f8-a9ad-cd7a6bb914ce",
+		    "region": [4,5,7,8],
+		    "material": "DifAgsNor"
+		},
+		"splatter21_nor":
+	    {
+		    "uuid": "66e5c645-0a11-45bc-8fb2-cfa63f87f658",
+		    "region": [6,7,7,8],
+		    "material": "DifAgsNor"
+		},
+		"splatter22_nor":
+	    {
+		    "uuid": "fa5d5bc8-1bbc-462b-941f-6aa01dbe9c0b",
+		    "region": [8,9,7,8],
+		    "material": "DifAgsNor"
+		},
+		"splatter23_nor":
+	    {
+		    "uuid": "a46ecab1-73bf-4c23-a21f-c8ab3541d91e",
+		    "region": [10,11,7,8],
+		    "material": "DifAgsNor"
+		},
+		"runny01_nor":
+	    {
+		    "uuid": "19fee08e-4efe-4f58-87b6-1f1640ea4cc9",
+		    "region": [0,1,9,11],
+		    "material": "DifAgsNor"
+		},
+		"runny02_nor":
+	    {
+		    "uuid": "e70e5105-5b6e-4866-943d-a80669ed7b36",
+		    "region": [2,3,9,11],
+		    "material": "DifAgsNor"
+		},
+		"runny03_nor":
+	    {
+		    "uuid": "02d3bba2-b8d3-4d10-8846-68c1d23cd1fb",
+		    "region": [4,7,9,11],
+		    "material": "DifAgsNor"
+		},
+		"splatter01":
+		{
+		    "uuid": "e47131f1-4439-49af-9945-00597e540b5a",
+		    "region": [0,2,0,3],
+		    "material": "DifAgs"
+		},
+		"splatter02":
+	    {
+		    "uuid": "95d718ac-735c-464e-87d0-f45df8a8d4cb",
+		    "region": [3,6,0,2],
+		    "material": "DifAgs"
+		},
+		"splatter03":
+	    {
+		    "uuid": "27a101b2-e43b-4607-9748-2cb40733ed85",
+		    "region": [7,8,0,3],
+		    "material": "DifAgs"
+		},
+		"splatter04":
+	    {
+		    "uuid": "250c2131-919c-4434-9ab2-3e42ca0c927f",
+		    "region": [9,11,0,3],
+		    "material": "DifAgs"
+		},
+		"splatter05":
+	    {
+		    "uuid": "2ee05a53-4dbe-4b93-8b04-50dba6c14030",
+		    "region": [12,15,0,1],
+		    "material": "DifAgs"
+		},
+		"splatter06":
+	    {
+		    "uuid": "2a1deb94-1bff-4fb8-bcbf-e02e9227996c",
+		    "region": [12,14,2,3],
+		    "material": "DifAgs"
+		},
+		"splatter07":
+	    {
+		    "uuid": "9ba8c79a-6430-4a4f-8945-257d75b3ab4e",
+		    "region": [15,15,2,2],
+		    "material": "DifAgs"
+		},
+		"splatter08":
+	    {
+		    "uuid": "f6d4e049-e01b-4ce9-95fa-80397ecb500a",
+		    "region": [15,15,3,3],
+		    "material": "DifAgs"
+		},
+		"splatter09":
+	    {
+		    "uuid": "83a10034-dc2f-4264-8cc3-a8f7268b04a9",
+		    "region": [0,2,4,6],
+		    "material": "DifAgs"
+		},
+		"splatter10":
+	    {
+		    "uuid": "ecf8eb1d-f7b9-483e-9521-1817edaa561f",
+		    "region": [3,5,3,4],
+		    "material": "DifAgs"
+		},
+		"splatter11":
+	    {
+		    "uuid": "49633368-8bae-4c68-a62b-5454b879f04f",
+		    "region": [3,5,5,6],
+		    "material": "DifAgs"
+		},
+		"splatter12":
+	    {
+		    "uuid": "451eef97-110b-45d7-8a00-3710b0efa32c",
+		    "region": [6,8,4,6],
+		    "material": "DifAgs"
+		},
+		"splatter13":
+	    {
+		    "uuid": "53d76e3e-25cb-4a0b-96b4-630862e8ffe1",
+		    "region": [9,11,4,6],
+		    "material": "DifAgs"
+		},
+		"splatter14":
+	    {
+		    "uuid": "188e3dcb-a9c6-4ee6-979c-ea92c151d110",
+		    "region": [12,14,4,6],
+		    "material": "DifAgs"
+		},
+		"splatter15":
+	    {
+		    "uuid": "4a055222-21c8-446d-b922-eaaefbace142",
+		    "region": [15,15,4,4],
+		    "material": "DifAgs"
+		},
+		"splatter16":
+	    {
+		    "uuid": "50af010a-438f-4266-8a57-162ac8f755ad",
+		    "region": [15,15,5,5],
+		    "material": "DifAgs"
+		},
+		"splatter17":
+	    {
+		    "uuid": "fa5d5bc8-1bbc-462b-941f-6aa01dbe9c0b",
+		    "region": [15,15,6,6],
+		    "material": "DifAgs"
+		},
+		"splatter18":
+	    {
+		    "uuid": "458ce1ab-e2be-44a7-bb27-cbff3c54ebef",
+		    "region": [0,1,7,8],
+		    "material": "DifAgs"
+		},
+		"splatter19":
+	    {
+		    "uuid": "a143dc29-2d35-4b04-9443-415dab9e9ed3",
+		    "region": [2,3,7,8],
+		    "material": "DifAgs"
+		},
+		"splatter20":
+	    {
+		    "uuid": "f6120284-cd3b-4c59-a9de-a812834f5838",
+		    "region": [4,5,7,8],
+		    "material": "DifAgs"
+		},
+		"splatter21":
+	    {
+		    "uuid": "c56d4fdf-ab33-478f-a820-d2b12f8919af",
+		    "region": [6,7,7,8],
+		    "material": "DifAgs"
+		},
+		"splatter22":
+	    {
+		    "uuid": "239b5300-44f0-40e5-ab2c-52fc0074b401",
+		    "region": [8,9,7,8],
+		    "material": "DifAgs"
+		},
+		"splatter23":
+	    {
+		    "uuid": "12c44713-85a6-471e-a93d-a1d985d32414",
+		    "region": [10,11,7,8],
+		    "material": "DifAgs"
+		},
+		"runny01":
+	    {
+		    "uuid": "32e078ba-0fb6-434c-95f8-26138ca62509",
+		    "region": [0,1,9,11],
+		    "material": "DifAgs"
+		},
+		"runny02":
+	    {
+		    "uuid": "9f30be6e-bc4e-4ded-9af8-b7fb67c86dc7",
+		    "region": [2,3,9,11],
+		    "material": "DifAgs"
+		},
+		"runny03":
+	    {
+		    "uuid": "764bb58c-d635-4862-8924-057c4e4f92a1",
+		    "region": [4,7,9,11],
+		    "material": "DifAgs"
+		}
+	}
+}

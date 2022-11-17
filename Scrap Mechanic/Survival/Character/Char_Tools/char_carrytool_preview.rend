@@ -1,0 +1,17 @@
+{
+    "lodList": [
+		{
+			"mesh": 		"$GAME_DATA/Character/Char_Tools/Char_weldtool/char_weldtool.dae",
+		    "subMeshList": [
+				{
+				    "textureList":	[
+						"$GAME_DATA/Character/Char_Tools/Char_weldtool/char_weldtool_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_weldtool/char_weldtool_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_weldtool/char_weldtool_nor.tga"
+				    ]
+				}
+		    ],
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_burnmarks_dif.tga",
+    "norSheet": "",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_burnmarks_ags.tga",
+    "decalList":{
+		"burnmark01":
+	    {
+		    "uuid": "245fc33a-d856-4650-a66d-e211c761458c",
+		    "region": [0,1,0,1],
+		    "material": "Dif"
+		},
+		"burnmark02":
+	    {
+		    "uuid": "15c66f12-ae91-4b0a-a50d-3b422aefb5cd",
+		    "region": [2,3,0,1],
+		    "material": "Dif"
+		},
+		"burnmark03":
+	    {
+		    "uuid": "4c412e47-5e53-46d0-96bd-e21cbc6e2886",
+		    "region": [4,5,0,1],
+		    "material": "Dif"
+		},
+		"burnmark04":
+	    {
+		    "uuid": "876a9cab-a068-4b6b-8ebd-53ce7b5d11f0",
+		    "region": [6,7,0,1],
+		    "material": "Dif"
+		},
+		"burnmark05":
+	    {
+		    "uuid": "487738aa-f369-4196-a6a0-d1048e12962f",
+		    "region": [8,9,0,1],
+		    "material": "Dif"
+		},
+		"burnmark06":
+	    {
+		    "uuid": "9f95250a-e362-4687-9e3a-89d50fc711eb",
+		    "region": [10,11,0,1],
+		    "material": "Dif"
+		},
+		"burnmark07":
+	    {
+		    "uuid": "020bbbf1-a9c6-4a20-8ec3-ba71d9fdce18",
+		    "region": [12,12,0,1],
+		    "material": "Dif"
+		},
+		"burnmark08":
+	    {
+		    "uuid": "05699f07-ac4d-403b-87e6-21d657f938c8",
+		    "region": [13,13,0,1],
+		    "material": "Dif"
+		},
+		"burnmark09":
+	    {
+		    "uuid": "dc0c0a21-d876-4084-b075-d34578acb1f4",
+		    "region": [14,15,0,1],
+		    "material": "Dif"
+		},
+		"burnmark10":
+	    {
+		    "uuid": "df722aa5-c46e-4ec8-be4a-64a28f7bdc47",
+		    "region": [0,1,2,3],
+		    "material": "Dif"
+		},
+		"burnmark11":
+	    {
+		    "uuid": "e4ebb7c2-8b48-41de-9157-e63afa8bb2d5",
+		    "region": [2,3,2,3],
+		    "material": "Dif"
+		},
+		"burnmark12":
+	    {
+		    "uuid": "b1de4f89-df76-41a9-a620-ffa296482a0d",
+		    "region": [4,5,2,3],
+		    "material": "Dif"
+		},
+		"burnmark13":
+	    {
+		    "uuid": "28499cf6-691b-46a5-84ea-937000f50efb",
+		    "region": [6,7,2,3],
+		    "material": "Dif"
+		},
+		"burnmark14":
+	    {
+		    "uuid": "bdb322c4-8ac8-474c-bfe1-634d12d34d1d",
+		    "region": [8,8,2,3],
+		    "material": "Dif"
+		},
+		"burnmark15":
+	    {
+		    "uuid": "5e7ad232-fb44-4560-87ad-12dc4db9e385",
+		    "region": [9,9,2,3],
+		    "material": "Dif"
+		},
+		"burnmark16":
+	    {
+		    "uuid": "f5b6f35f-a32d-416b-b212-6b0a5f2d3693",
+		    "region": [10,11,2,2],
+		    "material": "Dif"
+		},
+		"burnmark17":
+	    {
+		    "uuid": "8ed6f4ab-389b-47cf-a729-42fcb80e2956",
+		    "region": [10,11,3,3],
+		    "material": "Dif"
+		},
+		"burnmark18":
+	    {
+		    "uuid": "7e64a20a-5052-4950-b94a-0f2c96b42c2e",
+		    "region": [12,13,2,3],
+		    "material": "Dif"
+		},
+		"burnmark19":
+	    {
+		    "uuid": "e9aeec1f-209a-4ca2-b813-644db36361f1",
+		    "region": [14,15,2,3],
+		    "material": "Dif"
+		},
+		"old_burnmark01":
+	    {
+		    "uuid": "0b0f9e1c-2c5b-46a0-a85c-82336eff7e15",
+		    "region": [0,2,13,15],
+		    "material": "Dif"
+		},
+		"old_burnmark02":
+	    {
+		    "uuid": "905e98d0-1187-4507-b0a8-4f0daf29ac7f",
+		    "region": [3,4,14,15],
+		    "material": "Dif"
+		},
+		"old_burnmark03":
+	    {
+		    "uuid": "75d2775c-5e8f-474e-ad8e-53f11bfed51b",
+		    "region": [5,6,14,15],
+		    "material": "Dif"
+		},
+		"old_burnmark04":
+	    {
+		    "uuid": "bae5515f-612a-4ba9-9939-71de884bc443",
+		    "region": [5,9,12,13],
+		    "material": "Dif"
+		},
+		"old_burnmark05":
+	    {
+		    "uuid": "f0b5b9ee-f9d0-49ab-834e-e615263219ba",
+		    "region": [7,8,14,15],
+		    "material": "Dif"
+		}			
+	}
+}

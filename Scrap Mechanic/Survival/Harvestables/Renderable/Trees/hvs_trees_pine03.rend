@@ -1,0 +1,105 @@
+{
+	"impostorThreshold": 150,
+	"lodList": [
+		{
+			"minViewSize": 800,
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Trees/hvs_trees_pine03_lod0.fbx",
+			"subMeshMap": {
+				"submesh0_bark": {
+					"material": "Trunk",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
+					]
+				},
+				"submesh0_innerwood": {
+					"material": "Trunk",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_nor.tga"
+					]
+				},
+				"submesh0_leaves": {
+					"custom": {
+						"color": "leaves"
+					},
+					"material": "Leaves",
+					"textureList": [
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_asg.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"minViewSize": 250,
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Trees/hvs_trees_pine03_lod1.fbx",
+			"subMeshMap": {
+				"submesh0_bark": {
+					"material": "Trunk",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
+					]
+				},
+				"submesh0_innerwood": {
+					"material": "Trunk",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_nor.tga"
+					]
+				},
+				"submesh0_leaves": {
+					"custom": {
+						"color": "leaves"
+					},
+					"material": "Leaves",
+					"textureList": [
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_asg.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_nor.tga"
+					]
+				}
+			}
+		},
+		{
+			"minViewSize": 150,
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Trees/hvs_trees_pine03_lod2.fbx",
+			"subMeshMap": {
+				"submesh0_bark": {
+					"material": "Trunk",
+					"textureList": [
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_dif.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_asg.tga",
+						"$GAME_DATA/Textures/Tiled/Wood/t_tiled_pine_nor.tga"
+					]
+				},
+				"submesh0_innerwood": {
+					"material": "Trunk",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/harvests/Loggs/obj_harvest_log_nor.tga"
+					]
+				},
+				"submesh0_leaves": {
+					"custom": {
+						"color": "leaves"
+					},
+					"material": "Leaves",
+					"textureList": [
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_asg.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Trees/hvs_trees_pine_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}
+

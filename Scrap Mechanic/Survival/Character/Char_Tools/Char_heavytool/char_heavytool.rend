@@ -1,0 +1,18 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/char_heavytool/char_heavytool.dae",
+			"subMeshMap": {
+				"lambert2": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Character/Char_Tools/char_heavytool/char_heavytool_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/char_heavytool/char_heavytool_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tools/char_heavytool/char_heavytool_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

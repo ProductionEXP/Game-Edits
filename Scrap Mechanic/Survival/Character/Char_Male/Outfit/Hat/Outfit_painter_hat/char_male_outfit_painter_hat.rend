@@ -1,0 +1,28 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"Hat_mat": {
+				    "material": "DifAsgNor",
+				    "color": "ffffff",
+				    "textureList":	[
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/hat/Outfit_painter_hat/Outfit_painter_hat_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/hat/Outfit_painter_hat/Outfit_painter_hat_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/hat/Outfit_painter_hat/Outfit_painter_hat_nor.tga"
+					]
+				},
+				"Hathair_mat": {
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Male/Hair/Male/char_male_hair_02/char_male_hair_02_gra.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Hair/Female/char_female_hair_01/char_female_hair_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Hair/Male/char_male_hair_02/char_male_hair_02_nor.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Hair/Male/char_male_hair_02/char_male_hair_02_dir.tga"
+					],
+					"custom" : { "aniso" : [1.0, 0.1] },
+					"material": "Hair"
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_painter_hat/char_male_outfit_painter_hat.dae"
+		}
+	]
+}

@@ -1,0 +1,180 @@
+{
+	"ToteBot - Attack":
+	{
+		"parameterList":
+		{
+			"totebot_color": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/totebot/totebot_attack",
+				"parameters":
+				[
+					"totebot_color"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"ToteBot - Alerted":
+	{
+		"parameterList":
+		{
+			"totebot_color": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/totebot/totebot_noticeplayer",
+				"parameters":
+				[
+					"totebot_color"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"ToteBot - Hit":
+	{
+		"parameterList":
+		{
+			"totebot_color": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/totebot/totebot_takedamage",
+				"parameters":
+				[
+					"totebot_color"
+				],
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_haybot_hit01",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"ToteBot - DestroyedParts":
+	{
+		"parameterList":
+		{
+			"totebot_color": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/totebot/totebot_explode",
+				"parameters":
+				[
+					"totebot_color"
+				],
+				"delay": 0.0
+			},
+			{
+				"type": "particle",
+				"name": "p_totebot_destroy_parts",
+				"attached": false
+			},
+			{
+				"type": "particle",
+				"name": "p_totebot_destroy",
+				"attached": false
+			}
+		]
+	},
+	"ToteBot - FotStep":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/totebot/totebot_ff",
+				"delay": 0.0
+			}
+		]
+	},
+	"ToteBot - ChasePlayer":
+	{
+		"parameterList":
+		{
+			"totebot_color": 2
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/totebot/totebot_walk_chaseplayer",
+				"parameters":
+				[
+					"totebot_color"
+				],
+				"delay": 0.0
+			}
+		]
+	},
+	"ToteBot - Sparks":
+	{
+		"parameterList":
+		{
+			"color": "03c7ff",
+			"radius": 4.5,
+			"intensity": 0.51
+		},
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_totebot_sparks",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true
+			},
+			{
+				"type": "pointLight",
+				"name": "",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"delay": 0.0,
+				"attached": true
+			}
+		]
+	},
+	"ToteBot - SparkAttack":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_totebot_attack_impact_sparks01",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"ToteBot - SparkAttack":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/totebot/totebot_foley_servo",
+
+				"delay": 0.0
+			}
+		]
+	}
+	
+}

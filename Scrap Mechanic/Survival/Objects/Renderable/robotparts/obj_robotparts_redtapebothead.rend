@@ -1,0 +1,25 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"tapebot_body": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+					]
+				},
+				"tapebot_head": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head03_red_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head03_red_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head03_red_nor.tga"
+					]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_tapebotred.fbx"
+		}
+	]
+}

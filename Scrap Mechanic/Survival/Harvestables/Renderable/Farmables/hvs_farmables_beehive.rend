@@ -1,0 +1,26 @@
+{
+	"lodList": [
+		{
+			"subMeshMap": {
+				"beehive_mat": {
+				    "material": "DifAsgNor",
+					    "textureList": [
+					        "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_beehive_dif.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_beehive_asg.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_beehive_nor.tga"
+					    ]
+				},
+				"honey_mat": {
+				    "material": "Glass",
+					    "textureList": [
+					        "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_beehive_dif.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_beehive_asg.tga",
+					        "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_beehive_nor.tga"
+					    ]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_beehive.fbx"
+		}
+	]
+}
+

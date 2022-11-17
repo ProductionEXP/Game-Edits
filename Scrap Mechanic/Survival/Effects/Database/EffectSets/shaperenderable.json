@@ -1,0 +1,22 @@
+{
+	"ShapeRenderable":
+	{
+		"effectList":
+		[
+			{
+				"type": "shapeRenderable",
+				"name": ""
+			}
+		]
+	},
+	"CustomizationRenderable":
+	{
+		"effectList":
+		[
+			{
+				"type": "customizationRenderable",
+				"name": ""
+			}
+		]
+	}
+}

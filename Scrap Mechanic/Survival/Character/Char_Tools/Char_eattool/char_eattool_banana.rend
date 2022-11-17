@@ -1,0 +1,19 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_banana.dae",
+            "subMeshList": [
+                {
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_nor.tga"
+                    ],
+                    "material": "DifAsgNor"
+                }
+            ]
+		}
+	]
+}
+

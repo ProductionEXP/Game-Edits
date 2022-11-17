@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2020-04-13T21:57:58Z</created><keywords></keywords><modified>2020-04-13T21:57:58Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_animations>
+    <animation id="pizzaburger_root_jnt-anim" name="pizzaburger_root_jnt"><animation><source id="pizzaburger_root_jnt-Matrix-animation-input"><float_array id="pizzaburger_root_jnt-Matrix-animation-input-array" count="15">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667</float_array><technique_common><accessor source="#pizzaburger_root_jnt-Matrix-animation-input-array" count="15"><param name="TIME" type="float"/></accessor></technique_common></source><source id="pizzaburger_root_jnt-Matrix-animation-output-transform"><float_array id="pizzaburger_root_jnt-Matrix-animation-output-transform-array" count="240">
+
+0.706183 0.618501 0.344618 0.477170 -0.623908 0.773703 -0.110102 0.133594 -0.334730 -0.137258 0.932264 0.087812 0.000000 0.000000 0.000000 1.000000
+0.703325 0.623802 0.340888 0.477170 -0.628706 0.769645 -0.111243 0.133594 -0.331756 -0.136078 0.933499 0.087812 0.000000 0.000000 0.000000 1.000000
+0.695651 0.637589 0.330984 0.477170 -0.641238 0.758824 -0.114023 0.133594 -0.323858 -0.132919 0.936722 0.087812 0.000000 0.000000 0.000000 1.000000
+0.684460 0.656612 0.316821 0.477170 -0.658656 0.743231 -0.117387 0.133594 -0.312549 -0.128330 0.941193 0.087812 0.000000 0.000000 0.000000 1.000000
+0.671151 0.677735 0.300385 0.477170 -0.678179 0.724964 -0.120423 0.133594 -0.299383 -0.122893 0.946186 0.087812 0.000000 0.000000 0.000000 1.000000
+0.657344 0.698122 0.283768 0.477170 -0.697209 0.706310 -0.122581 0.133594 -0.286005 -0.117268 0.951026 0.087812 0.000000 0.000000 0.000000 1.000000
+0.644905 0.715300 0.269154 0.477170 -0.713395 0.689750 -0.123745 0.133594 -0.274164 -0.112209 0.955114 0.087812 0.000000 0.000000 0.000000 1.000000
+0.635891 0.727106 0.258765 0.477170 -0.724603 0.677889 -0.124165 0.133594 -0.265695 -0.108546 0.957927 0.087812 0.000000 0.000000 0.000000 1.000000
+0.632426 0.731510 0.254814 0.477170 -0.728801 0.673360 -0.124236 0.133594 -0.262462 -0.107139 0.958976 0.087812 0.000000 0.000000 0.000000 1.000000
+0.638384 0.723893 0.261621 0.477170 -0.721545 0.681158 -0.124083 0.133594 -0.268028 -0.109559 0.957161 0.087812 0.000000 0.000000 0.000000 1.000000
+0.652947 0.704317 0.278565 0.477170 -0.703029 0.700430 -0.123073 0.133594 -0.281798 -0.115479 0.952499 0.087812 0.000000 0.000000 0.000000 1.000000
+0.671151 0.677735 0.300385 0.477170 -0.678179 0.724964 -0.120423 0.133594 -0.299383 -0.122893 0.946186 0.087812 0.000000 0.000000 0.000000 1.000000
+0.688499 0.649887 0.321895 0.477170 -0.652481 0.748833 -0.116263 0.133594 -0.316603 -0.129984 0.939610 0.087812 0.000000 0.000000 0.000000 1.000000
+0.701238 0.627615 0.338178 0.477170 -0.632164 0.766691 -0.112039 0.133594 -0.329596 -0.135218 0.934389 0.087812 0.000000 0.000000 0.000000 1.000000
+0.706183 0.618501 0.344618 0.477170 -0.623908 0.773703 -0.110102 0.133594 -0.334730 -0.137258 0.932264 0.087812 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#pizzaburger_root_jnt-Matrix-animation-output-transform-array" count="15" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="pizzaburger_root_jnt-Interpolations"><Name_array id="pizzaburger_root_jnt-Interpolations-array" count="15">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#pizzaburger_root_jnt-Interpolations-array" count="15"><param type="name"/></accessor></technique_common></source><sampler id="pizzaburger_root_jnt-Matrix-animation-transform"><input semantic="INPUT" source="#pizzaburger_root_jnt-Matrix-animation-input"/><input semantic="OUTPUT" source="#pizzaburger_root_jnt-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#pizzaburger_root_jnt-Interpolations"/></sampler><channel source="#pizzaburger_root_jnt-Matrix-animation-transform" target="pizzaburger_root_jnt/matrix"/></animation></animation>
+    <animation id="top_jnt-anim" name="top_jnt"><animation><source id="top_jnt-Matrix-animation-input"><float_array id="top_jnt-Matrix-animation-input-array" count="15">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667</float_array><technique_common><accessor source="#top_jnt-Matrix-animation-input-array" count="15"><param name="TIME" type="float"/></accessor></technique_common></source><source id="top_jnt-Matrix-animation-output-transform"><float_array id="top_jnt-Matrix-animation-output-transform-array" count="240">
+
+0.992272 -0.064999 -0.105694 -0.036107 0.071580 0.995646 0.059713 0.369582 0.101352 -0.066817 0.992604 -0.013113 0.000000 0.000000 0.000000 1.000000
+0.993648 -0.058239 -0.096290 -0.032671 0.063427 0.996645 0.051722 0.369372 0.092955 -0.057501 0.994009 -0.011175 0.000000 0.000000 0.000000 1.000000
+0.996606 -0.039364 -0.072293 -0.023544 0.041631 0.998679 0.030133 0.369155 0.071011 -0.033040 0.996928 -0.006141 0.000000 0.000000 0.000000 1.000000
+0.999128 -0.010178 -0.040500 -0.010485 0.010121 0.999947 -0.001626 0.369681 0.040515 0.001214 0.999178 0.000778 0.000000 0.000000 0.000000 1.000000
+0.999618 0.026630 -0.007462 0.004671 -0.026906 0.998851 -0.039664 0.371473 0.006397 0.039850 0.999185 0.008383 0.000000 0.000000 0.000000 1.000000
+0.997542 0.066670 0.021553 0.019984 -0.064772 0.994750 -0.079227 0.374517 -0.026722 0.077636 0.996624 0.015594 0.000000 0.000000 0.000000 1.000000
+0.993643 0.103920 0.043293 0.033435 -0.098382 0.988508 -0.114776 0.378179 -0.054723 0.109787 0.992448 0.021528 0.000000 0.000000 0.000000 1.000000
+0.989715 0.131405 0.056535 0.042985 -0.122428 0.982498 -0.140388 0.381328 -0.073993 0.132023 0.988481 0.025507 0.000000 0.000000 0.000000 1.000000
+0.987973 0.142050 0.061077 0.046612 -0.131599 0.979860 -0.150186 0.382643 -0.081181 0.140342 0.986769 0.026967 0.000000 0.000000 0.000000 1.000000
+0.990890 0.123772 0.053080 0.040360 -0.115805 0.984284 -0.133322 0.380418 -0.068747 0.125961 0.989650 0.024433 0.000000 0.000000 0.000000 1.000000
+0.996374 0.079730 0.029705 0.024776 -0.076708 0.992817 -0.091812 0.375717 -0.036812 0.089200 0.995333 0.017751 0.000000 0.000000 0.000000 1.000000
+0.999618 0.026630 -0.007462 0.004671 -0.026906 0.998851 -0.039664 0.371473 0.006397 0.039850 0.999185 0.008383 0.000000 0.000000 0.000000 1.000000
+0.998452 -0.020918 -0.051543 -0.015164 0.021454 0.999721 0.009866 0.369382 0.051322 -0.010957 0.998622 -0.001662 0.000000 0.000000 0.000000 1.000000
+0.994557 -0.053207 -0.089584 -0.030175 0.057485 0.997292 0.045869 0.369263 0.086900 -0.050769 0.994923 -0.009782 0.000000 0.000000 0.000000 1.000000
+0.992272 -0.064999 -0.105694 -0.036107 0.071580 0.995646 0.059713 0.369582 0.101352 -0.066817 0.992604 -0.013113 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#top_jnt-Matrix-animation-output-transform-array" count="15" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="top_jnt-Interpolations"><Name_array id="top_jnt-Interpolations-array" count="15">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#top_jnt-Interpolations-array" count="15"><param type="name"/></accessor></technique_common></source><sampler id="top_jnt-Matrix-animation-transform"><input semantic="INPUT" source="#top_jnt-Matrix-animation-input"/><input semantic="OUTPUT" source="#top_jnt-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#top_jnt-Interpolations"/></sampler><channel source="#top_jnt-Matrix-animation-transform" target="top_jnt/matrix"/></animation></animation>
+    <animation id="bottom_jnt-anim" name="bottom_jnt"><animation><source id="bottom_jnt-Matrix-animation-input"><float_array id="bottom_jnt-Matrix-animation-input-array" count="15">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667</float_array><technique_common><accessor source="#bottom_jnt-Matrix-animation-input-array" count="15"><param name="TIME" type="float"/></accessor></technique_common></source><source id="bottom_jnt-Matrix-animation-output-transform"><float_array id="bottom_jnt-Matrix-animation-output-transform-array" count="240">
+
+0.993238 0.108193 -0.042093 -0.032471 -0.109544 0.993491 -0.031238 -0.438122 0.038439 0.035638 0.998625 -0.015074 0.000000 0.000000 0.000000 1.000000
+0.993953 0.102423 -0.039595 -0.029926 -0.103571 0.994225 -0.028116 -0.438354 0.036487 0.032047 0.998820 -0.013526 0.000000 0.000000 0.000000 1.000000
+0.995645 0.087189 -0.033010 -0.023207 -0.087873 0.995933 -0.019881 -0.438867 0.031142 0.022695 0.999257 -0.009498 0.000000 0.000000 0.000000 1.000000
+0.997565 0.065599 -0.023698 -0.013693 -0.065810 0.997798 -0.008229 -0.439351 0.023106 0.009769 0.999685 -0.003941 0.000000 0.000000 0.000000 1.000000
+0.999083 0.040794 -0.013020 -0.002773 -0.040730 0.999157 0.005136 -0.439568 0.013219 -0.004601 0.999902 0.002222 0.000000 0.000000 0.000000 1.000000
+0.999870 0.015952 -0.002341 0.008153 -0.015906 0.999702 0.018504 -0.439431 0.002635 -0.018465 0.999826 0.008152 0.000000 0.000000 0.000000 1.000000
+0.999959 -0.005730 0.006975 0.017679 0.005517 0.999530 0.030162 -0.439031 -0.007145 -0.030122 0.999521 0.013125 0.000000 0.000000 0.000000 1.000000
+0.999686 -0.021063 0.013564 0.024411 0.020529 0.999051 0.038403 -0.438593 -0.014360 -0.038112 0.999170 0.016526 0.000000 0.000000 0.000000 1.000000
+0.999510 -0.026877 0.016064 0.026963 0.026191 0.998794 0.041527 -0.438394 -0.017160 -0.041086 0.999008 0.017790 0.000000 0.000000 0.000000 1.000000
+0.999789 -0.016854 0.011755 0.022564 0.016419 0.999212 0.036141 -0.438726 -0.012355 -0.035940 0.999278 0.015602 0.000000 0.000000 0.000000 1.000000
+0.999966 0.008216 0.000983 0.011553 -0.008236 0.999709 0.022665 -0.439318 -0.000797 -0.022672 0.999743 0.009948 0.000000 0.000000 0.000000 1.000000
+0.999083 0.040794 -0.013020 -0.002773 -0.040730 0.999157 0.005136 -0.439568 0.013219 -0.004601 0.999902 0.002222 0.000000 0.000000 0.000000 1.000000
+0.996943 0.073309 -0.027021 -0.017090 -0.073664 0.997206 -0.012388 -0.439210 0.026037 0.014340 0.999558 -0.005905 0.000000 0.000000 0.000000 1.000000
+0.994445 0.098243 -0.037787 -0.028082 -0.099254 0.994726 -0.025856 -0.438509 0.035048 0.029463 0.998951 -0.012412 0.000000 0.000000 0.000000 1.000000
+0.993238 0.108193 -0.042093 -0.032471 -0.109544 0.993491 -0.031238 -0.438122 0.038439 0.035638 0.998625 -0.015074 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#bottom_jnt-Matrix-animation-output-transform-array" count="15" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="bottom_jnt-Interpolations"><Name_array id="bottom_jnt-Interpolations-array" count="15">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#bottom_jnt-Interpolations-array" count="15"><param type="name"/></accessor></technique_common></source><sampler id="bottom_jnt-Matrix-animation-transform"><input semantic="INPUT" source="#bottom_jnt-Matrix-animation-input"/><input semantic="OUTPUT" source="#bottom_jnt-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#bottom_jnt-Interpolations"/></sampler><channel source="#bottom_jnt-Matrix-animation-transform" target="bottom_jnt/matrix"/></animation></animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="ani_char_pizzaburger_tp_sprint" name="ani_char_pizzaburger_tp_sprint">
+      <node name="jnt_right_weapon" id="jnt_right_weapon" sid="jnt_right_weapon" type="JOINT"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra><node name="pizzaburger_root_jnt" id="pizzaburger_root_jnt" sid="pizzaburger_root_jnt" type="JOINT"><matrix sid="matrix">0.706183 0.618501 0.344618 0.477170 -0.623908 0.773703 -0.110102 0.133594 -0.334730 -0.137258 0.932264 0.087812 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="top_jnt" id="top_jnt" sid="top_jnt" type="JOINT"><matrix sid="matrix">0.992272 -0.064999 -0.105694 -0.036107 0.071580 0.995646 0.059713 0.369582 0.101352 -0.066817 0.992604 -0.013113 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="bottom_jnt" id="bottom_jnt" sid="bottom_jnt" type="JOINT"><matrix sid="matrix">0.993238 0.108193 -0.042093 -0.032471 -0.109544 0.993491 -0.031238 -0.438122 0.038439 0.035638 0.998625 -0.015074 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>11.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#ani_char_pizzaburger_tp_sprint"></instance_visual_scene>
+  </scene>
+</COLLADA>

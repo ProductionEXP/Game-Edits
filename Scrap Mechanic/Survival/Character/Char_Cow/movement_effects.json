@@ -1,0 +1,58 @@
+{
+	"run":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "Woc - Walk",
+				"frames":
+				[
+					{
+						"frame": 5,
+						"joint": "jnt_l_fronttoe"
+					},
+					{
+						"frame": 16,
+						"joint": "jnt_r_fronttoe"
+					},
+					{
+						"frame": 5,
+						"joint": "jnt_l_backtoe"
+					},
+					{
+						"frame": 19,
+						"joint": "jnt_r_backtoe"
+					}
+				]
+			}
+		]
+	},
+	"sprint":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "Woc - Run",
+				"frames":
+				[
+					{
+						"frame": 4,
+						"joint": "jnt_l_fronttoe"
+					},
+					{
+						"frame": 2,
+						"joint": "jnt_r_fronttoe"
+					},
+					{
+						"frame": 10,
+						"joint": "jnt_l_backtoe"
+					},
+					{
+						"frame": 9,
+						"joint": "jnt_r_backtoe"
+					}
+				]
+			}
+		]
+	}
+}

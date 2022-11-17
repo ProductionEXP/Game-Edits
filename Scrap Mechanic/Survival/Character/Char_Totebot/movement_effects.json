@@ -1,0 +1,106 @@
+{
+	"run":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "ToteBot - FotStep",
+				"frames":
+				[
+					{
+						"frame": 11,
+						"joint": "jnt_01_legend"
+					},
+					{
+						"frame": 2,
+						"joint": "jnt_02_legend"
+					},
+					{
+						"frame": 15,
+						"joint": "jnt_03_legend"
+					},
+					{
+						"frame": 3,
+						"joint": "jnt_04_legend"
+					},
+					{
+						"frame": 13,
+						"joint": "jnt_05_legend"
+					},
+					{
+						"frame": 23,
+						"joint": "jnt_06_legend"
+					}
+				]
+			}
+		]
+	},
+	"sprint":
+	{
+		"sustainedEffects":
+		[
+			{
+				"effect": "ToteBot - ChasePlayer",
+				"minWeight": 0.3,
+				"joint": "jnt_head"
+			}
+		],
+		"frameEffects":
+		[
+			{
+				"effect": "ToteBot - FotStep",
+				"frames":
+				[
+					{
+						"frame": 11,
+						"joint": "jnt_01_legend"
+					},
+					{
+						"frame": 12,
+						"joint": "jnt_02_legend"
+					},
+					{
+						"frame": 14,
+						"joint": "jnt_03_legend"
+					},
+					{
+						"frame": 14,
+						"joint": "jnt_04_legend"
+					},
+					{
+						"frame": 14,
+						"joint": "jnt_06_legend"
+					},
+					{
+						"frame": 15,
+						"joint": "jnt_05_legend"
+					},
+					{
+						"frame": 27,
+						"joint": "jnt_01_legend"
+					},
+					{
+						"frame": 28,
+						"joint": "jnt_02_legend"
+					},
+					{
+						"frame": 30,
+						"joint": "jnt_03_legend"
+					},
+					{
+						"frame": 30,
+						"joint": "jnt_04_legend"
+					},
+					{
+						"frame": 30,
+						"joint": "jnt_06_legend"
+					},
+					{
+						"frame": 31,
+						"joint": "jnt_05_legend"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"lodList": [{
+		"mesh": "$GAME_DATA/Character/Char_Male/Animations/Animationrefs/aniref_char_male_tpose.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"animationList" : [
+
+			// Logbook
+
+			{ "name" : "logbook_idle", 				"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Handbook/ani_char_male_fp_handbook_idle.dae" },
+			{ "name" : "logbook_pickup", 				"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Handbook/ani_char_male_fp_handbook_pickup.dae" },
+			{ "name" : "logbook_putdown", 				"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Handbook/ani_char_male_fp_handbook_putdown.dae" },
+			{ "name" : "logbook_use_exit", 			"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Handbook/ani_char_male_fp_handbook_use_exit.dae" },
+			{ "name" : "logbook_use_idle", 			"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Handbook/ani_char_male_fp_handbook_use_idle.dae" },
+			{ "name" : "logbook_use_into", 			"file" : "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Handbook/ani_char_male_fp_handbook_use_into.dae" }
+	
+		],
+		"maxViewDistance": 1000.0
+	}]
+} 

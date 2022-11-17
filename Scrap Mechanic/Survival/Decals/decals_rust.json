@@ -1,0 +1,212 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_rust_dif.tga",
+    "norSheet": "$SURVIVAL_DATA/Decals/Textures/decals_rust_nor.tga",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_rust_ags.tga",
+    "decalList":{
+		
+		"rust_small01":
+	    {
+		    "uuid": "35f0ceec-044a-4e84-b292-83bfced46ef8",
+		    "region": [5,5,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_small02":
+	    {
+		    "uuid": "14002bc4-47e7-4ffa-9475-cdd876837592",
+		    "region": [6,6,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_small03":
+	    {
+		    "uuid": "1f85416a-e11f-4aee-bbef-0e61ffe359ef",
+		    "region": [7,7,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_small04":
+	    {
+		    "uuid": "338bee50-ff73-401b-b418-09475dc7497e",
+		    "region": [8,8,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_small05":
+	    {
+		    "uuid": "8783377a-d1cb-4272-b0e4-63f584ef00cf",
+		    "region": [9,9,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_small06":
+	    {
+		    "uuid": "ab17d61d-565c-453a-9fcf-a88ee967f878",
+		    "region": [10,10,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_small07":
+	    {
+		    "uuid": "3a3957d4-6034-4bfb-8def-c81e695cc4ca",
+		    "region": [11,11,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust01":
+	    {
+		    "uuid": "31b0e7f1-a4e7-48b3-8c3c-6d4ea20f586b",
+		    "region": [0,2,0,0],
+		    "material": "DifNorAgs"
+		},
+		"rust02":
+	    {
+		    "uuid": "53bc1ce1-3c0b-4497-9deb-e69aac2a8b8b",
+		    "region": [0,2,1,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_large01":
+	    {
+		    "uuid": "304c4cc9-262e-438e-819a-efd80a826556",
+		    "region": [0,1,3,6],
+		    "material": "DifNorAgs"
+		},
+		"rust_large02":
+	    {
+		    "uuid": "409e57d8-14cd-4604-8d75-ceff25fd99bd",
+		    "region": [2,3,3,5],
+		    "material": "DifNorAgs"
+		},
+		"rust_large03":
+	    {
+		    "uuid": "839aedcf-55d6-4817-9ab7-9801a9f32c24",
+		    "region": [4,5,3,6],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping_small01":
+	    {
+		    "uuid": "9febbc64-db9a-4b2c-b61d-1b5956a14363",
+		    "region": [7,7,1,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping_small02":
+	    {
+		    "uuid": "5e4c38c5-b388-4f47-ab40-50263f78d8df",
+		    "region": [8,8,1,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping_small03":
+	    {
+		    "uuid": "bc930282-c629-4f3c-8d5b-a7c3433bed87",
+		    "region": [9,9,1,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping_small04":
+	    {
+		    "uuid": "8186297b-9553-4f04-aa9c-0077fbc1d508",
+		    "region": [10,10,1,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping_small05":
+	    {
+		    "uuid": "b8c4cfa2-e46d-417d-8b42-37839c49d860",
+		    "region": [11,11,1,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping01":
+	    {
+		    "uuid": "f79935e5-d694-41e9-9828-6f88ba298363",
+		    "region": [3,4,0,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping02":
+	    {
+		    "uuid": "4d6e98f1-6407-4f2e-aa34-f829ea4b4bc5",
+		    "region": [5,6,0,0],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping03":
+	    {
+		    "uuid": "4538c9b3-cbe3-477b-9e5d-7fa3d7883d8a",
+		    "region": [7,13,0,0],
+		    "material": "DifNorAgs"
+		},
+		"rust_dripping04":
+	    {
+		    "uuid": "3e4db486-bf20-45a5-b153-975c2dbe22ba",
+		    "region": [5,6,1,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_streak_small01":
+	    {
+		    "uuid": "a7fc0087-874a-47e5-9dc2-3c4b4e563c20",
+		    "region": [12,12,1,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_streak01":
+	    {
+		    "uuid": "8f2a7552-bae7-4d24-96f1-ef907cdfca4d",
+		    "region": [3,4,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_streak02":
+	    {
+		    "uuid": "8c5165a3-67a5-4105-b260-a16ea49d06ff",
+		    "region": [14,15,0,0],
+		    "material": "DifNorAgs"
+		},
+		"rust_streak03":
+	    {
+		    "uuid": "a7fc0087-874a-47e5-9dc2-3c4b4e563c20",
+		    "region": [13,15,1,1],
+		    "material": "DifNorAgs"
+		},
+		"rust_streak04":
+	    {
+		    "uuid": "bb5b621e-bc70-4fe5-98eb-affe5008b8d1",
+		    "region": [12,15,2,2],
+		    "material": "DifNorAgs"
+		},
+		"rust_streak_large01":
+	    {
+		    "uuid": "cbd121ec-15e0-4672-a943-53f3dcca6830",
+		    "region": [12,13,5,9],
+		    "material": "DifNorAgs"
+		},
+		"rust_streak_large02":
+	    {
+		    "uuid": "1649fc45-7540-43db-aee1-267037596785",
+		    "region": [14,15,5,9],
+		    "material": "DifNorAgs"
+		},
+		"rust_leakage01":
+	    {
+		    "uuid": "edb78229-d628-49d6-819c-4e958f27ca8d",
+		    "region": [12,12,3,4],
+		    "material": "DifNorAgs"
+		},
+		"rust_leakage02":
+	    {
+		    "uuid": "34c07a99-7f68-4dea-a8e6-255bd038be23",
+		    "region": [13,13,3,4],
+		    "material": "DifNorAgs"
+		},
+		"rust_leakage03":
+	    {
+		    "uuid": "e43f3684-86eb-438c-8784-f28f5df756ad",
+		    "region": [14,14,3,4],
+		    "material": "DifNorAgs"
+		},
+		"rust_leakage_large01":
+	    {
+		    "uuid": "99db84f8-fa7b-43f6-9f98-ebcd0dd891c7",
+		    "region": [6,7,3,6],
+		    "material": "DifNorAgs"
+		},
+		"rust_leakage_large02":
+	    {
+		    "uuid": "d76d0c31-f9c4-49bd-8a49-b7311e1183a7",
+		    "region": [8,9,3,6],
+		    "material": "DifNorAgs"
+		},
+		"rust_leakage_large03":
+	    {
+		    "uuid": "0b61a9e9-746c-4304-ab0b-a8938f99e268",
+		    "region": [10,11,3,5],
+		    "material": "DifNorAgs"
+		}
+	}
+}

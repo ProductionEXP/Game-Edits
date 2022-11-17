@@ -1,0 +1,126 @@
+{
+	"run":
+	{
+		"frameEffects":
+		[
+			{
+			"effect": "Farmbot - RunBody",
+			"frames":
+				[
+					{
+						"frame": 0,
+						"joint": "jnt_spine2"
+					}
+				]
+			},
+			{
+				"effect": "Farmbot - FotStepMedium",
+				"frames":
+				[
+					{
+						"frame": 10,
+						"joint": "legend01_jnt"
+					},
+					{
+						"frame": 21,
+						"joint": "legend01_jnt"
+					},
+					{
+						"frame": 7,
+						"joint": "legend02_jnt"
+					},
+					{
+						"frame": 16,
+						"joint": "legend02_jnt"
+					},
+					{
+						"frame": 5,
+						"joint": "legend03_jnt"
+					},
+					{
+						"frame": 14,
+						"joint": "legend03_jnt"
+					},
+					{
+						"frame": 9,
+						"joint": "legend04_jnt"
+					},
+					{
+						"frame": 18,
+						"joint": "legend04_jnt"
+					},
+					{
+						"frame": 2,
+						"joint": "legend05_jnt"
+					},
+					{
+						"frame": 11,
+						"joint": "legend05_jnt"
+					},
+					{
+						"frame": 5,
+						"joint": "legend06_jnt"
+					},
+					{
+						"frame": 14,
+						"joint": "legend06_jnt"
+					}
+				]
+			}
+		]
+	},
+	"crouch":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "TapeBot - ChasingFotStep",
+				"frames":
+				[
+					{
+						"frame": 2,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 7,
+						"joint": "root_jnt"
+					}
+				]
+			}
+		]
+	},
+	"sprint":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "TapeBot - ChasingFotStep",
+				"frames":
+				[
+					{
+						"frame": 2,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 7,
+						"joint": "root_jnt"
+					}
+				]
+			},
+			{
+				"effect": "TapeBot - ChasingServo",
+				"frames":
+				[
+					{
+						"frame": 5,
+						"joint": "root_jnt"
+					},
+					{
+						"frame": 10,
+						"joint": "root_jnt"
+					}
+				]
+			}
+		]
+	}
+}

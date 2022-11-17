@@ -1,0 +1,142 @@
+{
+	"run":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "TapeBot - AlertedFotStep",
+				"frames":
+				[
+					{
+						"frame": 11,
+						"joint": "l_foot_jnt"
+					},
+					{
+						"frame": 21,
+						"joint": "r_foot_jnt"
+					}
+				]
+			},
+			{
+				"effect": "TapeBot - AlertedScissor",
+				"frames":
+				[
+					{
+						"frame": 7,
+						"joint": "l_hand_jnt"
+					},
+					{
+						"frame": 17,
+						"joint": "l_hand_jnt"
+					}
+				]
+			},
+			{
+				"effect": "TapeBot - AlertedServo",
+				"frames":
+				[
+					{
+						"frame": 6,
+						"joint": "hip_jnt"
+					},
+					{
+						"frame": 16,
+						"joint": "hip_jnt"
+					}
+				]
+			},
+			{
+				"effect": "TapeBot - AlertedGunRattle",
+				"frames":
+				[
+					{
+						"frame": 6,
+						"joint": "r_hand_jnt"
+					},
+					{
+						"frame": 16,
+						"joint": "r_hand_jnt"
+					}
+				]
+			}
+		]
+	},
+	"crouch":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "TapeBot - FotStep",
+				"frames":
+				[
+					{
+						"frame": 5,
+						"joint": "l_foot_jnt"
+					},
+					{
+						"frame": 11,
+						"joint": "r_foot_jnt"
+					}
+				]
+			}
+		]
+	},
+	"sprint":
+	{
+		"frameEffects":
+		[
+			{
+				"effect": "TapeBot - ChasingFotStep",
+				"frames":
+				[
+					{
+						"frame": 2,
+						"joint": "l_foot_jnt"
+					},
+					{
+						"frame": 7,
+						"joint": "r_foot_jnt"
+					}
+				]
+			},
+			{
+				"effect": "TapeBot - ChasingScissor",
+				"frames":
+				[
+					{
+						"frame": 3,
+						"joint": "l_hand_jnt"
+					},
+					{
+						"frame": 9,
+						"joint": "l_hand_jnt"
+					}
+				]
+			},
+			{
+				"effect": "TapeBot - ChasingServo",
+				"frames":
+				[
+					{
+						"frame": 5,
+						"joint": "hip_jnt"
+					},
+					{
+						"frame": 10,
+						"joint": "hip_jnt"
+					}
+				]
+			},
+			{
+				"effect": "TapeBot - ChasingGunRattle",
+				"frames":
+				[
+					{
+						"frame": 3,
+						"joint": "r_hand_jnt"
+					}
+				]
+			}
+		]
+	}
+}

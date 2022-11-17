@@ -1,0 +1,24 @@
+{
+	"Bucket - Fill":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/tools/waterbucket_fill",
+				"delay": 0.0
+			}
+		]
+	},
+	"Bucket - Throw":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/tools/waterbucket_throw",
+				"delay": 0.0
+			}
+		]
+	}
+}

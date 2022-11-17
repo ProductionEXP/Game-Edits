@@ -1,0 +1,366 @@
+{
+	"Farmbot - Angry":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_noticeplayer",
+				"delay": 0.0
+			}
+		]
+	},	
+	"Farmbot - MoveHead":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_move_head",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - MoveLegs":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_move_legs",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - RattleSyth":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_move_scythe",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - Voice":
+	{
+		"parameterList":
+		{
+			"Voice": 1
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "",
+				"parameters":
+				{
+					"Voice":
+					[
+						{
+							"condition": "equal",
+							"value": 1.0,
+							"name": "event:/char/npc/bots/enemies/farmbot/farmbot_voice_idle"
+						},
+						{
+							"condition": "equal",
+							"value": 2.0,
+							"name": "event:/char/npc/bots/enemies/farmbot/farmbot_voice_roaming"
+						},
+						{
+							"condition": "equal",
+							"value": 3.0,
+							"name": "event:/char/npc/bots/enemies/farmbot/farmbot_voice_alert_idle"
+						},
+						{
+							"condition": "equal",
+							"value": 4.0,
+							"name": "event:/char/npc/bots/enemies/farmbot/farmbot_voice_run"
+						},
+						{
+							"condition": "equal",
+							"value": 5.0,
+							"name": "event:/char/npc/bots/enemies/farmbot/farmbot_voice_sprint"
+						}
+					]
+				},
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - RoamingIdle":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/tapebot_noticeplayer",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - Attack01":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_move_body_heavy",
+				"delay": 0.2
+			}
+		]
+	},
+	"Farmbot - Attack02":
+	{
+		"effectList":
+		[	
+			{
+				"type": "particle",
+				"name": "p_farmbot_attack_trail02",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.7
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_attack_02",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - Attack03":
+	{
+		"effectList":
+		[	
+			{
+				"type": "particle",
+				"name": "p_farmbot_attack_trail03",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.30
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_attack_03",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - Attack04":
+	{
+		"effectList":
+		[	
+			{
+				"type": "particle",
+				"name": "p_farmbot_attack_trail04",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 1.25
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_attack_04",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - Attack05":
+	{
+		"effectList":
+		[	
+			{
+				"type": "particle",
+				"name": "p_farmbot_attack_trail03",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true,
+				"delay": 0.6
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_attack_03",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - Shoot":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_farmbot_pesticide_muzzelflash",
+				"direction": { "x": 1.0, "y": 0.0, "z": 0.0 },
+				"offset": { "x": -0.5, "y": 0.0, "z": 0.0 },
+				"delay": 0.3,
+				"attached": false
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_shoot",
+				"delay": 0.3
+		   },
+		   {
+			"type": "audio",
+			"name": "event:/char/npc/bots/enemies/farmbot/farmbot_move_head",
+			"delay": 0.0
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_move_legs",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - Hit":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_farmbot_damage01",
+				"direction": { "x": 0.0, "y": 0.0, "z": 1.0 },
+				"attached": false
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_takedamage",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - DestructionStartup01":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_farmbot_destroy_startup01",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"attached": true
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_explode_buildup",
+				"delay": 0.0
+			}
+		]
+	},
+	
+	"Farmbot - DestructionStartup02":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_farmbot_destroy_startup02",
+				"direction": { "x": 0.0, "y": 1.0, "z": 0.0 },
+				"attached": true
+			}
+		]
+	},
+	"Farmbot - DestructionStartup03":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_farmbot_destroy_startup03",
+				"direction": { "x": 0.0, "y": 0.5, "z": -1.0 },
+				"attached": true,
+				"delay": 1.0
+			}
+		]
+	},
+	"Farmbot - DestructionStartup04":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_farmbot_destroy_startup04",
+				"direction": { "x": 0.0, "y": 1.0, "z": -1.0 },
+				"attached": true,
+				"delay": 2.75
+			}
+		]
+	},
+	"Farmbot - Destroyed":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_farmbot_destroy_explosion01",
+				"attached": false
+			},
+			{
+				"type": "particle",
+				"name": "p_farmbot_destroy_parts",
+				"attached": false
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_explode",
+				"delay": 0.0
+			}
+		]
+	},
+	//Movement Effects
+	"Farmbot - RunBody":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_move_body_light",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - SprintBody":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_move_body_heavy",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - FotStepLight":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_ff_light",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - FotStepMedium":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_ff_mid",
+				"delay": 0.0
+			}
+		]
+	},
+	"Farmbot - FotStepHeavy":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_ff_heavy",
+				"delay": 0.0
+			}
+		]
+	}
+}

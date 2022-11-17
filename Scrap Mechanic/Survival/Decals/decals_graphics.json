@@ -1,0 +1,67 @@
+{
+    "difSheet": "$SURVIVAL_DATA/Decals/Textures/decals_buildings_dif.tga",
+    "norSheet": "",
+    "agsSheet": "$SURVIVAL_DATA/Decals/Textures/decals_buildings_ags.tga",
+    "decalList":{
+		"pattern_stripes01":
+		{
+		    "uuid": "25225dbd-63dc-467b-89f6-c05d24cb4662",
+		    "region": [0,5,0,0],
+		    "material": "Dif"
+		},
+		"digit_1":
+		{
+		    "uuid": "5d9cf36f-b8eb-46ae-916b-266aada1c868",
+		    "region": [0,0,8,8],
+		    "material": "Dif"
+		},
+		"digit_2":
+		{
+		    "uuid": "571190d8-82de-4e2a-b53d-bbf9bf37c694",
+		    "region": [1,1,8,8],
+		    "material": "Dif"
+		},
+		"digit_3":
+		{
+		    "uuid": "a0714e1b-bf2d-46a8-9eee-02f577a64330",
+		    "region": [2,2,8,8],
+		    "material": "Dif"
+		},
+		"letter_bracket":
+		{
+		    "uuid": "e6d0db9f-9599-4c85-9120-56063efbeb90",
+		    "region": [0,0,9,10],
+		    "material": "Dif"
+		},
+		"logo_corporation":
+		{
+			"uuid": "5e0625db-d7c2-42bb-8a81-3e74bd33ea2b",
+			"region": [9,11,0,3],
+			"material": "Dif"
+		},
+		"logo_chemical":
+		{
+			"uuid": "99bda0af-fb35-4378-8067-fe60df981a18",
+			"region": [12,13,0,1],
+			"material": "Dif"
+		},
+		"logo_axolot":
+		{
+			"uuid": "cbcff10e-64b1-4c20-be6e-877dcae0979f",
+			"region": [14,15,0,1],
+			"material": "Dif"
+		},
+		"logo_building":
+		{
+			"uuid": "0056731a-108d-4a44-9c8f-6ac5b567df39",
+			"region": [12,13,2,3],
+			"material": "Dif"
+		},
+		"logo_seeds":
+		{
+			"uuid": "91c4ed3e-7c73-4d95-9eb0-34102542b055",
+			"region": [14,15,2,3],
+			"material": "Dif"
+		}
+	}
+}

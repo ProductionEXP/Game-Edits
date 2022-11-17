@@ -1,0 +1,13 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Glowstick/ani_char_glowstick_fp_position.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"animationList" : [
+			{ "name" : "glowstick_idle", 	"file" : "$SURVIVAL_DATA/Character/Char_Glowstick/Animations/ani_char_glowstick_fp_idle.dae", "looping" : true },
+			{ "name" : "glowstick_pickup", 	"file" : "$SURVIVAL_DATA/Character/Char_Glowstick/Animations/ani_char_glowstick_fp_pickup.dae" },
+			{ "name" : "glowstick_putdown", "file" : "$SURVIVAL_DATA/Character/Char_Glowstick/Animations/ani_char_glowstick_fp_putdown.dae" },
+			{ "name" : "glowstick_use",		"file" : "$SURVIVAL_DATA/Character/Char_Glowstick/Animations/ani_char_glowstick_fp_use.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

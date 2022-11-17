@@ -1,0 +1,17 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_soilbag/char_soilbag.dae",
+		"subMeshMap" : {
+			"lambert2" : {
+				    "textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_soilbag_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_soilbag_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_soilbag_nor.tga"
+				    ],
+				"material": "DifAsgNor"
+			}
+		},
+
+		"maxViewDistance": 1000.0
+	}]
+}

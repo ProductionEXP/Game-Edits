@@ -1,0 +1,44 @@
+{
+	"lodList": [
+			{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Cookbot/char_cookbot.dae",
+		"subMeshMap": {
+			"cookbot": {
+				"material": "SkelAnimDifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Cookbot/char_cookbot_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Cookbot/char_cookbot_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Cookbot/char_cookbot_nor.tga"
+				]
+			},
+			"screen": {
+				"material": "SkelUVAnimDifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftboticons_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftboticons_asg.tga",
+					"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+				],
+				"custom": {
+					"uv0": { "u": 0.25, "v": 0.25 }
+				}
+			}
+		},
+		"animationList": [
+
+			{ "name": "unfold",					"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_unfold.dae" },
+			{ "name": "idle",					"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_idle.dae", "looping": true },
+			{ "name": "idlespecial01",			"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_idlespecial01.dae", "looping": true },
+			{ "name": "idlespecial02",			"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_idlespecial02.dae", "looping": true },
+
+			{ "name": "craft_start",			"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_craft_start.dae" },
+			{ "name": "craft_loop01",			"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_craft_loop01.dae", "looping": true  },
+			{ "name": "craft_loop02",			"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_craft_loop02.dae", "looping": true  },
+			{ "name": "craft_loop03",			"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_craft_loop03.dae", "looping": true  },
+			{ "name": "craft_finish",			"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_craft_finish.dae" },
+
+			{ "name": "aimbend_updown",			"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_bend_updown.dae" },
+			{ "name": "aimbend_leftright",		"file": "$SURVIVAL_DATA/Character/Char_Cookbot/Animations/ani_char_cookbot_bend_leftright.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

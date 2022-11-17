@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2019-09-25T17:09:05Z</created><keywords></keywords><modified>2019-09-25T17:09:05Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_animations>
+    <animation id="root_glowstick-anim" name="root_glowstick"></animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="ani_char_glowstick_fp_position" name="ani_char_glowstick_fp_position">
+      <node name="jnt_right_weapon" id="jnt_right_weapon" sid="jnt_right_weapon" type="JOINT"><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="root_glowstick" id="root_glowstick" sid="root_glowstick" type="JOINT"><translate sid="translate">-0.078371 0.006761 0.072401</translate><rotate sid="rotateZ">0 0 1 8.328497</rotate><rotate sid="rotateY">0 1 0 -14.438023</rotate><rotate sid="rotateX">1 0 0 16.587637</rotate><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>2.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#ani_char_glowstick_fp_position"></instance_visual_scene>
+  </scene>
+</COLLADA>

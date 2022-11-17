@@ -1,0 +1,53 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Dispenserbot/char_dispenserbot.dae",
+		"subMeshMap": {
+			"dispenserbot": {
+				"material": "SkelAnimDifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Dispenserbot/char_dispenserbot_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Dispenserbot/char_dispenserbot_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Dispenserbot/char_dispenserbot_nor.tga"
+				]
+				
+			},
+			"glass": {
+					"textureList": [
+					"$GAME_DATA/Objects/Textures/blocks/blk_glass_dif.tga",
+					"$GAME_DATA/Objects/Textures/blocks/blk_glass_asg.tga",
+					"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+				],
+				"material": "Glass"
+			},
+			"screen": {
+				"material": "SkelUVAnimDifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftboticons_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftboticons_asg.tga",
+					"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+				],
+				"custom": {
+					"uv0": { "u": 0.25, "v": 0.25 }
+				}
+			}
+		},
+		"animationList": [
+
+			{ "name": "turnon",					"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_turnon.dae" },
+
+			{ "name": "idle",					"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_idle.dae", "looping": true },
+			{ "name": "idlespecial01",			"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_idle.dae", "looping": true },
+			{ "name": "idlespecial02",			"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_idle.dae", "looping": true },
+
+			{ "name": "craft_start",			"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_craft_start.dae" },
+			{ "name": "craft_loop",				"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_craft_loop01.dae", "looping": true  },
+			{ "name": "craft_finish",			"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_craft_finish.dae" },
+
+			{ "name": "aimbend_updown",			"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_bend_updown.dae" },
+			{ "name": "aimbend_leftright",		"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_bend_leftright.dae" },
+
+			{ "name": "offline",				"file": "$SURVIVAL_DATA/Character/Char_Dispenserbot/Animations/ani_char_dispenserbot_offline.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+} 

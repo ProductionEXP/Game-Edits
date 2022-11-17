@@ -1,0 +1,35 @@
+{
+"lodList": [
+    {
+        "minViewSize": 250,
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Camping/env_camping_campfire_lod0.fbx",
+        "subMeshMap": {
+            "campfire_mat": {
+                "material": "DifAsgNorAo",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_campfire_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_campfire_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_campfire_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_campfire_ao.tga"
+
+                ]
+            }
+        }
+    },
+    {
+        "mesh": "$SURVIVAL_DATA/Terrain/Mesh/Camping/env_camping_campfire_lod1.fbx",
+        "subMeshMap": {
+            "campfire_mat": {
+                "material": "DifAsgNorAo",
+                "textureList": [
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_campfire_dif.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_campfire_asg.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_campfire_nor.tga",
+                    "$SURVIVAL_DATA/Terrain/Textures/Camping/env_camping_campfire_ao.tga"
+
+                ]
+            }
+        }
+    }
+]
+}

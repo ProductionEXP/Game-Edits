@@ -1,0 +1,23 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_position.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"animationList" : [
+			{ "name" : "bucket_idle", 						"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_idle.dae", "looping" : true },	
+
+			{ "name" : "bucket_sprint_into", 				"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_sprint_into.dae"},
+			{ "name" : "bucket_sprint_exit", 				"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_sprint_exit.dae"},
+			{ "name" : "bucket_sprint_idle", 				"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_sprint_idle.dae", "looping" : true },
+
+			{ "name" : "bucket_use_full", 					"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_use_full.dae" },
+			{ "name" : "bucket_use_empty", 					"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_use_empty.dae" },
+
+			{ "name" : "bucket_pickup", 					"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_pickup.dae" },
+			{ "name" : "bucket_putdown", 					"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_putdown.dae" },
+
+			{ "name" : "bucket_jump", 						"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_jump.dae" },
+			{ "name" : "bucket_jump_land", 					"file" : "$SURVIVAL_DATA/Character/Char_bucket/Animations/ani_char_bucket_fp_jump_land.dae" }
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

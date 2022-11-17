@@ -1,0 +1,34 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae",
+		"animationList" : [
+
+			// Pizzaburger
+
+			{ "name" : "Idle", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae", "looping" : true },
+
+			{ "name" : "Pickup", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae" },
+			{ "name" : "Putdown", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae" },
+
+			{ "name" : "Sprint_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_sprint.dae", "looping" : true },
+
+			{ "name" : "Run_fwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_run.dae", "looping" : true },
+			{ "name" : "Run_bwd", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_run.dae", "looping" : true },
+			
+			{ "name" : "Crouch_idle", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae", "looping" : true },
+			{ "name" : "Crouch_fwd", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae", "looping" : true },
+			{ "name" : "Crouch_bwd", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae", "looping" : true },
+
+			{ "name" : "Eat", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae" },
+
+			{ "name" : "Jump", 				"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae" },
+			{ "name" : "Jump_up", 			"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae", "looping" : true },
+			{ "name" : "Jump_down", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_position.dae", "looping" : true },
+			{ "name" : "Jump_land", 		"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_jump_land.dae" },
+			{ "name" : "Jump_land_fwd", 	"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_jump_land.dae" },
+			{ "name" : "Jump_land_bwd", 	"file" : "$SURVIVAL_DATA/Character/Char_Tools/Char_pizzaburger/Animations/ani_char_pizzaburger_tp_jump_land.dae" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

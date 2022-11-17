@@ -1,0 +1,186 @@
+{
+	// "Cinematicevent - Survivalstart01":
+	// {
+	// 	"parameterList":
+	// 	{
+	// 		"size": 1.0,
+	// 		"shakeStrength": 0.5,
+	// 		"shakeRadius": 40.0
+	// 	},
+	// 	"effectList":
+	// 	[
+	// 		{
+	// 			"type": "audio",
+	// 			"name": "Gas Explosion",
+	// 			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+	// 			"parameters":
+	// 			[
+	// 				"size"
+	// 			],
+	// 			"delay": 0.0
+	// 		},
+	// 		{
+	// 			"type": "cameraShake",
+	// 			"name": "",
+	// 			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+	// 			"parameters":
+	// 			[
+	// 				"shakeStrength",
+	// 				"shakeRadius"
+	// 			],
+	// 			"duration": 0.4,
+	// 			"delay": 0.0
+	// 		},
+	// 		{
+	// 			"type": "audio",
+	// 			"name": "Gas Explosion",
+	// 			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+	// 			"parameters":
+	// 			[
+	// 				"size"
+	// 			],
+	// 			"delay": 1.0
+	// 		},
+	// 		{
+	// 			"type": "cameraShake",
+	// 			"name": "",
+	// 			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+	// 			"parameters":
+	// 			[
+	// 				"shakeStrength",
+	// 				"shakeRadius"
+	// 			],
+	// 			"duration": 0.4,
+	// 			"delay": 1.0
+	// 		}
+
+	// 	]
+	// },
+	"Questmarker - Pointmarker":
+	{
+		"parameterList":
+		{
+			"offsetScale": [1.0, 1.0, 1.0],
+			"offsetRotation": [0.0, 0.0, 0.0]
+		},
+		"parameterCurves":
+		{
+			"offsetScale":
+			{
+				"loop": 4.0,
+				"speed": 1.2,
+				"timeline":
+				[
+						{ "time":0.0, "value":[ 1.0, 1.0, 1.0 ], "easing":"easeOutBack" },
+						{ "time":2.0, "value":[ 0.60, 0.50, 0.50 ], "easing":"easeInBack" },
+						{ "time":4.0, "value":[ 1.0, 1.0, 1.0 ] }
+				]
+			},
+			"offsetRotation":
+			{
+				"loop": 4.0,
+				"speed": 0.2,
+				"timeline":
+				[
+					{ "time":0.0, "value":[ 0.0, 0.0, 0.0 ] },
+					{ "time":4.0, "value":[ 0.0, 0.0, 360 ] }
+				]
+			}
+		},
+		"effectList":
+		[
+			{
+				"type": "renderable",
+				"direction": { "x": 0.0, "y": -1.0, "z": 0.0 },
+				"name": "$SURVIVAL_DATA/Effects/Renderable/Questeffects/questeffects_pointmarker.rend",
+				"parameters":
+				[
+					"offsetScale",
+					"offsetRotation"
+				]
+			}			
+		]
+	},
+	"Questmarker - Zonearea":
+	{
+		"effectList":
+		[
+			{
+				"type": "renderable",
+				"name": "$SURVIVAL_DATA/Effects/Renderable/Questeffects/questeffects_zonearea.rend"
+			}
+
+		]
+	},
+	// "Questmarker - Pointmarker":
+	// {
+	// 	"effectList":
+	// 	[
+	// 		{
+	// 			"type": "renderable",
+	// 			"name": "$SURVIVAL_DATA/Effects/Renderable/Questeffects/questeffects_pointmarker.rend",
+	// 			"direction": { "x": 0.0, "y": -1.0, "z": 0.0 },
+	// 			"offsetScale": { "x": 5.0, "y": 5.0, "z": 1.0 }
+				
+	// 		}
+	// 	]
+	// },
+	"Questmarker - Pointmarker_small":
+	{
+		"effectList":
+		[
+			{
+				"type": "renderable",
+				"name": "$SURVIVAL_DATA/Effects/Renderable/Questeffects/questeffects_pointmarker_small.rend"
+			}
+		]
+	},
+	"Questmarker - Pointmarker_large":
+	{
+		"effectList":
+		[
+			{
+				"type": "renderable",
+				"name": "$SURVIVAL_DATA/Effects/Renderable/Questeffects/questeffects_pointmarker_large.rend"
+			}
+		]
+	},
+	"Guiquest - Newquest":
+	{
+		"effectList":
+		[
+			{
+				"type": "particle",
+				"name": "p_2d_craft_craftingdone",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"attached": false,
+				"delay": 0.0
+			},
+			{
+				"type": "audio",
+				"name": "event:/ui/attach_default"
+			}
+		]
+	},
+	"Guiquest - Questupdate":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/ui/attach_default"
+			}
+		]
+	},
+	"Guiquest - Pausestarterquest":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/ui/attach_default"
+			}
+		]
+	}	
+	
+}

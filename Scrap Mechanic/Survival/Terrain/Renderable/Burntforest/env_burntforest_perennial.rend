@@ -1,0 +1,39 @@
+{
+    "impostorThreshold": 50,
+    "lodList": [
+        {
+            "minViewSize": 150,
+            "mesh": "$GAME_DATA/Terrain/Mesh/Nature/Foliage/env_nature_foliage_perennial_lod0.fbx",
+            "subMeshList": [
+                {
+                    "custom": {
+                        "color": "leaves"
+                    },
+                    "material": "Leaves",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_perennial_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_perennial_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_perennial_nor.tga"
+                    ]
+                }
+            ]
+        },
+        {
+            "minViewSize": 50,
+            "mesh": "$GAME_DATA/Terrain/Mesh/Nature/Foliage/env_nature_foliage_perennial_lod1.fbx",
+            "subMeshList": [
+                {
+                    "custom": {
+                        "color": "leaves"
+                    },
+                    "material": "Leaves",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_perennial_dif.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_perennial_asg.tga",
+                        "$SURVIVAL_DATA/Terrain/Textures/Burntforest/env_burntforest_perennial_nor.tga"
+                    ]
+                }
+            ]
+        }
+    ]
+}
